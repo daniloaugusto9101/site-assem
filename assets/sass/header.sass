@@ -1,0 +1,34 @@
+@use 'variables'
+
+.header
+    width: 100%
+    // background-color: green
+    // position: fixed
+    position: absolute
+    padding-top: 20px
+    z-index: 9999
+
+    
+    &__container
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+.menu
+    display: flex
+    background-color: variables.$terceira-cor
+    gap: 10px    
+    align-items: center
+
+    &__link
+        text-decoration: none
+        padding: 20px 35px
+        color: variables.$cor-texto
+        display: block
+        font-size: 1.5em
+    &__item:last-child .menu__link
+        background-color: variables.$segunda-cor
+        color: variables.$terceira-cor
+        padding: 20px 60px
+
+            
