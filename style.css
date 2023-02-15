@@ -60,7 +60,6 @@ img {
 body {
   position: relative;
   display: grid;
-  gap: 20px;
 }
 
 .container {
@@ -71,11 +70,6 @@ body {
 
 .logo {
   max-width: 200px;
-}
-
-.busca {
-  background-color: green;
-  padding: 20px;
 }
 
 .btn {
@@ -161,6 +155,28 @@ body {
   background: #252646;
   clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
   filter: opacity(90%);
+}
+
+.busca {
+  background-color: white;
+  margin: -20px auto;
+  margin-top: -10px;
+  z-index: 9998;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 2px 1px black;
+}
+.busca__ico {
+  width: 30px;
+  fill: #4E4E4E;
+}
+.busca__input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
