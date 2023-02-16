@@ -79,6 +79,12 @@ body {
   text-transform: uppercase;
 }
 
+.tituloHr {
+  font-size: 4.5em;
+  font-weight: 700;
+  color: #363756;
+}
+
 .header {
   width: 100%;
   position: absolute;
@@ -159,24 +165,112 @@ body {
 
 .busca {
   background-color: white;
-  margin: -20px auto;
-  margin-top: -10px;
+  margin: 0px auto;
+  margin-top: -30px;
   z-index: 9998;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 2px 2px 1px black;
+  gap: 10px;
+  box-shadow: 0px 3.3px 3.3px 0px rgba(0, 0, 0, 0.25);
 }
 .busca__ico {
   width: 30px;
   fill: #4E4E4E;
 }
 .busca__input {
-  padding: 10px;
   border: none;
   outline: none;
-  font-size: 1em;
+  font-size: 1.2em;
+  color: #4E4E4E;
+}
+
+.noticias {
+  width: 100%;
+  margin-top: 150px;
+}
+.noticias__tituloHr {
+  text-align: center;
+}
+.noticias__content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  color: #4E4E4E;
+}
+.noticias__col1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.noticias__col1 span {
+  font-size: 0.7em;
+  font-weight: 500;
+}
+.noticias__col1 h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+.noticias__col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.noticias__col2 img {
+  width: 150px;
+}
+.noticias__col2 span {
+  font-size: 0.7em;
+  font-weight: 500;
+}
+.noticias__col2 h2 {
+  font-weight: 700;
+}
+.noticias__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.noticias__item h2 {
+  font-size: 1.2em;
+}
+.noticias a {
+  text-decoration: none;
+  color: #4E4E4E;
+}
+
+.estatisticas {
+  width: 100%;
+  background-color: #363756;
+  padding: 50px 0px;
+  color: #fff;
+  margin-top: 150px;
+  text-align: center;
+}
+.estatisticas__container {
+  display: flex;
+  justify-content: space-around;
+}
+.estatisticas p:nth-child(1) {
+  font-size: 3em;
+}
+.estatisticas p:nth-child(2) {
+  font-size: 1.2em;
+}
+
+.chamada {
+  width: 100%;
+  margin-top: 150px;
+  background-color: tomato;
+}
+.chamada__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /*# sourceMappingURL=style.css.map */
