@@ -1,0 +1,53 @@
+@use 'variables'
+
+.rodape
+    width: 100%
+    background-color: tomato
+    background-color: variables.$primeira-cor
+    margin-top: 100px       
+    &__row:nth-child(1)
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+        flex-wrap: wrap
+        gap: 20px
+        padding: 50px 10px
+        max-width: 900px
+        margin: 0 auto
+    &__item
+        display: flex
+        flex-direction: column
+        // gap: 5px
+        line-height: 1.5
+    &__titulo
+        font-size: 1.5em
+        font-weight: 700
+        color: variables.$terceira-cor
+    &__texto
+        font-size: .9em
+    &__texto a
+        text-decoration: none
+        color: variables.$terceira-cor
+    &__row:nth-child(2)
+        background-color: variables.$primeira-cor-dark
+        padding: 10px 10px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 10px
+        text-align: center
+        color: variables.$terceira-cor
+    &__social
+        font-size: 1.2em
+        display: flex
+        gap: 10px
+    &__social img
+        width: 80px
+    &__social a
+        color: variables.$terceira-cor
+        text-decoration: none
+    &__copyright
+        font-size: .9em
+    &__destaque
+        color: #EBFF00
+        font-weight: 700

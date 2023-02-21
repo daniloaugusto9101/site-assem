@@ -2,13 +2,16 @@
 
 .chamada
     width: 100%
-    margin-top: 150px
+    // margin-top: 50px
     // background-color: tomato
     &__container
         // background-color: blueviolet
         display: grid
         gap: 10px
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+        grid-template-rows: none
+        &--inverso
+            direction: rtl
     &__col
         display: flex
         align-items: center
@@ -16,26 +19,25 @@
         // background-color: brown
         flex-direction: column
         gap: 20px
-    &__col:nth-child(2)
-        // fle
+
     &__imagens
         // background-color: gray
         display: grid
-        grid-template-columns: repeat(6, 1fr)
-        grid-template-rows: repeat(6, 1fr)
+        grid-template-columns: repeat(7, 1fr)
+        grid-template-rows: repeat(7, 1fr)
     &__img
         width: 100%
     &__img:nth-child(1)
-        grid-column: 2/5
-        grid-row: 2/5
+        grid-column: 2/6
+        grid-row: 2/6
     &__img:nth-child(2)
-        grid-column: 2/5
-        grid-row: 2/5
+        grid-column: 2/6
+        grid-row: 2/6
         background-color: variables.$primeira-cor-dark
         opacity: 90%
     &__img:nth-child(3)
-        grid-column: 3/6
-        grid-row: 3/6
+        grid-column: 3/7
+        grid-row: 3/7
         z-index: 99999
 
 

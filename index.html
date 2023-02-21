@@ -9,9 +9,12 @@
     <!-- Inicio Font Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- Fim Font Google -->
+
+    <!-- Inicio Link CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fim Link CDN Font Awesome -->
 
     <!-- Inicio do CSS -->
     <link rel="stylesheet" href="style.css">
@@ -157,41 +160,25 @@
     </div>
 
 
-
-    <!-- <section class="chamada">
-        <div class="container chamada__container">
-
-            <div class="chamada__col">          
-                <div class="meio">
-                    <img src="assets/img/sede2.jpg" alt="" class="conteudo">
-                    <img src="assets/img/sede2.jpg" alt="" class="conteudo">
-                </div>                
-            </div>
-
+    <div class="chamada">
+        <div class="container chamada__container chamada__container--inverso">
             <div class="chamada__col">
-                <h2 class="tituloHr">Por que me associar?</h2>
-                <p class="chamada__texto">
-                    Os associado tem diversos beneficios, como entrada grátis no clube. Preço especiais na posauda.
-                    Os associado tem diversos beneficios, como entrada grátis no clube. Preço especiais na posauda.
-                </p>
+                <div class="chamada__imagens">
+                    <img src="assets/img/convenios.jpg" alt="" class="chamada__img">
+                    <div class="chamada__img"></div>
+                    <img src="assets/img/convenios.jpg" alt="" class="chamada__img">
+                </div>
             </div>
-        </div>
-    </section> -->
-
-    <section class="chamada">
-        <div class="container">
-            <div class="chamada__col">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <div class="chamada__col">
+            <div class="chamada__col chamada__col">
                 <h2 class="tituloHr">Convênios médicos</h2>
                 <p class="chamada__texto">
                     Os associado tem diversos beneficios, como entrada grátis no clube. Preço especiais na posauda.
                 </p>
             </div>
         </div>
-    </section>
+    </div>
+
+
 
     <section class="atividades">
         <div class="container">
@@ -227,62 +214,80 @@
         </div>
     </div>
 
-    <section class="chamada">
-        <div class="container">
+
+    <div class="chamada">
+        <div class="container chamada__container">
             <div class="chamada__col">
-                <img src="" alt="">
-                <img src="" alt="">
+                <div class="chamada__imagens">
+                    <img src="assets/img/sede2.jpg" alt="" class="chamada__img">
+                    <div class="chamada__img"></div>
+                    <img src="assets/img/sede2.jpg" alt="" class="chamada__img">
+                </div>
             </div>
             <div class="chamada__col">
                 <h2 class="tituloHr">Clube de desconto</h2>
                 <p class="chamada__texto">
-                    Os associado tem descontos em produtos ou serviços oferecidos por uma rede de parcerias
-                    estabelecidas com a ASSEM, em várias áreas do mercado.
+                    Os associado tem descontos em produtos ou serviços oferecidos por uma rede de parcerias estabelecidas com a ASSEM, em várias áreas do mercado.
                 </p>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="associar">
-        <div class="container">
-            <h2 class="tituloHr">Clube de desconto</h2>
-            <a href="#" class="btn">Saiba mais</a>
+        <div class="container associar__container">
+            <h2 class="tituloHr">Aproveite agora</h2>
+            <a href="#" class="btn associar__btn">Fique sócio</a>
         </div>
     </section>
 
     <footer class="rodape">
-        <div class="container">
-            <div class="rodape__row">
-                <div class="rodape__item">
-                    <h2 class="rodape__titulo">Assem</h2>
-                    <p class="rodape__texto">Nossa história</p>
-                    <p class="rodape__texto">Diretoria</p>
-                    <p class="rodape__texto">Estatuto</p>
-                </div>
-                <div class="rodape__item">
-                    <h2 class="rodape__titulo">Contato</h2>
-                    <p class="rodape__texto">Sede</p>
-                    <p class="rodape__texto">Clube de Campo</p>
-                    <p class="rodape__texto">Pousada</p>
-                </div>
-                <div class="rodape__item">
-                    <h2 class="rodape__titulo">Sócio</h2>
-                    <p class="rodape__texto">Notícias</p>
-                    <p class="rodape__texto">Espaço e lazer</p>
-                    <p class="rodape__texto">Escolinha e atividades</p>
-                    <p class="rodape__texto">Clube de desconto</p>
-                </div>
-                <div class="rodape__item social">
-                    <i>Intagran</i>
-                    <i>Facebook</i>
-                    <i>Youtube</i>
-                </div>
+
+        <div class="rodape__row">
+            <div class="rodape__item">
+                <h2 class="rodape__titulo">Notícias</h2>
+                <p class="rodape__texto"><a href="">Notícias</a></p>
+                <p class="rodape__texto"><a href="">Jornal ASSEM</a></p>
             </div>
-            <div class="rodape__row">
-                <img src="" alt="" class="logo">
-                <p>| 2023 Copyright - Desenvolvido por DAP</p>
+            <div class="rodape__item">
+                <h2 class="rodape__titulo">Assem</h2>
+                <p class="rodape__texto"><a href="">Nossa história</a></p>
+                <p class="rodape__texto"><a href="">Diretoria</a></p>
+                <p class="rodape__texto"><a href="">Estatuto</a></p>
+            </div>
+            <div class="rodape__item">
+                <h2 class="rodape__titulo">Contato</h2>
+                <p class="rodape__texto"><a href="">Sede</a></p>
+                <p class="rodape__texto"><a href="">Clube de Campo</a></p>
+                <p class="rodape__texto"><a href="">Pousada</a></p>
+            </div>
+            <div class="rodape__item">
+                <h2 class="rodape__titulo">Sócio</h2>
+                <p class="rodape__texto"><a href="">Fique sócio</a></p>
+                <p class="rodape__texto"><a href="">Espaços e lazer</a></p>
+                <p class="rodape__texto"><a href="">Escolinha e atividades físicas</a></p>
+                <p class="rodape__texto"><a href="">Convênio Médico</a></p>
+                <p class="rodape__texto"><a href="">Clube de desconto</a></p>
             </div>
         </div>
+
+        <div class="rodape__row">
+            <div class="rodape__social">
+                <!-- <img src="assets/img/logo-assem.png" alt="" class="rodape__logo"> -->
+                <p>assem</p>
+                <span>|</span>
+                <a href="">
+                    <i class="fa-brands fa-square-facebook rodape__ico"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram rodape__ico"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-youtube rodape__ico"></i>
+                </a>
+            </div>
+            <p class="rodape__copyright">2023 Copyright - Desenvolvido por <span class="rodape__destaque">DAP</span> </p>
+        </div>
+
     </footer>
 
 </body>
