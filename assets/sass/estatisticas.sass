@@ -3,13 +3,15 @@
 .estatisticas
     width: 100%
     background-color: variables.$primeira-cor
-    padding: 50px 0px
-    color: variables.$terceira-cor
-    margin-top: 150px
-    text-align: center
+    margin-top: 150px //Faz uma separção entre as sections
     &__container
+        padding: 50px 20px
+        color: variables.$terceira-cor
+        text-align: center
         display: flex
         justify-content: space-around
+        flex-wrap: wrap
+        gap: 20px
     p:nth-child(1)
         font-size: 3em
     p:nth-child(2)

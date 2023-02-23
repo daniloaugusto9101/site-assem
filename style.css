@@ -243,14 +243,16 @@ img {
 .estatisticas {
   width: 100%;
   background-color: #363756;
-  padding: 50px 0px;
-  color: #fff;
   margin-top: 150px;
-  text-align: center;
 }
 .estatisticas__container {
+  padding: 50px 20px;
+  color: #fff;
+  text-align: center;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .estatisticas p:nth-child(1) {
   font-size: 3em;
