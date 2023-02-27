@@ -9,22 +9,29 @@
     <!-- Inicio Font Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <!-- Fim Font Google -->
 
     <!-- Inicio Link CDN Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Fim Link CDN Font Awesome -->
+
+    <!-- Inicio Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Fim do Swiper CSS -->
 
     <!-- Inicio do CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
     <!-- Fim do CSS -->
 
     <title>ASSEM</title>
 </head>
 
 <body>
+
     <!-- <header class="header">
         <div class="container header__container">
             <div class="logo">
@@ -55,8 +62,87 @@
         </div>
     </header> -->
 
-    <section class="destaque">
-        
+    <div class="destaque">
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide destaque__slide">
+                    <div class="destaque__img">
+                        <img src="../site-assem/assets/img/destaque/sede.jpg" alt="">
+                    </div>
+                    <div class="destaque__paralelogramo"></div>
+                    <div class="destaque__titulo">
+                        <h2>Titulo 1</h2>
+                        <p>lorem lorem krerere</p>
+                        <a href="#" class="btn destaque__btn">Saiba mais</a>
+                    </div>
+              
+                </div>
+
+                <div class="swiper-slide destaque__slide">
+                    <div class="destaque__img">
+                        <img src="../site-assem/assets/img/destaque/pousada.jpg" alt="">
+                    </div>
+                    <div class="destaque__paralelogramo"></div>
+                    <div class="destaque__titulo">
+                        <h2>Titulo 1</h2>
+                        <p>lorem lorem krerere</p>
+                        <a href="#" class="btn destaque__btn">Saiba mais</a>
+                    </div>              
+                </div>
+
+                <div class="swiper-slide destaque__slide">
+                    <div class="destaque__img">
+                        <img src="../site-assem/assets/img/destaque/clube.jpg" alt="">
+                    </div>
+                    <div class="destaque__paralelogramo"></div>
+                    <div class="destaque__titulo">
+                        <h2>Titulo 1</h2>
+                        <p>lorem lorem krerere</p>
+                        <a href="#" class="btn destaque__btn">Saiba mais</a>
+                    </div>              
+                </div>
+
+                <div class="swiper-slide destaque__slide">
+                    <div class="destaque__img">
+                        <img src="../site-assem/assets/img/destaque/atividade.jpg" alt="">
+                    </div>
+                    <div class="destaque__paralelogramo"></div>
+                    <div class="destaque__titulo">
+                        <h2>Titulo 1</h2>
+                        <p>lorem lorem krerere</p>
+                        <a href="#" class="btn destaque__btn">Saiba mais</a>
+                    </div>              
+                </div>
+
+                <div class="swiper-slide destaque__slide">
+                    <div class="destaque__img">
+                        <img src="../site-assem/assets/img/destaque/convenio.jpg" alt="">
+                    </div>
+                    <div class="destaque__paralelogramo"></div>
+                    <div class="destaque__titulo">
+                        <h2>Titulo 1</h2>
+                        <p>lorem lorem krerere</p>
+                        <a href="#" class="btn destaque__btn">Saiba mais</a>
+                    </div>              
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="busca">
+            <i class="fa-solid fa-magnifying-glass busca__ico"></i>
+            <input type="text" class="busca__input" placeholder="Buscar no site">
+        </div>
+
+    </div>
+    
+    <!-- <section class="destaque">
+
         <div class="destaque__item">
             <img src="assets/img/incedio.png">
         </div>
@@ -66,92 +152,84 @@
         <div class="destaque__item">
             <img src="assets/img/pousada.jpg">
         </div>
-        
+
         <div class="destaque__paralelogramo"></div>
-        
+
         <div class="container destaque__container">
             <h1 class="destaque__titulo">Pousada Litoral</h1>
             <h2 class="destaque__subtitulo">Experiência e conforto</h2>
             <a href="#" class="btn destaque_btn">Saiba mais</a>
         </div>
-        
+
         <div class="busca">
             <i class="fa-solid fa-magnifying-glass busca__ico"></i>
             <input type="text" class="busca__input" placeholder="Buscar no site">
         </div>
 
-    </section>
-
-    <!-- <section class="destaque">
-        <div class="container destaque__container">
-            <div class="destaque__col">
-                <h1 class="destaque__titulo">Pousada Litoral</h1>
-                <h2 class="destaque__subtitulo">Experiência e conforto</h2>
-                <a href="#" class="btn destaque_btn">Saiba mais</a>
-            </div>
-        </div>
-        <div class="destaque__paralelogramo"></div>        
     </section> -->
 
-    <!-- <div class="busca">
-        <i class="fa-solid fa-magnifying-glass busca__ico"></i>
-        <input type="text" class="busca__input" placeholder="Buscar no site">
-    </div> -->
-    
 
 
-<section class="noticias">
-    <div class="container">
-        <div class="noticias__slide">
 
-            <div class="noticias__destaque">
-                <div>
-                    <img src="assets/img/pousada.jpg" alt="">
+    <section class="noticias">
+        <div class="container">
+            <div class="noticias__slide">
 
-                </div>
-                <div>
-                    <p>Fique por dentro</p>
-                    <p>Lorem ipsum dolor, sit amet con asd asdasd   as d asd as das d  sd f sdf sd fsd f sdf sd fs df sdf sd fsd f sdf s dfs df sd fsd fs df sectetur adipisicing elit. Tempore, autem alias. Expedita architecto quidem tempore</p>
-                    <p>Lorem ipsum dolor, sit amet con asd asdasd   as d asd as das d  sd f sdf sd fsd f sdf sd fs df sdf sd fsd f sdf s dfs df sd fsd fs df sectetur adipisicing elit. Tempore, autem alias. Expedita architecto quidem tempore</p>
-                </div>
-            </div>
-
-            <div class="noticias__imagens">
-
-                <div class="noticias__item">
+                <div class="noticias__destaque">
                     <div>
-                        <img src="assets/img/carnaval.jpg" alt="">
+                        <img src="assets/img/pousada.jpg" alt="">
+
                     </div>
-                    <div class="texto">
+                    <div>
                         <p>Fique por dentro</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore ea unde officiis voluptas laborum optio soluta</p>
+                        <p>Lorem ipsum dolor, sit amet con asd asdasd as d asd as das d sd f sdf sd fsd f sdf sd fs df
+                            sdf sd fsd f sdf s dfs df sd fsd fs df sectetur adipisicing elit. Tempore, autem alias.
+                            Expedita architecto quidem tempore</p>
+                        <p>Lorem ipsum dolor, sit amet con asd asdasd as d asd as das d sd f sdf sd fsd f sdf sd fs df
+                            sdf sd fsd f sdf s dfs df sd fsd fs df sectetur adipisicing elit. Tempore, autem alias.
+                            Expedita architecto quidem tempore</p>
                     </div>
                 </div>
 
-                <div class="noticias__item">
-                    <div>
-                        <img src="assets/img/incedio.png" alt="">
-                    </div>
-                    <div class="texto">
-                        <p>Fique por dentro</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore ea unde officiis voluptas laborum optio soluta</p>
-                    </div>
-                </div>
-                
-                <div class="noticias__item">
-                    <div>
-                        <img src="assets/img/sede.jpg" alt="">
-                    </div>
-                    <div class="texto">
-                        <p>Fique por dentro</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore ea unde officiis voluptas laborum optio soluta</p>
-                    </div>
-                </div>
+                <div class="noticias__imagens">
 
+                    <div class="noticias__item">
+                        <div>
+                            <img src="assets/img/carnaval.jpg" alt="">
+                        </div>
+                        <div class="texto">
+                            <p>Fique por dentro</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore ea unde officiis
+                                voluptas laborum optio soluta</p>
+                        </div>
+                    </div>
+
+                    <div class="noticias__item">
+                        <div>
+                            <img src="assets/img/incedio.png" alt="">
+                        </div>
+                        <div class="texto">
+                            <p>Fique por dentro</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore ea unde officiis
+                                voluptas laborum optio soluta</p>
+                        </div>
+                    </div>
+
+                    <div class="noticias__item">
+                        <div>
+                            <img src="assets/img/sede.jpg" alt="">
+                        </div>
+                        <div class="texto">
+                            <p>Fique por dentro</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore ea unde officiis
+                                voluptas laborum optio soluta</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <section class="estatisticas">
         <div class="container estatisticas__container">
@@ -224,7 +302,7 @@
         </div>
     </section>
 
-    <div class="locais">      
+    <div class="locais">
         <div class="locais__container">
             <div class="locais__col">
                 <div class="locais__banner">
@@ -233,9 +311,9 @@
                     </div>
                     <div></div>
                     <h2>Espaço e lazer para toda família</h2>
-                </div>    
+                </div>
             </div>
-            
+
             <div class="locais__col">
                 <div class="locais__imagens">
                     <div>
@@ -249,11 +327,11 @@
                     <div>
                         <img src="../site-assem/assets/img/pousada.jpg">
                         <p>Clube de Campo</p>
-                    </div>        
+                    </div>
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 
     <div class="chamada">
         <div class="container chamada__container">
@@ -267,7 +345,8 @@
             <div class="chamada__col">
                 <h2 class="tituloHr">Clube de desconto</h2>
                 <p class="chamada__texto">
-                    Os associado tem descontos em produtos ou serviços oferecidos por uma rede de parcerias estabelecidas com a ASSEM, em várias áreas do mercado.
+                    Os associado tem descontos em produtos ou serviços oferecidos por uma rede de parcerias
+                    estabelecidas com a ASSEM, em várias áreas do mercado.
                 </p>
             </div>
         </div>
@@ -325,10 +404,14 @@
                     <i class="fa-brands fa-youtube rodape__ico"></i>
                 </a>
             </div>
-            <p class="rodape__copyright">2023 Copyright - Desenvolvido por <span class="rodape__destaque">DAP</span> </p>
+            <p class="rodape__copyright">2023 Copyright - Desenvolvido por <span class="rodape__destaque">DAP</span>
+            </p>
         </div>
 
     </footer>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
 
 </body>
 
