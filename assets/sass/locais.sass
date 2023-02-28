@@ -1,9 +1,10 @@
 @use 'variables'
 
 .locais
-    // margin: variables.$gap-section
-    background-color: green
-    &__banner 
+    margin-top: 200px
+    // background-color: green
+    position: relative
+    &__banner
         display: grid
         grid-auto-rows: 350px
         margin-bottom: -100px
@@ -15,7 +16,7 @@
         grid-row: 1
         grid-column: 1
         background-color: variables.$primeira-cor-dark
-        opacity: 90%    
+        opacity: 90%
     &__banner h2
         grid-row: 1
         grid-column: 1
@@ -24,7 +25,7 @@
         margin: 30px auto
         text-align: center
         color: variables.$terceira-cor
-    &__container        
+    &__container
         max-width: 1220px
         margin: 0 auto
         // background-color: violet    
@@ -33,6 +34,7 @@
         gap: 100px 20px
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
         justify-content: center
+        position: relative
     &__item
         display: grid
         grid-template-rows: 300px
@@ -44,9 +46,14 @@
         color: variables.$cor-texto
         max-width: 200px
         margin: 0 auto
-
-
-
+    &__btn
+        max-width: 150px
+        margin: 20px auto
+        color: variables.$cor-texto
+        border-color: variables.$cor-texto
+        &:hover
+            color: variables.$segunda-cor
+            border-color: variables.$segunda-cor
 
 // .locais
 //     margin: variables.$gap-section auto
@@ -100,6 +107,3 @@
 //         text-align: center
 //         margin-top: 10px
 //         color: #4E4E4E
-
-
-

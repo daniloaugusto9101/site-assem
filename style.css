@@ -176,19 +176,16 @@ img {
     visibility: hidden;
     overflow-y: hidden;
   }
-
   #nav.active .header__menu {
     height: calc(100vh - 70px);
     visibility: visible;
     overflow-y: auto;
   }
-
   .header__menu a {
     padding: 1rem 0;
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
   }
-
   #btn-mobile {
     display: flex;
     padding: 0.5rem 1rem;
@@ -198,12 +195,10 @@ img {
     cursor: pointer;
     gap: 0.5rem;
   }
-
   .header__hamburger {
     border-top: 2px solid;
     width: 20px;
   }
-
   .header__hamburger::after,
 .header__hamburger::before {
     content: "";
@@ -215,15 +210,12 @@ img {
     transition: 0.3s;
     position: relative;
   }
-
   #nav.active .header__hamburger {
     border-top-color: transparent;
   }
-
   #nav.active .header__hamburger::before {
     transform: rotate(135deg);
   }
-
   #nav.active .header__hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
@@ -344,6 +336,14 @@ img {
 .noticias__item > div {
   overflow: hidden;
 }
+.noticias__footer-link {
+  display: block;
+  text-decoration: none;
+  color: #BE1016;
+  font-weight: 600;
+  padding: 20px;
+  text-align: right;
+}
 .noticias .autoplay-progress {
   position: absolute;
   top: 5px;
@@ -409,7 +409,7 @@ img {
 }
 .chamada__col {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
@@ -442,9 +442,18 @@ img {
 .chamada .tituloHr {
   width: 100%;
 }
+.chamada__btn {
+  color: #4E4E4E;
+  border-color: #4E4E4E;
+}
+.chamada__btn:hover {
+  color: #BE1016;
+  border-color: #BE1016;
+}
 
 .locais {
-  background-color: green;
+  margin-top: 200px;
+  position: relative;
 }
 .locais__banner {
   display: grid;
@@ -479,6 +488,7 @@ img {
   gap: 100px 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: center;
+  position: relative;
 }
 .locais__item {
   display: grid;
@@ -492,6 +502,16 @@ img {
   color: #4E4E4E;
   max-width: 200px;
   margin: 0 auto;
+}
+.locais__btn {
+  max-width: 150px;
+  margin: 20px auto;
+  color: #4E4E4E;
+  border-color: #4E4E4E;
+}
+.locais__btn:hover {
+  color: #BE1016;
+  border-color: #BE1016;
 }
 
 .associar {
@@ -518,6 +538,8 @@ img {
   max-width: 1220px;
   margin: 0 auto;
   padding: 10px;
+  position: relative;
+  margin-bottom: 100px;
 }
 .atividades__tituloHr {
   text-align: center;
@@ -532,6 +554,17 @@ img {
   background-size: cover;
   width: 300px;
   height: 300px;
+}
+.atividades__btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #4E4E4E;
+  border-color: #4E4E4E;
+}
+.atividades__btn:hover {
+  color: #BE1016;
+  border-color: #BE1016;
 }
 
 .rodape {

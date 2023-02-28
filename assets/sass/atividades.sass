@@ -5,6 +5,9 @@
     max-width: 1220px
     margin: 0 auto
     padding: 10px
+    position: relative
+    margin-bottom: 100px
+    // background-color: tomato
     &__tituloHr
         text-align: center
     .swiper 
@@ -16,4 +19,13 @@
         background-size: cover
         width: 300px
         height: 300px
+    &__btn
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        color: variables.$cor-texto
+        border-color: variables.$cor-texto
+        &:hover
+            color: variables.$segunda-cor
+            border-color: variables.$segunda-cor
     

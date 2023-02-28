@@ -14,7 +14,7 @@
             direction: rtl
     &__col
         display: flex
-        align-items: center
+        align-items: flex-start
         justify-content: center
         // background-color: brown
         flex-direction: column
@@ -46,6 +46,12 @@
         // font-size: 20px
         width: 100%
         // background-color: tomato
+    &__btn
+        color: variables.$cor-texto
+        border-color: variables.$cor-texto
+        &:hover
+            color: variables.$segunda-cor
+            border-color: variables.$segunda-cor
 
 
 
