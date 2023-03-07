@@ -681,6 +681,58 @@ img {
   object-fit: cover;
 }
 
+.pgExecutiva {
+  width: 100%;
+}
+.pgExecutiva__tituloHr {
+  text-align: center;
+  margin: 50px 0;
+}
+.pgExecutiva__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.pgExecutiva__content-header {
+  border-bottom: 1px solid #4E4E4E;
+  margin-bottom: 20px;
+}
+.pgExecutiva__content-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pgExecutiva__subtitulo {
+  font-size: 3em;
+  font-weight: 600;
+  color: #4E4E4E;
+  margin: 100px 0 10px 0;
+}
+.pgExecutiva__avatar {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 150px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.pgExecutiva__avatar-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pgExecutiva__avatar-texto {
+  font-size: 1.2em;
+  color: #4E4E4E;
+}
+.pgExecutiva__avatar-texto p:nth-child(1) {
+  font-size: 1.2em;
+}
+.pgExecutiva__avatar-texto p:nth-child(2) {
+  font-size: 0.8em;
+}
+
 .blog {
   width: 100%;
   margin-top: 100px;
