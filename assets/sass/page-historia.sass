@@ -30,9 +30,10 @@
             grid-template-rows: 200px
             align-items: center
             text-align: right
-            gap: 10px            
-        &:nth-child(even)
-            // background-color: tomato
+            gap: 10px
+            &:nth-child(2)     
+                // background-color: green
+                // display: none
         &:nth-child(even) > div:nth-child(1)
             // background-color: violet
             text-align: left
@@ -41,6 +42,7 @@
         &:nth-child(even) > div:nth-child(2)
             // background-color: green
             order: -1        
+
         &-titulo
             font-size: 1.3em
             color: variables.$segunda-cor
