@@ -1,0 +1,34 @@
+@use 'variables'
+
+.blog
+    width: 100%
+    margin-top: 100px
+    &__container
+        max-width: 800px
+
+    &__item
+        background-color: #e9e9e9
+        margin-top: 30px
+        // background-color: tomato
+        display: grid
+        grid-template-columns: 300px auto
+        grid-template-rows: 200px
+        align-items: center
+        gap: 10px
+        padding: 10px
+        // border-bottom: 1px solid variables.$cor-texto
+        // padding-bottom: 50px
+
+        &-img img
+            display: block
+            width: 100%
+            height: 100%
+            object-fit: cover
+        &-titulo
+            font-size: 2.5em
+        &-link
+            color: variables.$cor-texto
+            text-decoration: none
+            transition: all .3s 
+            &:hover
+                color: variables.$segunda-cor
