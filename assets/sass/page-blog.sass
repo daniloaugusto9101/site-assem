@@ -1,0 +1,30 @@
+@use 'variables'
+
+.pgblog
+    width: 100%
+    margin-top: 100px
+    &__content
+        background-color: variables.$quarta-cor
+        padding: 20px
+        margin-top: 40px    
+    &__materia
+        &-header
+            display: grid
+            grid-template-columns: 1fr 2fr
+            grid-template-rows: 200px
+            align-items: center
+            gap: 10px
+        &-img
+        &-titulo
+            font-size: 2em
+        &-link
+            text-decoration: none
+            color: variables.$cor-texto
+            transition: all .3s
+            &:hover
+                color: variables.$primeira-cor-dark 
+        &-footer
+            background-color: #bebebe
+            height: 1px
+            margin: 35px 0
+
