@@ -1,111 +1,73 @@
 @use 'variables'
 
-body
-    // background-color: black
 .header
-    // background-color: black
-    z-index: 9999999
+    top: 0
+    z-index: 9999
     position: absolute
-    left: 0
-    right: 0
-    top: 20px
+    width: 100%
     &__container
-        max-width: 1220px
-        // background-color: tomato
+        // background-color: variables.$primeira-cor
+        max-width: 1980px
         margin: 0 auto
         display: flex
+        gap: 10px
+        flex-wrap: wrap
+        padding: 20px 60px
         justify-content: space-between
         align-items: center
-        // padding: 0 20px
-    &-paginas-fixas
-        background-color: variables.$primeira-cor
-        position: static
-        padding: 40px 0
-
-
-
-#nav
-    background-color: #fff
-
-.dropdown
-    display: flex
-    list-style: none
-    // background-color: violet
-    height: 100%
-
-    
-    &__item
-        // background-color: blue
-        // margin: 0 10px
-        position: relative
+    .logo
+        height: 100px
+        width: 100px
         display: flex
-        align-content: center
-        justify-content: center
-        &:hover .dropdown__submenu
-            transform: translateX(-50%) rotateX(0)
-        &:last-child
-            background-color: #BE1016
-        &:last-child .dropdown__link
-            color: #fff
-        
-            
-    &__link
-        color: #4E4E4E
-        text-decoration: none
-        font-size: 22px
-        // transform: translateY(50%)
-        padding: 15px 20px
-        // background-color: blue
-        display: flex
-        justify-content: center
-        align-items: center
-        transition: all .3s
-        &:hover
-            // background-color: red
-            color: #BE1016
-        // &:last-child
-        //     color: #fff
+        &__img
+            width: 100%
+            height: 100%
+            object-fit: contain
 
-    &__submenu
-        position: absolute
-        background-color: #363756
-        // border-radius: 5px
-        list-style: none
-        padding: 15px
-        left: 50%
-        top: 65px
-        transform: translateX(-50%) rotateX(-90deg)
-        transform-origin: top center
-        transition: all .3s 225ms ease-in
-        width: 200px
-        &::after
-            border: 8px solid transparent
-            border-bottom-color: #363756
-            content: ""
-            left: 50%
-            position: absolute
-            top: -15px
-            // transform: translateX(-50%)
-        &-item
-            &:not(:last-child)
-                margin-bottom: 10px                
-        &-link
-            color: #fff
+    .dropdown
+        display: flex
+        flex-wrap: wrap
+        &__item
+            background-color: variables.$terceira-cor
+            position: relative
+            &:hover .dropdown__submenu
+                transform: translateX(-50%) rotateX(0)
+            &:last-child
+                background-color: variables.$segunda-cor
+            &:last-child a
+                color: variables.$terceira-cor
+                &:hover
+                    color: variables.$primeira-cor-dark
+
+        &__link
             text-decoration: none
+            padding: 30px 30px
             display: block
-            padding: 10px
+            font-size: 1.8em
+            color: variables.$cor-texto
+            transition: all .3s
             &:hover
-                background-color: #252646
-                padding: 10px
+                color: variables.$segunda-cor
+        &__submenu
+            background-color: #333
+            position: absolute
+            padding: 20px
+            left: 50%
+            top: 100px
+            transform-origin: top center
+            transform: translateX(-50%) rotateX(-90deg)
+            transition: all .3s ease-in
+            width: 350px
 
-
-
-// Menu mobile
-
-#btn-mobile 
-  display: none
-  
-
-
-
-  
+            &-item
+                &:not(:last-child)
+                    // margin-bottom: 30px
+                
+            &-link
+                display: block
+                text-decoration: none
+                color: variables.$terceira-cor
+                font-size: 1.8em
+                padding: 20px 10px
+                &:hover
+                    background-color: variables.$primeira-cor
