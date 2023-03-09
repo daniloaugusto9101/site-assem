@@ -24,7 +24,6 @@
 @media (max-width: 768px)
     .header
         position: static
-        // position: fixed
         &__menu-mobile
             display: block
         &__container
@@ -41,17 +40,15 @@
             font-size: 1em
         &__titulo p
             font-size: 1em
-            // max-width: 200px
         &__btn
             font-size: .4em
             max-width: 170px
-            // padding: 10px 10px
-            // margin-top: 15px
+
     
     .noticias
         &__slide
             grid-template-areas:"item1" "item2" "item3""item4""item5""item6"
-
+            gap: 40px
     .pgHistoria
         &__item
             grid-template-columns: 1fr
@@ -59,6 +56,8 @@
             &-col
                 &:nth-child(2)
                     display: none
+    .pgblog
+        margin-top: 100px
 
     .estatisticas
         margin-top: 50px
@@ -90,7 +89,7 @@
 
     .pgblog
         &__materia
-            &-header
+            &-link
                 grid-template-columns: 1fr
 
 @media (max-width: 3750px)
