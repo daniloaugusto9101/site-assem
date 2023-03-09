@@ -312,6 +312,19 @@ img {
 .noticias__item:nth-child(6) {
   grid-area: item6;
 }
+.noticias__footer {
+  margin-top: 40px;
+  text-align: right;
+}
+.noticias__footer-link {
+  text-decoration: none;
+  color: #BE1016;
+  transition: all 0.3s easi-in;
+  font-size: 1.3em;
+}
+.noticias__footer-link:hover {
+  font-weight: bold;
+}
 
 .estatisticas {
   width: 100%;
@@ -790,6 +803,10 @@ img {
   .destaque__btn {
     font-size: 0.4em;
     max-width: 170px;
+  }
+
+  .noticias__slide {
+    grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6";
   }
 
   .pgHistoria__item {
