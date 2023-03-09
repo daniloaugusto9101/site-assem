@@ -1,12 +1,38 @@
 @use 'variables'
 
-
-
-@media (max-width: 850px)
-
+@media (max-width: 1280px)
+    .header
+        &__container
+            padding: 20px 10px
+        .logo
+            height: 30px
+            width: 30px
+        .dropdown
+            &__link
+                padding: 20px
+                font-size: 1.2em
+            &__submenu
+                width: 250px
+                position: absolute
+                padding: 10px
+                left: 50%
+                top: 65px
+                &-link
+                    font-size: 1em
+        // &__menu-mobile
 
 
 @media (max-width: 768px)
+    .header
+        position: static
+        // position: fixed
+        &__menu-mobile
+            display: block
+        &__container
+            background-color: variables.$primeira-cor
+        .nav
+            display: none
+
     .destaque
         &__slide
             grid-template-rows: 450px
@@ -22,18 +48,15 @@
             max-width: 170px
             // padding: 10px 10px
             // margin-top: 15px
-    
+
     .pgHistoria
         &__item
             grid-template-columns: 1fr
-            grid-template-rows: 250px       
+            grid-template-rows: 250px
             &-col
-                &:nth-child(2)     
+                &:nth-child(2)
                     display: none
-    
 
-    
-    
     .estatisticas
         margin-top: 50px
 
@@ -46,26 +69,25 @@
         margin-top: 50px
 
 @media (max-width: 540px)
-    
+
     .linha
         display: none
 
     .chamada
-       &__col
-        display: flex
-        align-items: center
-        text-align: center
+        &__col
+            display: flex
+            align-items: center
+            text-align: center
     .atividades
         margin-top: 100px
     .rodape
         &__row:nth-child(1)
             grid-template-columns: repeat(2, 1fr)
             text-align: center
-    
+
     .pgblog
         &__materia
             &-header
                 grid-template-columns: 1fr
 
 @media (max-width: 3750px)
-        
