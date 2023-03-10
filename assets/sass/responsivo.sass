@@ -56,6 +56,10 @@
         &__slide
             grid-template-areas: "item1" "item2" "item3""item4""item5""item6"
             gap: 40px
+        &__item
+            &:not(:first-child) 
+                grid-template-columns: repeat(2, 1fr)
+                grid-template-rows: 220px
     .pgHistoria
         &__item
             grid-template-columns: 1fr

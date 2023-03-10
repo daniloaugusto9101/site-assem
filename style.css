@@ -587,7 +587,7 @@ img {
 }
 
 .pgNoticias {
-  margin-top: 50px;
+  margin-top: 200px;
 }
 .pgNoticias__header {
   width: 100%;
@@ -830,6 +830,10 @@ img {
   .noticias__slide {
     grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6";
     gap: 40px;
+  }
+  .noticias__item:not(:first-child) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 220px;
   }
 
   .pgHistoria__item {
