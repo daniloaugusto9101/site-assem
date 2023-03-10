@@ -19,7 +19,10 @@
                 top: 65px
                 &-link
                     font-size: 1em
-
+    .destaque
+        &__slide
+            &-textos
+                margin: 0 0 60px 10px
 
 @media (max-width: 768px)
     .header
@@ -33,21 +36,25 @@
 
     .destaque
         &__slide
-            grid-template-rows: 450px
-        &__paralelogramo
-            width: 70%
-        &__titulo h2
-            font-size: 1em
-        &__titulo p
-            font-size: 1em
-        &__btn
-            font-size: .4em
-            max-width: 170px
+            grid-template-rows: 550px
+            &-textos
+                margin: 0
+                padding: 0
+                gap: 15px
+            &-subtitulo
+                font-size: 4em
+            &::before
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)
+                width: 100%
+                background: rgba(0, 0, 0, 0.62)
+            &-textos
+                align-items: center
+                justify-content: center
+                text-align: center
 
-    
     .noticias
         &__slide
-            grid-template-areas:"item1" "item2" "item3""item4""item5""item6"
+            grid-template-areas: "item1" "item2" "item3""item4""item5""item6"
             gap: 40px
     .pgHistoria
         &__item
@@ -92,4 +99,4 @@
             &-link
                 grid-template-columns: 1fr
 
-@media (max-width: 3750px)
+

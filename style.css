@@ -100,13 +100,12 @@ img {
   width: 100%;
 }
 .header__container {
-  background-color: #363756;
   max-width: 1980px;
   margin: 0 auto;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  padding: 20px 60px;
+  padding: 10px 60px;
   justify-content: space-between;
   align-items: center;
 }
@@ -151,7 +150,7 @@ img {
 }
 .header .dropdown__link {
   text-decoration: none;
-  padding: 30px 30px;
+  padding: 20px 30px;
   display: block;
   font-size: 1.8em;
   color: #4E4E4E;
@@ -186,49 +185,54 @@ img {
   width: 100%;
   position: relative;
 }
+.destaque__container {
+  max-width: 1980px;
+  margin: 0 auto;
+}
 .destaque__slide {
   display: grid;
-  grid-template-rows: 550px;
-  color: #fff;
+  grid-template-rows: 650px;
+  position: relative;
 }
-.destaque__img {
-  grid-column: 1;
-  grid-row: 1;
-}
-.destaque__paralelogramo {
-  background-color: tomato;
-  opacity: 90%;
+.destaque__slide::before {
+  content: "";
   position: absolute;
+  opacity: 90%;
   top: 0;
-  left: 0px;
+  left: 0;
   width: 60%;
   height: 100%;
   background: #252646;
   clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+  z-index: 1;
 }
-.destaque__titulo {
+.destaque__slide-img {
   grid-column: 1;
   grid-row: 1;
-  z-index: 9999;
+}
+.destaque__slide-textos {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 99999;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 80px 0 0 50px;
+  justify-content: flex-end;
+  align-items: start;
+  margin: 0 0 60px 60px;
+}
+.destaque__slide-titulo {
   font-size: 3em;
+  color: #fff;
   font-weight: 100;
 }
-.destaque__titulo p {
-  font-size: 1.5em;
-  font-weight: 500;
-  max-width: 400px;
-  margin-top: 15px;
+.destaque__slide-subtitulo {
+  font-size: 7em;
+  max-width: 600px;
+  color: #fff;
 }
-.destaque__btn {
+.destaque__slide-btn {
   color: #fff;
   border: 1px solid #fff;
-  font-size: 0.5em;
-  max-width: 200px;
-  margin-top: 15px;
 }
 .destaque .busca {
   position: absolute;
@@ -403,6 +407,40 @@ img {
   border-color: #BE1016;
 }
 
+.atividades {
+  margin-top: 100px;
+  max-width: 1220px;
+  margin: 50px auto;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.atividades__tituloHr {
+  text-align: center;
+}
+.atividades .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.atividades .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.atividades__btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #4E4E4E;
+  border-color: #4E4E4E;
+}
+.atividades__btn:hover {
+  color: #BE1016;
+  border-color: #BE1016;
+}
+
 .locais {
   margin-top: 200px;
   position: relative;
@@ -483,40 +521,6 @@ img {
   color: #fff;
   border: none;
   padding: min(8%, 15px) min(16%, 50px);
-}
-
-.atividades {
-  margin-top: 100px;
-  max-width: 1220px;
-  margin: 50px auto;
-  padding: 10px;
-  position: relative;
-  margin-bottom: 100px;
-}
-.atividades__tituloHr {
-  text-align: center;
-}
-.atividades .swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.atividades .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-.atividades__btn {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #4E4E4E;
-  border-color: #4E4E4E;
-}
-.atividades__btn:hover {
-  color: #BE1016;
-  border-color: #BE1016;
 }
 
 .rodape {
@@ -782,6 +786,10 @@ img {
   .header .dropdown__submenu-link {
     font-size: 1em;
   }
+
+  .destaque__slide-textos {
+    margin: 0 0 60px 10px;
+  }
 }
 @media (max-width: 768px) {
   .header {
@@ -798,20 +806,25 @@ img {
   }
 
   .destaque__slide {
-    grid-template-rows: 450px;
+    grid-template-rows: 550px;
   }
-  .destaque__paralelogramo {
-    width: 70%;
+  .destaque__slide-textos {
+    margin: 0;
+    padding: 0;
+    gap: 15px;
   }
-  .destaque__titulo h2 {
-    font-size: 1em;
+  .destaque__slide-subtitulo {
+    font-size: 4em;
   }
-  .destaque__titulo p {
-    font-size: 1em;
+  .destaque__slide::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.62);
   }
-  .destaque__btn {
-    font-size: 0.4em;
-    max-width: 170px;
+  .destaque__slide-textos {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .noticias__slide {

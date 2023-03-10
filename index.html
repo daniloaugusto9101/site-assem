@@ -32,8 +32,6 @@
 
 <body>
 
-
-
     <section class="header">
 
         <div class="header__container">
@@ -81,83 +79,70 @@
                     </li>
                 </ul>
             </nav>
-
         </div>
     </section>
 
 
     <section class="destaque">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide destaque__slide">
-                    <div class="destaque__img">
-                        <img src="/assets/img/destaque/sede.jpg" alt="">
-                    </div>
-                    <div class="destaque__paralelogramo"></div>
-                    <div class="destaque__titulo">
-                        <h2>Sede</h2>
-                        <p>Amplo e acolhedor</p>
-                        <a href="#" class="btn destaque__btn">Saiba mais</a>
-                    </div>
-                </div>
+        <div class="destaque__container">
 
-                <div class="swiper-slide destaque__slide">
-                    <div class="destaque__img">
-                        <img src="/assets/img/destaque/pousada.jpg" alt="">
-                    </div>
-                    <div class="destaque__paralelogramo"></div>
-                    <div class="destaque__titulo">
-                        <h2>Pousada Litoral</h2>
-                        <p>Experiência e conforto</p>
-                        <a href="#" class="btn destaque__btn">Saiba mais</a>
-                    </div>
-                </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+    
+                    <div class="swiper-slide destaque__slide">
+                        <img class="destaque__slide-img"   src="/assets/img/destaque/sede.jpg" alt="">
 
-                <div class="swiper-slide destaque__slide">
-                    <div class="destaque__img">
-                        <img src="/assets/img/destaque/clube.jpg" alt="">
+                        <div class="destaque__slide-textos">
+                            <h2 class="destaque__slide-titulo">Sede</h2>
+                            <p class="destaque__slide-subtitulo">Amplo e acolhedor</p>
+                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                        </div>
                     </div>
-                    <div class="destaque__paralelogramo"></div>
-                    <div class="destaque__titulo">
-                        <h2>Clube de Campo</h2>
-                        <p>Diversão e alegria</p>
-                        <a href="#" class="btn destaque__btn">Saiba mais</a>
-                    </div>
-                </div>
 
-                <div class="swiper-slide destaque__slide">
-                    <div class="destaque__img">
-                        <img src="/assets/img/destaque/atividade.jpg" alt="">
+                    <div class="swiper-slide destaque__slide">
+                        <img class="destaque__slide-img"   src="/assets/img/destaque/pousada.jpg" alt="">
+                        <div class="destaque__slide-textos">
+                            <h2 class="destaque__slide-titulo">Pousada Litoral</h2>
+                            <p class="destaque__slide-subtitulo">Experiência e conforto</p>
+                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                        </div>
                     </div>
-                    <div class="destaque__paralelogramo"></div>
-                    <div class="destaque__titulo">
-                        <h2>Atividades</h2>
-                        <p>Energia e bem estar</p>
-                        <a href="#" class="btn destaque__btn">Saiba mais</a>
-                    </div>
-                </div>
 
-                <div class="swiper-slide destaque__slide">
-                    <div class="destaque__img">
-                        <img src="/assets/img/destaque/convenio.jpg" alt="">
+                    <div class="swiper-slide destaque__slide">
+                        <img class="destaque__slide-img"   src="/assets/img/destaque/clube.jpg" alt="">
+                        <div class="destaque__slide-textos">
+                            <h2 class="destaque__slide-titulo">Clube de Campo</h2>
+                            <p class="destaque__slide-subtitulo">Diversão e alegria</p>
+                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                        </div>
                     </div>
-                    <div class="destaque__paralelogramo"></div>
-                    <div class="destaque__titulo">
-                        <h2>Convênio médico</h2>
-                        <p>Sáude e longevidade</p>
-                        <a href="#" class="btn destaque__btn">Saiba mais</a>
+                    <div class="swiper-slide destaque__slide">
+                        <img class="destaque__slide-img"   src="/assets/img/destaque/atividade.jpg" alt="">
+                        <div class="destaque__slide-textos">
+                            <h2 class="destaque__slide-titulo">Atividades</h2>
+                            <p class="destaque__slide-subtitulo">Energia e bem estar</p>
+                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                        </div>
                     </div>
-                </div>
+                    <div class="swiper-slide destaque__slide">
+                        <img class="destaque__slide-img"   src="/assets/img/destaque/convenio.jpg" alt="">
+                        <div class="destaque__slide-textos">
+                            <h2 class="destaque__slide-titulo">Convênio médico</h2>
+                            <p class="destaque__slide-subtitulo">Sáude e longevidade</p>
+                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                        </div>
+                    </div>
+
+                </div>    
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <!-- <div class="swiper-pagination"></div> -->
             </div>
-            <!-- <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div> -->
-            <div class="swiper-pagination"></div>
+            <!-- <div class="busca">
+                <i class="fa-solid fa-magnifying-glass busca__ico"></i>
+                <input type="text" class="busca__input" placeholder="Buscar no site">
+            </div> -->
         </div>
-
-        <!-- <div class="busca">
-            <i class="fa-solid fa-magnifying-glass busca__ico"></i>
-            <input type="text" class="busca__input" placeholder="Buscar no site">
-        </div> -->
     </section>
 
     <section class="noticias">
@@ -168,29 +153,14 @@
                 <div class="noticias__item">
                     <div>
                         <a href="">
-                            <img class="noticias__item-img" src="assets/img/destaque/atividade.jpg" alt="" >
+                            <img class="noticias__item-img" src="assets/img/destaque/atividade.jpg" alt="">
                         </a>
                     </div>
                     <div class="noticias__item-texto">
                         <p class="noticias__item-tag">Fique por dentro</p>
                         <a class="noticias__item-link" href="">
-                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por aqui no moento </p>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="noticias__item">
-                    <div>
-                        <a href="">
-                            <img class="noticias__item-img" src="assets/img/destaque/clube - Copia.jpg" alt="" >
-                        </a>
-                    </div>
-                    <div class="noticias__item-texto">
-                        <a class="noticias__item-link" href="">
-                            <p class="noticias__item-tag">Fique por dentro</p>
-                        </a>
-                        <a class="noticias__item-link" href="">
-                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por aqui no moento </p>
+                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por
+                                aqui no moento </p>
                         </a>
                     </div>
                 </div>
@@ -198,7 +168,7 @@
                 <div class="noticias__item">
                     <div>
                         <a href="">
-                            <img class="noticias__item-img" src="assets/img/destaque/sede.jpg" alt="" >
+                            <img class="noticias__item-img" src="assets/img/destaque/clube - Copia.jpg" alt="">
                         </a>
                     </div>
                     <div class="noticias__item-texto">
@@ -206,7 +176,8 @@
                             <p class="noticias__item-tag">Fique por dentro</p>
                         </a>
                         <a class="noticias__item-link" href="">
-                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por aqui no moento </p>
+                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por
+                                aqui no moento </p>
                         </a>
                     </div>
                 </div>
@@ -214,7 +185,7 @@
                 <div class="noticias__item">
                     <div>
                         <a href="">
-                            <img class="noticias__item-img" src="assets/img/destaque/pousada.jpg" alt="" >
+                            <img class="noticias__item-img" src="assets/img/destaque/sede.jpg" alt="">
                         </a>
                     </div>
                     <div class="noticias__item-texto">
@@ -222,7 +193,8 @@
                             <p class="noticias__item-tag">Fique por dentro</p>
                         </a>
                         <a class="noticias__item-link" href="">
-                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por aqui no moento </p>
+                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por
+                                aqui no moento </p>
                         </a>
                     </div>
                 </div>
@@ -230,7 +202,7 @@
                 <div class="noticias__item">
                     <div>
                         <a href="">
-                            <img class="noticias__item-img" src="assets/img/praia.jpeg" alt="" >
+                            <img class="noticias__item-img" src="assets/img/destaque/pousada.jpg" alt="">
                         </a>
                     </div>
                     <div class="noticias__item-texto">
@@ -238,7 +210,8 @@
                             <p class="noticias__item-tag">Fique por dentro</p>
                         </a>
                         <a class="noticias__item-link" href="">
-                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por aqui no moento </p>
+                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por
+                                aqui no moento </p>
                         </a>
                     </div>
                 </div>
@@ -246,7 +219,7 @@
                 <div class="noticias__item">
                     <div>
                         <a href="">
-                            <img class="noticias__item-img" src="assets/img/praia.jpeg" alt="" >
+                            <img class="noticias__item-img" src="assets/img/praia.jpeg" alt="">
                         </a>
                     </div>
                     <div class="noticias__item-texto">
@@ -254,12 +227,30 @@
                             <p class="noticias__item-tag">Fique por dentro</p>
                         </a>
                         <a class="noticias__item-link" href="">
-                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por aqui no moento </p>
+                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por
+                                aqui no moento </p>
                         </a>
                     </div>
-                </div>              
+                </div>
 
-            </div>      
+                <div class="noticias__item">
+                    <div>
+                        <a href="">
+                            <img class="noticias__item-img" src="assets/img/praia.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="noticias__item-texto">
+                        <a class="noticias__item-link" href="">
+                            <p class="noticias__item-tag">Fique por dentro</p>
+                        </a>
+                        <a class="noticias__item-link" href="">
+                            <p class="noticias__item-titulo">Nao perca nenhuma novidade e noticias que esta rolando por
+                                aqui no moento </p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
 
             <div class="noticias__footer">
                 <a href="/blog.html" class="noticias__footer-link">Mais notícias...</a>

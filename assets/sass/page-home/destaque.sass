@@ -1,0 +1,67 @@
+@use '../variables'    
+
+.destaque
+    width: 100%
+    position: relative
+    &__container
+        max-width: 1980px
+        margin: 0 auto
+    &__slide
+        display: grid
+        grid-template-rows: 650px
+        position: relative
+        &::before
+            content: ""
+            position: absolute
+            opacity: 90%
+            top: 0
+            left: 0
+            width: 60%
+            height: 100%
+            background: variables.$primeira-cor-dark
+            clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%)
+            z-index: 1
+        &-img
+            grid-column: 1
+            grid-row: 1
+        &-textos
+            grid-column: 1
+            grid-row: 1
+            z-index: 99999
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            align-items: start
+            margin: 0 0 60px 60px
+        &-titulo
+            font-size: 3em
+            color: variables.$terceira-cor
+            font-weight: 100
+        &-subtitulo
+            font-size: 7em
+            max-width: 600px
+            color: variables.$terceira-cor
+        &-btn
+            color: variables.$terceira-cor
+            border: 1px solid variables.$terceira-cor
+
+    .busca
+        position: absolute
+        width: 300px
+        background-color: white
+        padding: 15px
+        display: flex
+        align-items: center
+        gap: 10px
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 25%)
+        bottom: -30px
+        left: 50%
+        transform: translateX(-50%)
+        z-index: 99999
+        &__ico
+            color: variables.$cor-texto
+        &__input
+            border: none
+            outline: none
+            font-size: 1.2em
+            color: variables.$cor-texto
