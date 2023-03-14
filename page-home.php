@@ -98,7 +98,7 @@
                         echo '<div class="noticias__item">
                                 <div>
                                     <a href="'.get_permalink().'">
-                                        <img class="noticias__item-img" src="' . esc_url( get_field( 'thumbnail_materia' ) ) . '">
+                        <img class="noticias__item-img" src="' . esc_url( get_field( 'thumbnail_materia' ) ) . '">
                                     </a>
                                 </div>
                                 <div class="noticias__item-texto">
@@ -121,7 +121,7 @@
             </div>
 
             <div class="noticias__footer">
-                <a href="/blog.html" class="noticias__footer-link">Mais notícias...</a>
+                <a href="/blog" class="noticias__footer-link">Mais notícias...</a>
             </div>
         </div>
     </section>

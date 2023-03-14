@@ -31,7 +31,7 @@
     </div>
 
     <?php endwhile; else: ?>
-    <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+    <p><?php _e('Sorry, no posts matched your criteria asdasdasd.'); ?></p>
     <?php endif; ?>
 
 <?php get_footer(); ?>
