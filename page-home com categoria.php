@@ -102,7 +102,7 @@
                                     </a>
                                 </div>
                                 <div class="noticias__item-texto">
-  
+                                    <p class="noticias__item-tag">' . $category_name . '</p>
                                     <a class="noticias__item-link" href="'.get_permalink().'">
                                         <p class="noticias__item-titulo">'. get_the_title() .'</p>
                                     </a>

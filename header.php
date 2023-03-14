@@ -58,7 +58,7 @@
                         <a href="/blog" class="dropdown__link">Notícias</a>
                     </li>
                     <li class="dropdown__item">
-                        <a href="/" class="dropdown__link">Assem</a>
+                        <a href="/contato" class="dropdown__link">Assem</a>
 
                         <ul class="dropdown__submenu">
                             <li class="dropdown__submenu-item">
