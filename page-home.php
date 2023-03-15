@@ -17,7 +17,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Sede</h2>
                             <p class="destaque__slide-subtitulo">Amplo e acolhedor</p>
-                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
 
@@ -26,7 +26,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Pousada Litoral</h2>
                             <p class="destaque__slide-subtitulo">Experiência e conforto</p>
-                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Clube de Campo</h2>
                             <p class="destaque__slide-subtitulo">Diversão e alegria</p>
-                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
                     <div class="swiper-slide destaque__slide">
@@ -43,7 +43,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Atividades</h2>
                             <p class="destaque__slide-subtitulo">Energia e bem estar</p>
-                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
                     <div class="swiper-slide destaque__slide">
@@ -51,7 +51,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Convênio médico</h2>
                             <p class="destaque__slide-subtitulo">Sáude e longevidade</p>
-                            <a href="#" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
 
@@ -156,11 +156,9 @@
             <div class="chamada__col">
                 <h2 class="tituloHr">Por que me associar?</h2>
                 <p class="chamada__texto">
-                    Quem é associado pode utilizar dos diversos espaço que ASSEM possue, como Pousada e Clube de Campo.
-                    Contamos com diversas modalidades para cuidar do seu bem estar e de sua família. Tambem contamos com
-                    diversos parceiro de convênio médico para sua saúde.
+                Junte-se a nós, como associado, você terá acesso a uma variedade de atividades e eventos emocionantes, ter experiência e divesão com nossa Pousada e Clube de Campo.  Não perca mais tempo, torne-se um associado hoje mesmo
                 </p>
-                <a href="" class="btn chamada__btn">Saiba mais</a>
+                <a href="/associar" class="btn chamada__btn">Saiba mais</a>
             </div>
         </div>
     </div>
@@ -179,11 +177,9 @@
             <div class="chamada__col chamada__col">
                 <h2 class="tituloHr">Convênios médicos</h2>
                 <p class="chamada__texto">
-                    Quem é associado pode utilizar dos diversos espaço que ASSEM possue, como Pousada e Clube de Campo.
-                    Contamos com diversas modalidades para cuidar do seu bem estar e de sua família. Tambem contamos com
-                    diversos parceiro de convênio médico para sua saúde.
+                Você está preocupado com a sua saúde da sua família? Quer ter acesso a uma ampla rede de médicos e hospitais? Associado tem acesso a diversos planos com preços que se adapta às suas necessidades
                 </p>
-                <a href="" class="btn chamada__btn">Saiba mais</a>
+                <a href="/convenios" class="btn chamada__btn">Saiba mais</a>
             </div>
         </div>
     </div>
@@ -216,7 +212,7 @@
             </div>
             <!-- <div class="swiper-pagination"></div> -->
         </div>
-        <a href="" class="btn atividades__btn">Saiba mais</a>
+        <a href="/atividades" class="btn atividades__btn">Saiba mais</a>
     </section>
 
     <div class="locais">
@@ -246,7 +242,7 @@
                 <p>Clube de Campo</p>
             </div>
         </div>
-        <a href="" class="btn locais__btn">Saiba mais</a>
+        <a href="/locais" class="btn locais__btn">Saiba mais</a>
     </div>
 
     <div class="chamada">
@@ -261,11 +257,9 @@
             <div class="chamada__col">
                 <h2 class="tituloHr">Clube de desconto</h2>
                 <p class="chamada__texto">
-                    Os associado tem descontos em produtos ou serviços oferecidos por uma rede de parcerias
-                    estabelecidas com a ASSEM, em várias áreas do mercado. Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. Voluptatibus impedit ullam, sunt
+                A ASSEM conta com uma rede de parcerias com empresas de diversas áreas, os nossos associados tem acesso a preços e oportunidades especiais. Isto é uma ótima opção para quem busca economizar dinheiro.
                 </p>
-                <a href="" class="btn chamada__btn">Saiba mais</a>
+                <a href="/desconto" class="btn chamada__btn">Saiba mais</a>
             </div>
         </div>
     </div>
@@ -273,7 +267,7 @@
     <section class="associar">
         <div class="container associar__container">
             <h2 class="tituloHr">Aproveite agora</h2>
-            <a href="#" class="btn associar__btn">Fique sócio</a>
+            <a href="/associar" class="btn associar__btn">Fique sócio</a>
         </div>
     </section>
 

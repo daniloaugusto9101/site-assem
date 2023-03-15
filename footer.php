@@ -4,28 +4,28 @@
 <div class="rodape__row">
     <div class="rodape__item">
         <h2 class="rodape__titulo">Notícias</h2>
-        <p class="rodape__texto"><a href="">Notícias</a></p>
-        <p class="rodape__texto"><a href="">Jornal ASSEM</a></p>
+        <p class="rodape__texto"><a href="/blog">Notícias</a></p>
+        <p class="rodape__texto"><a href="/jornal">Jornal ASSEM</a></p>
     </div>
     <div class="rodape__item">
         <h2 class="rodape__titulo">Assem</h2>
-        <p class="rodape__texto"><a href="">Nossa história</a></p>
-        <p class="rodape__texto"><a href="">Diretoria</a></p>
-        <p class="rodape__texto"><a href="">Estatuto</a></p>
+        <p class="rodape__texto"><a href="/historia">Nossa história</a></p>
+        <p class="rodape__texto"><a href="/asd">Diretoria</a></p>
+        <p class="rodape__texto"><a href="/asd">Estatuto</a></p>
     </div>
     <div class="rodape__item">
         <h2 class="rodape__titulo">Contato</h2>
-        <p class="rodape__texto"><a href="">Sede</a></p>
-        <p class="rodape__texto"><a href="">Clube de Campo</a></p>
-        <p class="rodape__texto"><a href="">Pousada</a></p>
+        <p class="rodape__texto"><a href="/locais">Sede</a></p>
+        <p class="rodape__texto"><a href="/locais">Clube de Campo</a></p>
+        <p class="rodape__texto"><a href="/locais">Pousada</a></p>
     </div>
     <div class="rodape__item">
         <h2 class="rodape__titulo">Sócio</h2>
-        <p class="rodape__texto"><a href="">Fique sócio</a></p>
-        <p class="rodape__texto"><a href="">Espaços e lazer</a></p>
-        <p class="rodape__texto"><a href="">Escolinha e atividades físicas</a></p>
-        <p class="rodape__texto"><a href="">Convênio Médico</a></p>
-        <p class="rodape__texto"><a href="">Clube de desconto</a></p>
+        <p class="rodape__texto"><a href="/associar">Fique sócio</a></p>
+        <p class="rodape__texto"><a href="/locais">Espaços e lazer</a></p>
+        <p class="rodape__texto"><a href="/atividaes">Escolinha e atividades físicas</a></p>
+        <p class="rodape__texto"><a href="/convenio">Convênio Médico</a></p>
+        <p class="rodape__texto"><a href="/desconto">Clube de desconto</a></p>
     </div>
 </div>
 

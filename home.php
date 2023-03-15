@@ -7,25 +7,12 @@
             
             <div class="pgblog__content">
 
-                <!-- <div class="pgblog__materia">
-                    <a href="" class="pgblog__materia-link">
-                        <img src="assets/img/praia.jpeg" class="pgblog__materia-img">
-                        <h2 class="pgblog__materia-titulo">
-                          44 Anos da Assem! Muito a comemorar! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        </h2>
-                      </a>
-                    <div class="pgblog__materia-footer">
-                    </div>
-                </div> -->
-
-
                 <?php
                     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
                     
                     $args = array(
                         'cat' => 6,
                         'paged' => $paged,
-                        // 'posts_per_page' => 2, 	
                     );
 
                     $query = new WP_Query( $args );

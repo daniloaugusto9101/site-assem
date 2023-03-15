@@ -46,13 +46,13 @@
                 </a>
             </div>
             <div class="header__menu-mobile">
-                <p>Menu</p>
+                <p><a href="/">Inicio</a></p>
                 <!-- <i class="fa-solid fa-bars"></i> -->
             </div>
             <nav class="nav">
                 <ul class="dropdown">
                     <li class="dropdown__item">
-                        <a href="/" class="dropdown__link">Inicio</a>
+                        <a href="/" class="dropdown__link">Início</a>
                     </li>
                     <li class="dropdown__item">
                         <a href="/blog" class="dropdown__link">Notícias</a>
@@ -79,7 +79,7 @@
                         <a href="/contato" class="dropdown__link">Contato</a>
                     </li>
                     <li class="dropdown__item">
-                        <a href="/fique-socio" class="dropdown__link">Fique Sócio</a>
+                        <a href="/associar" class="dropdown__link">Fique Sócio</a>
                     </li>
                 </ul>
             </nav>

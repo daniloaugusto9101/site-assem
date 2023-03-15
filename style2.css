@@ -793,6 +793,24 @@ img {
   margin: 35px 0;
 }
 
+.pg404 {
+  margin-top: 80px;
+}
+.pg404__article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.pg404__tituloHr {
+  text-align: center;
+  margin: 50px 0;
+}
+.pg404__img {
+  max-height: 300px;
+  max-width: 300px;
+  margin: 10px auto;
+  object-fit: contain;
+}
+
 @media (max-width: 1280px) {
   .header__container {
     padding: 20px 10px;
