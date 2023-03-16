@@ -132,58 +132,59 @@ img {
 .header__menu-mobile {
   display: none;
 }
-.header .dropdown {
-  display: flex;
-  flex-wrap: wrap;
+.header .menu {
+  list-style: none;
 }
-.header .dropdown__item {
+.header .menu li {
   background-color: #fff;
   position: relative;
+  float: left;
 }
-.header .dropdown__item:hover .dropdown__submenu {
-  transform: translateX(-50%) rotateX(0);
+.header .menu li:hover > ul {
+  display: initial;
 }
-.header .dropdown__item:last-child {
+.header .menu li:last-child {
   background-color: #BE1016;
 }
-.header .dropdown__item:last-child a {
+.header .menu li:last-child a {
   color: #fff;
 }
-.header .dropdown__item:last-child a:hover {
-  color: #252646;
-}
-.header .dropdown__link {
-  text-decoration: none;
-  padding: 20px 30px;
-  display: block;
-  font-size: 1.3em;
-  color: #4E4E4E;
-  transition: all 0.3s;
-}
-.header .dropdown__link:hover {
-  color: #BE1016;
-}
-.header .dropdown__submenu {
-  display: none;
-  background-color: #333;
+.header .menu li ul {
+  list-style: none;
   position: absolute;
-  padding: 20px;
-  left: 50%;
-  top: 100px;
-  transform-origin: top center;
-  transform: translateX(-50%) rotateX(-90deg);
-  transition: all 0.3s ease-in;
-  width: 350px;
+  right: 0;
+  width: 200px;
+  background-color: #fff;
+  display: none;
 }
-.header .dropdown__submenu-link {
+.header .menu li ul li {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header .menu li ul li:last-child {
+  background-color: #fff;
+}
+.header .menu li ul li:last-child a {
+  color: #4E4E4E;
+}
+.header .menu li ul li:last-child a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.header .menu li ul li ul {
+  right: 200px;
+  top: 0;
+}
+.header .menu li a {
+  font-size: 1em;
+  padding: 20px 30px;
+  color: #4E4E4E;
   display: block;
   text-decoration: none;
-  color: #fff;
-  font-size: 1.8em;
-  padding: 20px 10px;
 }
-.header .dropdown__submenu-link:hover {
-  background-color: #363756;
+.header .menu li a:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 .destaque {

@@ -50,38 +50,78 @@
                 <!-- <i class="fa-solid fa-bars"></i> -->
             </div>
             <nav class="nav">
-                <ul class="dropdown">
-                    <li class="dropdown__item">
-                        <a href="/" class="dropdown__link">Início</a>
-                    </li>
-                    <li class="dropdown__item">
-                        <a href="/blog" class="dropdown__link">Notícias</a>
-                    </li>
-                    <li class="dropdown__item">
-                        <a href="/contato" class="dropdown__link">Assem</a>
 
-                        <ul class="dropdown__submenu">
-                            <li class="dropdown__submenu-item">
-                                <a href="/historia" class="dropdown__submenu-link">Nossa História</a>
+                <?php
+                    $args = array(
+                        'theme_location' => 'header-menu',
+                        'menu' => 'principal',
+                        'container' => false,
+                    );
+                    wp_nav_menu($args);
+                ?>
+                <!-- <ul class="menu">
+
+                    <li class="menu__item">
+                        <a href="/" class="menu__link">Início</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="/blog" class="menu__link">Notícias</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="/" class="menu__link">Assem</a>
+                        
+                        <ul class="submenu">
+
+                            <li class="submenu-item">
+                                <span class="submenu-link"> </span>
+
+                                <ul class="submenu">
+                                    <li class="submenu-item">
+                                        <a href="/historia" class="submenu-link">Nossa historia</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a href="/asd" class="submenu-link">Diretoria e conselho</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a href="/asd" class="submenu-link">Estatuto</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a href="/asd" class="submenu-link">Jornal ASSEM</a>
+                                    </li>
+                                </ul>
+
                             </li>
-                            <li class="dropdown__submenu-item">
-                                <a href="/asd" class="dropdown__submenu-link">Diretoria e Conselho</a>
+
+                            <li class="submenu-item">
+                                <span class="submenu-link">Associado</span>
+                                <ul class="submenu">
+                                    <li class="submenu-item">
+                                        <a href="/historia" class="submenu-link">Espaços e lazer</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a href="/asd" class="submenu-link">Escolhinhas e atividades</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a href="/asd" class="submenu-link">Convênio médico</a>
+                                    </li>
+                                    <li class="submenu-item">
+                                        <a href="/asd" class="submenu-link">Clube de desconto</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="dropdown__submenu-item">
-                                <a href="/estatuto" class="dropdown__submenu-link">Estatuto</a>
-                            </li>
-                            <li class="dropdown__submenu-item">
-                                <a href="/jornal" class="dropdown__submenu-link">Jornal ASSEM</a>
-                            </li>
+
                         </ul>
+
                     </li>
-                    <li class="dropdown__item">
-                        <a href="/contato" class="dropdown__link">Contato</a>
+                    <li class="menu__item">
+                        <a href="/contato" class="menu__link">Contato</a>
                     </li>
-                    <li class="dropdown__item">
-                        <a href="/associar" class="dropdown__link">Fique Sócio</a>
+                    <li class="menu__item">
+                        <a href="/associar" class="menu__link">Fique Sócio</a>
                     </li>
-                </ul>
+                </ul> -->
             </nav>
         </div>
     </header>

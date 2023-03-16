@@ -5,13 +5,14 @@
     <div class="rodape__item">
         <h2 class="rodape__titulo">Notícias</h2>
         <p class="rodape__texto"><a href="/blog">Notícias</a></p>
-        <p class="rodape__texto"><a href="/jornal">Jornal ASSEM</a></p>
+
     </div>
     <div class="rodape__item">
-        <h2 class="rodape__titulo">Assem</h2>
+        <h2 class="rodape__titulo">Institucional</h2>
         <p class="rodape__texto"><a href="/historia">Nossa história</a></p>
-        <p class="rodape__texto"><a href="/asd">Diretoria</a></p>
+        <p class="rodape__texto"><a href="/asd">Diretoria e coselho</a></p>
         <p class="rodape__texto"><a href="/asd">Estatuto</a></p>
+        <p class="rodape__texto"><a href="/jornal">Jornal ASSEM</a></p>
     </div>
     <div class="rodape__item">
         <h2 class="rodape__titulo">Contato</h2>
