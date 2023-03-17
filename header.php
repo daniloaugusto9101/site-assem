@@ -45,10 +45,10 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-home/logo-assem.png" class="logo__img">
                 </a>
             </div>
-            <div class="header__menu-mobile">
-                <p><a href="/">Inicio</a></p>
-                <!-- <i class="fa-solid fa-bars"></i> -->
-            </div>
+            
+            <input type="checkbox" id="header__mobile" class="header__mobile">
+            <label for="header__mobile" class="header__label">Menu</label>
+
             <nav class="nav">
 
                 <?php
@@ -59,69 +59,7 @@
                     );
                     wp_nav_menu($args);
                 ?>
-                <!-- <ul class="menu">
 
-                    <li class="menu__item">
-                        <a href="/" class="menu__link">Início</a>
-                    </li>
-
-                    <li class="menu__item">
-                        <a href="/blog" class="menu__link">Notícias</a>
-                    </li>
-
-                    <li class="menu__item">
-                        <a href="/" class="menu__link">Assem</a>
-                        
-                        <ul class="submenu">
-
-                            <li class="submenu-item">
-                                <span class="submenu-link"> </span>
-
-                                <ul class="submenu">
-                                    <li class="submenu-item">
-                                        <a href="/historia" class="submenu-link">Nossa historia</a>
-                                    </li>
-                                    <li class="submenu-item">
-                                        <a href="/asd" class="submenu-link">Diretoria e conselho</a>
-                                    </li>
-                                    <li class="submenu-item">
-                                        <a href="/asd" class="submenu-link">Estatuto</a>
-                                    </li>
-                                    <li class="submenu-item">
-                                        <a href="/asd" class="submenu-link">Jornal ASSEM</a>
-                                    </li>
-                                </ul>
-
-                            </li>
-
-                            <li class="submenu-item">
-                                <span class="submenu-link">Associado</span>
-                                <ul class="submenu">
-                                    <li class="submenu-item">
-                                        <a href="/historia" class="submenu-link">Espaços e lazer</a>
-                                    </li>
-                                    <li class="submenu-item">
-                                        <a href="/asd" class="submenu-link">Escolhinhas e atividades</a>
-                                    </li>
-                                    <li class="submenu-item">
-                                        <a href="/asd" class="submenu-link">Convênio médico</a>
-                                    </li>
-                                    <li class="submenu-item">
-                                        <a href="/asd" class="submenu-link">Clube de desconto</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                        </ul>
-
-                    </li>
-                    <li class="menu__item">
-                        <a href="/contato" class="menu__link">Contato</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="/associar" class="menu__link">Fique Sócio</a>
-                    </li>
-                </ul> -->
             </nav>
         </div>
     </header>

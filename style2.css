@@ -113,12 +113,6 @@ img {
 .header__container-home {
   background-color: transparent;
 }
-.header__menu-mobile {
-  cursor: pointer;
-  color: #fff;
-  font-size: 1.8em;
-  text-transform: uppercase;
-}
 .header .logo {
   height: 100px;
   width: 100px;
@@ -129,7 +123,13 @@ img {
   height: 100%;
   object-fit: contain;
 }
-.header__menu-mobile {
+.header__mobile {
+  display: none;
+}
+.header__label {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
   display: none;
 }
 .header .menu {
@@ -820,37 +820,43 @@ img {
     height: 30px;
     width: 30px;
   }
-  .header .dropdown__link {
-    padding: 20px;
-    font-size: 1.2em;
-  }
-  .header .dropdown__submenu {
-    width: 250px;
-    position: absolute;
-    padding: 10px;
-    left: 50%;
-    top: 65px;
-  }
-  .header .dropdown__submenu-link {
-    font-size: 1em;
-  }
 
   .destaque__slide-textos {
     margin: 0 0 60px 10px;
   }
 }
 @media (max-width: 768px) {
-  .header {
-    position: static;
-  }
-  .header__menu-mobile {
-    display: block;
-  }
   .header__container {
     background-color: #363756;
   }
+  .header__label {
+    display: initial;
+    font-size: 1.8em;
+  }
   .header .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
     display: none;
+  }
+  .header .nav .menu li {
+    width: 100%;
+  }
+  .header .nav .menu li ul {
+    position: relative;
+    width: 100%;
+  }
+  .header .nav .menu li ul li {
+    background-color: #eee;
+  }
+  .header .nav .menu li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+  .header__mobile:checked ~ .nav {
+    display: initial;
   }
 
   .destaque__slide {

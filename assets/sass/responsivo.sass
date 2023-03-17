@@ -7,18 +7,6 @@
         .logo
             height: 30px
             width: 30px
-        .dropdown
-            &__link
-                padding: 20px
-                font-size: 1.2em
-            &__submenu
-                width: 250px
-                position: absolute
-                padding: 10px
-                left: 50%
-                top: 65px
-                &-link
-                    font-size: 1em
     .destaque
         &__slide
             &-textos
@@ -26,13 +14,31 @@
 
 @media (max-width: 768px)
     .header
-        position: static
-        &__menu-mobile
-            display: block
         &__container
             background-color: variables.$primeira-cor
+        &__label
+            display: initial
+            font-size: 1.8em
         .nav
+            position: absolute
+            top: 100%
+            left: 0
+            right: 0
+            background-color: #fff
             display: none
+            .menu
+                li
+                    width: 100%                            
+                    ul
+                        position: relative
+                        width: 100%
+                        li
+                            background-color: #eee
+                            ul
+                                width: 100%
+                                left: 0
+        &__mobile:checked ~ .nav
+            display: initial         
 
     .destaque
         &__slide
