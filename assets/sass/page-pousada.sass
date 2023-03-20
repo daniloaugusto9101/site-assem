@@ -1,0 +1,87 @@
+@use 'variables'
+
+body
+    // background-color: red
+
+.pgPousada
+   width: 100%
+   margin-top: 150px
+
+
+   &__tituloHr
+      text-align: center
+      margin-bottom: 50px  
+    
+   .swiper     
+      &-slide 
+         text-align: center
+         font-size: 18px
+         background: #fff
+         display: flex
+         justify-content: center
+         align-items: center
+
+      &-slide img
+         display: block
+         width: 100%
+         height: 100%
+         object-fit: cover
+ 
+   &__mySwiper2
+      .swiper-slide 
+         height: 450px
+
+   &__mySwiper     
+      box-sizing: border-box
+      padding: 10px 0
+
+      .swiper-slide 
+         width: 25%
+         height: 100px
+         opacity: 0.4
+
+      .swiper-slide-thumb-active 
+         opacity: 1
+      
+   &__descricao
+      // background-color: red
+      margin-top: 200px
+      display: grid
+      grid-template-columns: 1fr 2fr
+      gap: 10px
+      &-img
+         display: block
+         width: 100%
+         height: 100%
+         object-fit: cover
+      &-texto
+         font-size: 1.3em
+         color: variables.$cor-texto
+         display: flex
+         flex-direction: column
+         gap: 20px
+   
+   &__servicos
+      margin-top: 200px
+      display: flex
+      flex-direction: column
+      flex-wrap: wrap
+      max-height: 500px
+
+      gap: 10px
+      // grid-template-columns: repeat(3, 1fr)
+      
+      &-item
+         width: 400px
+         & > i
+            font-size: 1.3em
+            color: variables.$primeira-cor-dark
+         & > span          
+            font-size: 1.3em
+            color: variables.$primeira-cor-dark
+         li > i
+            color: variables.$quinta-cor
+
+    
+    
+    
