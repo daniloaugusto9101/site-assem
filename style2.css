@@ -870,25 +870,29 @@ img {
 }
 .pgPousada__servicos {
   margin-top: 200px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 .pgPousada__servicos-item {
-  width: 400px;
+  margin-bottom: 30px;
 }
-.pgPousada__servicos-item > i {
-  font-size: 1.3em;
+.pgPousada__servicos-titulo {
+  margin-bottom: 10px;
+  font-size: 1.5em;
   color: #252646;
 }
-.pgPousada__servicos-item > span {
-  font-size: 1.3em;
-  color: #252646;
+.pgPousada__servicos-lista li {
+  margin-bottom: 5px;
 }
-.pgPousada__servicos-item li > i {
+.pgPousada__servicos-lista i {
   color: #2b7e28;
+}
+.pgPousada__servicos-lista span {
+  color: #4E4E4E;
+}
+.pgPousada__servicos-lista span:first-letter {
+  text-transform: capitalize;
 }
 
 @media (max-width: 1280px) {
