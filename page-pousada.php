@@ -102,6 +102,18 @@
                <div class="pgPousada__servicos">                              
                
                   <div class="pgPousada__servicos-col">
+                  <ul class="pgPousada__servicos-item">
+                        <div class="pgPousada__servicos-titulo">
+                           <i class="fa-solid fa-file"></i>
+                           <spa>Regulamento</span>
+                        </div>
+                        <div class="pgPousada__servicos-lista">
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span class="teste">Regulamento da Pousada <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/arquivos/regulamento-clube.pdf" target="__blanck">aqui</a></span>
+                           </li>
+                        </div>
+                     </ul>
                      <ul class="pgPousada__servicos-item">
                         <div class="pgPousada__servicos-titulo">
                            <i class="fa-solid fa-sack-dollar"></i>
