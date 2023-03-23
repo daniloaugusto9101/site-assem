@@ -13,7 +13,6 @@
     
                     <div class="swiper-slide destaque__slide">
                         <img class="destaque__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/sede.jpg" alt="">
-
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Sede</h2>
                             <p class="destaque__slide-subtitulo">Amplo e acolhedor</p>
@@ -98,7 +97,7 @@
                         echo '<div class="noticias__item">
                                 <div>
                                     <a href="'.get_permalink().'">
-                        <img class="noticias__item-img" src="' . esc_url( get_field( 'thumbnail_materia' ) ) . '">
+                                    <img class="noticias__item-img" src="' . esc_url( get_field('thumbnail_materia' ) ) . '">
                                     </a>
                                 </div>
                                 <div class="noticias__item-texto">

@@ -86,25 +86,15 @@
                </div>
                
                <div class="pgPousada__descricao">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada.jpg" alt="" class="pgPousada__descricao-img">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (1).jpeg" class="pgPousada__descricao-img"/>
+
                   <div class="pgPousada__descricao-texto">
                      <p>
                         Bem-vindo à nossa Pousada! Localizada em uma área tranquila, ela oferece um refúgio perfeito para quem busca paz, conforto e relaxamento.
                      </p>
                      <p>
-                        Com quartos espaçosos e aconchegantes, equipados com todas as comodidades que você precisa para se sentir em casa, nossa pousada é ideal para quem deseja desfrutar de uma estadia confortável e tranquila. Oferecemos uma variedade de opções de acomodação, desde quartos para casais até suítes para famílias e grupos maiores.
+                        Com quartos espaçosos e aconchegantes, equipados com todas as comodidades que você precisa para se sentir em casa, nossa pousada é ideal para quem deseja desfrutar de uma estadia confortável e tranquila. Não perca a oportunidade de desfrutar de uma estadia inesquecível em nossa pousada. Entre em contato conosco agora mesmo e faça sua reserva!
                      </p>
-                        
-                     <p>
-                        Além disso, nossa pousada conta com uma piscina ao ar livre, perfeita para se refrescar em dias quentes, e uma área de lazer com jogos e atividades para toda a família.
-                     </p>
-                     <p>
-                        E para completar sua estadia, nossa pousada oferece um delicioso café da manhã com opções de pratos quentes e frios, preparados com ingredientes frescos e locais.
-                     </p>
-                     <p>
-                        Não perca a oportunidade de desfrutar de uma estadia inesquecível em nossa pousada. Entre em contato conosco agora mesmo e faça sua reserva!
-                     </p>                 
-
                   </div>
             
                </div>
@@ -115,12 +105,12 @@
                      <ul class="pgPousada__servicos-item">
                         <div class="pgPousada__servicos-titulo">
                            <i class="fa-solid fa-sack-dollar"></i>
-                           <span>Valores da diária por pessoa</span>
+                           <spa>Valores da diária por pessoa</span>
                         </div>
                         <div class="pgPousada__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Sócio adulto: R$ 84</span>
+                              <span class="teste">Sócio adulto: R$ 84</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -164,7 +154,7 @@
                      <ul class="pgPousada__servicos-item">
                         <div class="pgPousada__servicos-titulo">
                            <i class="fa-solid fa-credit-card"></i>
-                           <span>Formas de pagamentos</span>
+                           <span>Pagamentos da reserva</span>
                         </div>
                         <div class="pgPousada__servicos-lista">
                            <li>
@@ -278,15 +268,11 @@
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>lavanderia (custo adicional)</span>
+                              <span>lavanderia</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>guarda sol  (custo adicional)</span>
-                           </li>
-                           <li>
-                              <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>próximo a mercados</span>
+                              <span>guarda sol</span>
                            </li>
                         </div>
                      </ul>                     
@@ -307,11 +293,7 @@
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Cama extra</span>
-                           </li>
-                           <li>
-                              <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Shampoo e sabonete</span>
+                              <span>sabonete</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -323,7 +305,7 @@
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Coberto</span>
+                              <span>Cobertor</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -337,6 +319,10 @@
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Secador de cabelo</span>
+                           </li>
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>armários com cabide</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -396,7 +382,23 @@
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Jogos de dama, baralho, xadrez e dominó</span>
+                           </li>
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>TV Smart</span>
+                           </li>
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Micro-ondas</span>
+                           </li>
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Bebedouro</span>
+                           </li>
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Mesas para alimentação</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -416,6 +418,14 @@
                         </div>
                         
                         <div class="pgPousada__servicos-lista">
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Sorvetes</span>
+                           </li>
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Açaí</span>
+                           </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Água</span>

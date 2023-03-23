@@ -43,11 +43,12 @@ body
          opacity: 1
 
    &__descricao
-      // background-color: red
-      margin-top: 200px
+      max-width: 800px
+      margin: 0 auto
+      margin-top: 100px
       display: grid
-      grid-template-columns: 1fr 2fr
-      gap: 10px
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+      gap: 30px
       &-img
          display: block
          width: 100%
@@ -61,9 +62,9 @@ body
          gap: 20px
 
    &__servicos
-      margin-top: 200px
+      margin-top: 100px
       display: grid
-      grid-template-columns: repeat(3, 1fr)
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
       gap: 10px
       &-item
          margin-bottom: 30px
@@ -77,6 +78,6 @@ body
          i
             color: variables.$quinta-cor
          span
-            color: variables.$cor-texto            
-            &:first-letter
-               text-transform: capitalize
+            color: variables.$cor-texto
+
+
