@@ -74,3 +74,14 @@ let atividades__swiper = new Swiper(".atividades__swiper", {
       swiper: swiper,
     },
   });
+
+  var pgAtividades_swiper = new Swiper(".pgAtividades_swiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });

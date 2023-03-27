@@ -619,7 +619,8 @@ img {
   margin: 50px 0;
 }
 .pgNoticias__content p {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  line-height: 1.2;
   color: #4E4E4E;
   margin-bottom: 20px;
 }
@@ -1030,6 +1031,159 @@ img {
 }
 .pgContato__local-tel {
   font-size: 1.1em;
+}
+
+.pgAtividades {
+  width: 100%;
+  margin-top: 120px;
+}
+.pgAtividades__banner {
+  max-width: 1990px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.pgAtividades__banner-titulo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 4em;
+  font-weight: 800;
+  padding-left: 20px;
+}
+.pgAtividades__banner-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pgAtividades__descricao {
+  padding: 10px;
+  margin: 100px auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 900px;
+  color: #4E4E4E;
+}
+.pgAtividades__descricao-img {
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+.pgAtividades__descricao-col {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.pgAtividades__descricao-titulo {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+.pgAtividades__descricao-texto {
+  font-size: 1.3em;
+}
+.pgAtividades__descricao-texto p {
+  margin-bottom: 10px;
+}
+.pgAtividades__fotos {
+  max-width: 1990px;
+  margin: 0 auto;
+  padding: 10px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas: "item1 item1 item2 item3" "item1 item1 item6 item3" "item4 item5 item6 item3" "item4 item5 item7 item7";
+  grid-auto-rows: 150px;
+  margin-bottom: 100px;
+}
+.pgAtividades__fotos-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cove;
+}
+.pgAtividades__fotos-item:nth-child(1) {
+  grid-area: item1;
+}
+.pgAtividades__fotos-item:nth-child(2) {
+  grid-area: item2;
+}
+.pgAtividades__fotos-item:nth-child(3) {
+  grid-area: item3;
+}
+.pgAtividades__fotos-item:nth-child(4) {
+  grid-area: item4;
+}
+.pgAtividades__fotos-item:nth-child(5) {
+  grid-area: item5;
+}
+.pgAtividades__fotos-item:nth-child(6) {
+  grid-area: item6;
+}
+.pgAtividades__fotos-item:nth-child(7) {
+  grid-area: item7;
+}
+.pgAtividades__depoimentos {
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+.pgAtividades__depoimentos-container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+.pgAtividades__depoimentos-header {
+  margin-bottom: 40px;
+}
+.pgAtividades__depoimentos-title {
+  text-align: center;
+}
+.pgAtividades__depoimentos-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 50px 100px;
+}
+.pgAtividades__depoimentos-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #4E4E4E;
+}
+.pgAtividades__depoimentos-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.pgAtividades__depoimentos-card p {
+  text-align: center;
+}
+.pgAtividades__depoimentos-card p:nth-child(2) {
+  font-weight: 800;
+}
+.pgAtividades__horarios {
+  height: 500px;
+}
+.pgAtividades__horarios .swiper {
+  width: 100%;
+  height: 100%;
+}
+.pgAtividades__horarios .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pgAtividades__horarios .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 @media (max-width: 1280px) {
