@@ -12,16 +12,7 @@
                 <div class="swiper-wrapper">
     
                     <div class="swiper-slide destaque__slide">
-                        <img class="destaque__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/sede.jpg" alt="">
-                        <div class="destaque__slide-textos">
-                            <h2 class="destaque__slide-titulo">Sede</h2>
-                            <p class="destaque__slide-subtitulo">Amplo e acolhedor</p>
-                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide destaque__slide">
-                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/pousada.jpg" alt="">
+                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/pousada.webp" alt="">
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Pousada Litoral</h2>
                             <p class="destaque__slide-subtitulo">Experiência e conforto</p>
@@ -30,7 +21,16 @@
                     </div>
 
                     <div class="swiper-slide destaque__slide">
-                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/clube.jpg" alt="">
+                        <img class="destaque__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede.webp" alt="">
+                        <div class="destaque__slide-textos">
+                            <h2 class="destaque__slide-titulo">Sede</h2>
+                            <p class="destaque__slide-subtitulo">Amplo e acolhedor</p>
+                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
+                        </div>  
+                    </div>
+
+                    <div class="swiper-slide destaque__slide">
+                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/clube.webp" alt="">
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Clube de Campo</h2>
                             <p class="destaque__slide-subtitulo">Diversão e alegria</p>
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide destaque__slide">
-                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/atividade.jpg" alt="">
+                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividade.webp" alt="">
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Atividades</h2>
                             <p class="destaque__slide-subtitulo">Energia e bem estar</p>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide destaque__slide">
-                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/convenio.jpg" alt="">
+                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/convenio.webp" alt="">
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Convênio médico</h2>
                             <p class="destaque__slide-subtitulo">Sáude e longevidade</p>
@@ -188,25 +188,34 @@
         <div class="swiper atividades__swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividades/musculacao.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/escolinha.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividades/escolinha.jpeg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/raia.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividades/ballet.jpeg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/ballet.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividades/dcventre.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/alongamento.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividades/hidro.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/dcventre.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividades/pilates.webp" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/hidro.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividades/violao.jpg" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/musculacao.webp" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/pilates.webp" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/urban.webp" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/violao.webp" />
                 </div>
             </div>
             <!-- <div class="swiper-pagination"></div> -->
@@ -218,7 +227,7 @@
 
         <div class="locais__banner">
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/sede.jpg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede2.webp">
             </div>
             <div></div>
             <h2 class="tituloHr">Espaço e lazer para toda família</h2>
@@ -227,16 +236,16 @@
         <div class="locais__container">
 
             <div class="locais__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/pousada.jpg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/pousada.webp">
                 <p>Pousada Litoral</p>
             </div>
             <div class="locais__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/sede.jpg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede2.webp">
                 <p>Sede</p>
             </div>
             <div class="locais__item">
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/destaque/clube.jpg">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/clube.webp">
                 </div>
                 <p>Clube de Campo</p>
             </div>
@@ -248,9 +257,9 @@
         <div class="container chamada__container">
             <div class="chamada__col">
                 <div class="chamada__imagens">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede2.jpg" alt="" class="chamada__img">    
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/compras.webp" alt="" class="chamada__img">    
                     <div class="chamada__img"></div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede2.jpg" alt="" class="chamada__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/compras.webp" alt="" class="chamada__img">
                 </div>
             </div>
             <div class="chamada__col">
