@@ -10,7 +10,6 @@
     <div class="rodape__item">
         <h2 class="rodape__titulo">Institucional</h2>
         <p class="rodape__texto"><a href="/historia">Nossa história</a></p>
-        <p class="rodape__texto"><a href="/asd">Diretoria e coselho</a></p>
         <p class="rodape__texto"><a href="/asd">Estatuto</a></p>
         <p class="rodape__texto"><a href="/jornal">Jornal ASSEM</a></p>
     </div>

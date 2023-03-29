@@ -6,7 +6,7 @@
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
     <div class="pgExecutiva">
-        <div class="container pgExecutiva__container">
+        <div class="container">
             <!-- <div class="pgExecutiva__header">
                 <img src="assets/img/carnaval.jpg" alt="" class="pgNoticias__img">
             </div> -->
@@ -15,6 +15,17 @@
                 Diretoria executiva
             </h1>
 
+            <div class="pgExecutiva__presidente">
+                <div class="pgExecutiva__presidente-avatar">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/roberto.webp" class="pgExecutiva__avatar-img">
+                </div>
+                <div class="pgExecutiva__presidente-depoimento">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellendus nemo qui ex nisi veritatis voluptatibus dolorum officiis unde suscipit odio labore ad, sunt beatae, asperiores commodi incidunt aliquam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti animi earum ipsam molestias vitae perspiciatis mollitia blanditiis sint. Delectus culpa laudantium perspiciatis ipsum dolores perferendis sint omnis hic quibusdam!"</p>
+                    <p>Roberto Rocha Brandão</p>
+                    <p>Presidente</p>
+                </div>
+            </div>
+
             <div class="pgExecutiva__content-header">
                 <h2 class="pgExecutiva__subtitulo">Diretoria</h2>
             </div>
@@ -22,19 +33,8 @@
                 <div class="pgExecutiva__content-col">
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/roberto.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/1-tesoureiro.webp" class="pgExecutiva__avatar-img">
 
-                        <div class="pgExecutiva__avatar-texto">
-                            <p>Roberto Rocha Brandão</p>
-                            <p>Presidente</p>
-                        </div>
-
-                    </div> 
-                </div>
-                <div class="pgExecutiva__content-col">
-                    <div class="pgExecutiva__avatar">
-
-                        <img src="assets/img/executiva/1-tesoureiro.jpeg" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Benedito Sérgio Teixeira</p>
@@ -44,17 +44,20 @@
                     </div> 
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/2-tesoureiro.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/2-tesoureiro.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Flávio Carlos dos Santos</p>
                             <p>2ª Tesoureiro</p>
                         </div>
 
-                    </div>      
+                    </div> 
+                </div>
+                <div class="pgExecutiva__content-col">
+     
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/1-secretaria.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/1-secretaria.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Eliane Milanez da Cunha</p>
@@ -64,7 +67,7 @@
                     </div>      
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/2-secretaria.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/2-secretaria.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Fatima Regina da Silva</p>
@@ -82,7 +85,8 @@
                 <div class="pgExecutiva__content-col">
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-social.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-social.webp" class="pgExecutiva__avatar-img">
+
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Silvia Maria Tegão Alcalde Leite</p>
@@ -92,7 +96,7 @@
                     </div>      
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-fisicas.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-fisicas.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>José Valter de Andrade</p>
@@ -102,7 +106,7 @@
                     </div>      
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-esportes.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-esportes.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Nilton Marcos Pires</p>
@@ -112,7 +116,7 @@
                     </div>      
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-compras.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-compras.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>José Rubens Cardoso de Morais</p>
@@ -122,7 +126,7 @@
                     </div>      
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-parcerias.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-parcerias.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Daniel José de Siqueira</p>
@@ -135,7 +139,7 @@
                 <div class="pgExecutiva__content-col">
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-social2.jpeg" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-social2.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Maria Aparecida de Souza Teixeira</p>
@@ -145,7 +149,7 @@
                     </div> 
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-informatica.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-informatica.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Ricardo de Oliveira Bruni</p>
@@ -155,7 +159,7 @@
                     </div>      
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-clube.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-clube.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Wanderlei Martins</p>
@@ -165,7 +169,7 @@
                     </div>     
                     <div class="pgExecutiva__avatar">
 
-                        <img src="assets/img/executiva/dp-pousada.png" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-pousada.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Waldery Teixeira</p>

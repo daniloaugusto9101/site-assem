@@ -10,6 +10,14 @@
 
             <div class="swiper destaque__swiper">
                 <div class="swiper-wrapper">
+                <div class="swiper-slide destaque__slide">
+                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/clube.webp" alt="">
+                        <div class="destaque__slide-textos">
+                            <h2 class="destaque__slide-titulo">Clube de Campo</h2>
+                            <p class="destaque__slide-subtitulo">Diversão e alegria</p>
+                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
+                        </div>
+                    </div>
     
                     <div class="swiper-slide destaque__slide">
                         <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/pousada.webp" alt="">
@@ -29,14 +37,7 @@
                         </div>  
                     </div>
 
-                    <div class="swiper-slide destaque__slide">
-                        <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/clube.webp" alt="">
-                        <div class="destaque__slide-textos">
-                            <h2 class="destaque__slide-titulo">Clube de Campo</h2>
-                            <p class="destaque__slide-subtitulo">Diversão e alegria</p>
-                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
-                        </div>
-                    </div>
+
                     <div class="swiper-slide destaque__slide">
                         <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/atividade.webp" alt="">
                         <div class="destaque__slide-textos">
@@ -147,15 +148,15 @@
         <div class="container chamada__container">
             <div class="chamada__col">
                 <div class="chamada__imagens">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede2.jpg" alt="" class="chamada__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/associar.webp" alt="" class="chamada__img">
                     <div class="chamada__img"></div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede2.jpg" alt="" class="chamada__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/associar.webp" alt="" class="chamada__img">
                 </div>
             </div>
             <div class="chamada__col">
                 <h2 class="tituloHr">Por que me associar?</h2>
                 <p class="chamada__texto">
-                Junte-se a nós, como associado, você terá acesso a uma variedade de atividades e eventos emocionantes, ter experiência e divesão com nossa Pousada e Clube de Campo.  Não perca mais tempo, torne-se um associado hoje mesmo
+                Junte-se a nós, como associado, você terá acesso a uma variedade de atividades e eventos emocionantes, ter experiência e diversão com nossa Pousada e Clube de Campo.  Não perca mais tempo, torne-se um associado hoje mesmo
                 </p>
                 <a href="/associar" class="btn chamada__btn">Saiba mais</a>
             </div>
@@ -168,9 +169,9 @@
         <div class="container chamada__container chamada__container--inverso">
             <div class="chamada__col">
                 <div class="chamada__imagens">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/convenios.jpg" alt="" class="chamada__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/convenio2.webp" alt="" class="chamada__img">
                     <div class="chamada__img"></div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/convenios.jpg" alt="" class="chamada__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/convenio2.webp" alt="" class="chamada__img">
                 </div>
             </div>
             <div class="chamada__col chamada__col">
@@ -227,7 +228,7 @@
 
         <div class="locais__banner">
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede2.webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede.webp">
             </div>
             <div></div>
             <h2 class="tituloHr">Espaço e lazer para toda família</h2>
@@ -240,7 +241,7 @@
                 <p>Pousada Litoral</p>
             </div>
             <div class="locais__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede2.webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede.webp">
                 <p>Sede</p>
             </div>
             <div class="locais__item">
@@ -253,7 +254,7 @@
         <a href="/locais" class="btn locais__btn">Saiba mais</a>
     </div>
 
-    <div class="chamada">
+    <div class="chamada chamada__desconto">
         <div class="container chamada__container">
             <div class="chamada__col">
                 <div class="chamada__imagens">

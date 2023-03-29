@@ -9,13 +9,13 @@
          
          <div class="pgAtividades__banner">
             <h1 class="pgAtividades__banner-titulo">Atividades físicas <br>e escolinhas</h1>    
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/banner.jpg" class="pgAtividades__banner-img"/>    
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/banner.webp" class="pgAtividades__banner-img"/>    
          </div>
 
          <div class="pgAtividades__descricao">
             <div class="pgAtividades__descricao-col">
                <div class="pgAtividades__descricao-bg"></div>
-               <img src="https://media.moneytimes.com.br/uploads/2022/02/preio-giratorio-2.jpg" class="pgAtividades__descricao-img"/> 
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/academia.webp"  class="pgAtividades__descricao-img"/> 
             </div>
             <div class="pgAtividades__descricao-col">
                <h2 class="pgAtividades__descricao-titulo">Atividades para todas a família</h2>
@@ -28,25 +28,25 @@
 
          <div class="pgAtividades__fotos">
             <div class="pgAtividades__fotos-item">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/ballet.jpeg" class="pgAtividades__fotos-img"/>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/ballet.webp" class="pgAtividades__fotos-img"/>
             </div>
             <div class="pgAtividades__fotos-item">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/banner.jpg" class="pgAtividades__fotos-img"/>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/banner.webp" class="pgAtividades__fotos-img"/>
             </div>
             <div class="pgAtividades__fotos-item">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/dcventre.jpg" class="pgAtividades__fotos-img"/>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/dcventre.webp" class="pgAtividades__fotos-img"/>
             </div>
             <div class="pgAtividades__fotos-item">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/escolinha.jpeg" class="pgAtividades__fotos-img"/>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/escolinha.webp" class="pgAtividades__fotos-img"/>
             </div>
             <div class="pgAtividades__fotos-item">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/hidro.jpg" class="pgAtividades__fotos-img"/>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/hidro.webp" class="pgAtividades__fotos-img"/>
             </div>
             <div class="pgAtividades__fotos-item">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/musculacao.jpg" class="pgAtividades__fotos-img"/>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/musculacao.webp" class="pgAtividades__fotos-img"/>
             </div>
             <div class="pgAtividades__fotos-item">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/violao.jpg" class="pgAtividades__fotos-img"/>
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/violao.webp" class="pgAtividades__fotos-img"/>
             </div>
 
          </div>
@@ -61,17 +61,17 @@
                <div class="pgAtividades__depoimentos-body">
             
                   <div class="pgAtividades__depoimentos-card">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.jpg" />
+                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.webp" />
                      <p>Joao Augusto</p>
                      <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt perferendis repellendus totam distinctio odit, dolore quaerat, dolores molestiae eligendi."</p>
                   </div>
                   <div class="pgAtividades__depoimentos-card">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.jpg" />
+                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.webp" />
                      <p>Joao Augusto</p>
                      <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt perferendis repellendus totam distinctio odit, dolore quaerat, dolores molestiae eligendi."</p>
                   </div>
                   <div class="pgAtividades__depoimentos-card">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.jpg" />
+                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.webp" />
                      <p>Joao Augusto</p>
                      <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt perferendis repellendus totam distinctio odit, dolore quaerat, dolores molestiae eligendi."</p>
                   </div>
@@ -84,10 +84,10 @@
             <div class="swiper pgAtividades_swiper">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/hoarios.jpg" />
+                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/horarios.webp" />
                   </div>
                   <div class="swiper-slide">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/hoarios.jpg" />
+                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/horarios.webp" />
                   </div>
                </div>
                <div class="swiper-button-next"></div>

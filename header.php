@@ -13,6 +13,9 @@
         rel="stylesheet">
     <!-- Fim Font Google -->
 
+
+    <link rel="shortcut icon" type="image/jpg" href="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/logo.ico"/>
+
     <!-- Inicio Link CDN Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -42,7 +45,7 @@
 
             <div class="logo">
                 <a href="/" class="logo__link">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-home/logo-assem.png" class="logo__img">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-home/logo-assem.webp" class="logo__img">
                 </a>
             </div>
             

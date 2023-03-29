@@ -363,6 +363,10 @@ img {
 .chamada {
   width: 100%;
 }
+.chamada__desconto {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
 .chamada__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -704,10 +708,40 @@ img {
 
 .pgExecutiva {
   width: 100%;
+  margin-top: 150px;
 }
 .pgExecutiva__tituloHr {
   text-align: center;
   margin: 50px 0;
+}
+.pgExecutiva__presidente {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px auto;
+  align-items: center;
+  gap: 40px;
+}
+.pgExecutiva__presidente-avatar {
+  box-shadow: 10px 10px 13px -9px #363756;
+  width: 300px;
+  height: 300px;
+}
+.pgExecutiva__presidente-avatar img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.pgExecutiva__presidente-depoimento {
+  font-size: 1.2em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgExecutiva__presidente-depoimento p:nth-child(1) {
+  margin-bottom: 20px;
+}
+.pgExecutiva__presidente-depoimento p:not(:first-child) {
+  font-weight: 800;
 }
 .pgExecutiva__content {
   display: grid;
@@ -1270,6 +1304,15 @@ img {
   }
   .pgHistoria__item-col:nth-child(2) {
     display: none;
+  }
+
+  .pgExecutiva {
+    margin-top: 100px;
+  }
+  .pgExecutiva__presidente {
+    text-align: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   .pgblog {
