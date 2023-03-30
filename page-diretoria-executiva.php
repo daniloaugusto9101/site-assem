@@ -12,7 +12,7 @@
             </div> -->
 
             <h1 class="tituloHr pgExecutiva__tituloHr">
-                Diretoria executiva
+                Diretoria Executiva
             </h1>
 
             <div class="pgExecutiva__presidente">
@@ -70,7 +70,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/2-secretaria.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Fatima Regina da Silva</p>
+                            <p>Fátima Regina da Silva</p>
                             <p>2ª Secretária</p>
                         </div>
 

@@ -1,5 +1,5 @@
 <?php
-    // Template Name: Page-historia
+    // Template Name: Page-historia 
 ?>
 
 <?php get_header(); ?>
@@ -11,8 +11,7 @@
             <h1 class="tituloHr pgHistoria__tituloHr">Nossa História</h1>
             <div class="pgHistoria__header">
                 <p>
-                    Era março de 1979, dia 23, quando um grupo de servidores idealizou um lugar que promovesse a integração
-                    dos servidores, onde pudessem se beneficiar de produtos e serviços, como lazer, saúde e descontração.
+                    Era março de 1979, dia 23, quando um grupo de servidores idealizou um lugar que promovesse a integração da categoria, onde pudessem se beneficiar de produtos e serviços, como lazer, saúde e entreterimento.
                 </p>
                 <p>
                     Nesta data, nascia a ASSEM – a Associação dos Servidores Municipais de São José dos Campos, sob a
@@ -29,7 +28,7 @@
                         <div>
                             <h2 class="pgHistoria__item-titulo">1979</h2>
                             <p class="pgHistoria__item-texto">
-                                Nasce a ASSEM. A Sede Social passa a operar numa sala comercial, no Vip Center, região central de São José.
+                                Nasce a ASSEM. A Sede Social passa a operar numa sala comercial, no Vip Center, região central de São José dos Campos.
                             </p>
                         </div>
                         <div> 
@@ -67,7 +66,7 @@
                         <div>
                             <h2 class="pgHistoria__item-titulo">1980/1985</h2>
                             <p class="pgHistoria__item-texto">
-                            Começa a funcionar o primeiro clube de campo (junto a área do seminário na Av. São João).
+                            Começa a funcionar o primeiro clube de campo (junto a área do seminário, na Av. São João).
                             </p>
                         </div>
                         <div> 
@@ -86,7 +85,7 @@
                         <div>
                             <h2 class="pgHistoria__item-titulo">1986</h2>
                             <p class="pgHistoria__item-texto">
-                            A Prefeitura adquire o Clube de Campo no Bom Retiro e cede para a ASSEM.
+                            A Prefeitura adquire o Clube de Campo, no Bom Retiro e cede o imóvel para a ASSEM.
                             </p>
                         </div>
                         <div> 
@@ -124,7 +123,7 @@
                         <div>
                             <h2 class="pgHistoria__item-titulo">1995</h2>
                             <p class="pgHistoria__item-texto">
-                            Sede própria é comprada na Rua Conselheiro Rodrigues Alves, nº 190, na Vila Santa Luzia
+                            Sede própria é comprada na Rua Conselheiro Rodrigues Alves, nº 190, na Vila Santa Luzia.
                             </p>
                         </div>
                         <div> 
@@ -162,7 +161,7 @@
                         <div>
                             <h2 class="pgHistoria__item-titulo">2006</h2>
                             <p class="pgHistoria__item-texto">
-                            ASSEM adquire uma Pousada em Caraguatatuba, no litoral norte de SP
+                            ASSEM adquire uma pousada, em Caraguatatuba, no Litoral Norte de SP.
                             </p>
                         </div>
                         <div> 
