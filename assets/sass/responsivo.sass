@@ -68,12 +68,23 @@
                 grid-template-rows: 220px
     
     .pgHistoria
+        &__header
+            margin-bottom: 50px
+            font-size: 1.3em
         &__item
             grid-template-columns: 1fr
-            grid-template-rows: 250px
+            margin-bottom: 100px
+            // border: 1px solid black
+            
+            &:nth-child(even) 
+                & > div:nth-child(1)    
+                    // order: -1
+                    & > div:nth-child(1)
+                        order: -1
             &-col
-                &:nth-child(2)
-                    display: none
+                grid-template-columns: 1fr
+                gap: 5px
+
     .pgExecutiva
         margin-top: 100px
         &__presidente
