@@ -783,6 +783,88 @@ img {
   font-size: 0.8em;
 }
 
+.pgFiscal {
+  width: 100%;
+  margin-top: 150px;
+}
+.pgFiscal__tituloHr {
+  text-align: center;
+  margin: 50px 0;
+}
+.pgFiscal__presidente {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px auto;
+  align-items: center;
+  gap: 40px;
+}
+.pgFiscal__presidente-avatar {
+  box-shadow: 10px 10px 13px -9px #363756;
+  width: 300px;
+  height: 300px;
+}
+.pgFiscal__presidente-avatar img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.pgFiscal__presidente-depoimento {
+  font-size: 1.2em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgFiscal__presidente-depoimento p:nth-child(1) {
+  margin-bottom: 20px;
+}
+.pgFiscal__presidente-depoimento p:not(:first-child) {
+  font-weight: 800;
+}
+.pgFiscal__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.pgFiscal__content-header {
+  border-bottom: 1px solid #4E4E4E;
+  margin-bottom: 20px;
+}
+.pgFiscal__content-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pgFiscal__subtitulo {
+  font-size: 3em;
+  font-weight: 600;
+  color: #4E4E4E;
+  margin: 100px 0 10px 0;
+}
+.pgFiscal__avatar {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 150px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.pgFiscal__avatar-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pgFiscal__avatar-texto {
+  font-size: 1.2em;
+  color: #4E4E4E;
+}
+.pgFiscal__avatar-texto p:nth-child(1) {
+  font-size: 1.2em;
+}
+.pgFiscal__avatar-texto p:nth-child(2) {
+  font-size: 0.8em;
+}
+
 .pgblog {
   width: 100%;
   margin-top: 200px;
