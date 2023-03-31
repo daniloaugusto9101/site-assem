@@ -14,35 +14,96 @@
 
                   <div class="swiper-wrapper">
                      <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube-de-campo.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (1).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (6).jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (2).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (3).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (4).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (5).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (6).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (7).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (8).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (9).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (10).webp" />
                      </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (11).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (12).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (13).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (14).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (15).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (16).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (17).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (18).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (19).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (20).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (21).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (22).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (23).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (24).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (25).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (26).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (27).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (28).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (29).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (30).webp" />
+                     </div>
+                     
                   </div>
 
                   <div class="swiper-button-next"></div>
@@ -52,42 +113,104 @@
 
                <div thumbsSlider="" class="swiper pgClube__mySwiper">
                   <div class="swiper-wrapper">
+                    
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-                     </div>
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (1).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (2).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (3).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (4).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (5).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (6).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (7).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (8).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (9).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (10).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (11).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (12).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (13).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (14).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (15).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (16).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (17).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (18).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (19).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (20).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (21).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (22).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (23).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (24).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (25).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (26).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (27).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (28).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (29).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (30).webp" />
+                        </div>
+
                   </div>
                </div>
                
                <div class="pgClube__descricao">
      
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube-de-campo.jpg" class="pgClube__descricao-img"/>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube.webp" class="pgClube__descricao-img"/>
 
                   <div class="pgClube__descricao-texto">
                      <p>
@@ -111,7 +234,7 @@
                         <div class="pgClube__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span class="teste">Regulamento do clube <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/arquivos/regulamento-clube.pdf" target="__blanck">aqui</a></span>
+<span class="teste">Regulamento do clube <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/regulamento-clube.pdf" target="__blanck">aqui</a></span>
                            </li>
                         </div>
                      </ul>
@@ -135,11 +258,11 @@
                         <div class="pgClube__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>sócio: entrada gratuita</span>
+                              <span>Cócio: entrada gratuita</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>convidado: R$ 20 (exceto pisicna)</span>
+                              <span>Convidado: R$ 20 (exceto pisicna)</span>
                            </li>                           
                         </div>
                      </ul>
@@ -229,7 +352,7 @@
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>mesa e cadeiras</span>
+                              <span>Mesa e cadeiras</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -249,19 +372,19 @@
                         <div class="pgClube__servicos-lista"> 
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>almoço</span>
+                              <span>Almoço</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>lanche</span>
+                              <span>Lanche</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>bebidas</span>
+                              <span>Bebidas</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>sorvetes</span>
+                              <span>Sorvetes</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -318,21 +441,21 @@
                      <ul class="pgClube__servicos-item">
                         <div class="pgClube__servicos-titulo">
                            <i class="fa-solid fa-dice"></i>
-                           <span>playground</span>
+                           <span>Playground</span>
                         </div>
 
                         <div class="pgClube__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>escorregador</span>
+                              <span>Escorregador</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>escada</span>
+                              <span>Escada</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>balança</span>
+                              <span>Balança</span>
                            </li>
                         </div>
                      </ul>

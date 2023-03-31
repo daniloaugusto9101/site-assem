@@ -8,40 +8,49 @@
       <section class="pgPousada">
          
          <div class="container pgPousada__container">
-               <h1 class="tituloHr pgPousada__tituloHr">Pousada</h1>      
+               <h1 class="tituloHr pgPousada__tituloHr">Pousada Litoral</h1>      
                
                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper pgPousada__mySwiper2">
 
                   <div class="swiper-wrapper">
                      <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (1).jpeg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (0).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (6).jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (1).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (2).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (3).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (4).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (5).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (6).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (7).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (8).webp" />
                      </div>
                      <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (9).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (10).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (11).webp" />
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (12).webp" />
                      </div>
                   </div>
 
@@ -52,41 +61,50 @@
 
                <div thumbsSlider="" class="swiper pgPousada__mySwiper">
                   <div class="swiper-wrapper">
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-                     </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (0).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (1).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (2).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (3).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (4).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (5).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (6).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (7).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (8).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (9).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (10).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (11).webp" />
+                        </div>
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (12).webp" />
+                        </div>
                   </div>
                </div>
                
                <div class="pgPousada__descricao">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (1).jpeg" class="pgPousada__descricao-img"/>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada.webp" class="pgPousada__descricao-img"/>
 
                   <div class="pgPousada__descricao-texto">
                      <p>
@@ -110,7 +128,9 @@
                         <div class="pgPousada__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span class="teste">Regulamento da Pousada <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/arquivos/regulamento-clube.pdf" target="__blanck">aqui</a></span>
+                              <span class="teste">Regulamento da Pousada 
+                                 <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/regulamento-pousada.pdf" target="__blanck">aqui</a>
+                              </span>
                            </li>
                         </div>
                      </ul>
@@ -196,19 +216,19 @@
                         <div class="pgPousada__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>próxima à praia</span>
+                              <span>Próxima à praia</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>próximo a restaurantes</span>
+                              <span>Próximo a restaurantes</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>próximo a farmácias</span>
+                              <span>Próximo a farmácias</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>próximo a mercados</span>
+                              <span>Próximo a mercados</span>
                            </li>
                         </div>
                      </ul> 
@@ -264,7 +284,7 @@
                         <div class="pgPousada__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Animais de estimação: não permitidos</span>
+                              <span>Animais de estimação: <strong>não permitidos</strong></span>
                            </li>
                         </div>
                      </ul>
@@ -276,15 +296,15 @@
                         <div class="pgPousada__servicos-lista"> 
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>serviço diário de limpeza</span>
+                              <span>Serviço diário de limpeza</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>lavanderia</span>
+                              <span>Lavanderia</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>guarda sol</span>
+                              <span>Guarda sol</span>
                            </li>
                         </div>
                      </ul>                     
@@ -305,7 +325,7 @@
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>sabonete</span>
+                              <span>Sabonete</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -334,7 +354,7 @@
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>armários com cabide</span>
+                              <span>Armários com cabide</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
@@ -468,7 +488,7 @@
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Cardápio completo: clique aqui</span>
+                              <span>Cardápio completo: <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/cardapio-pousada.pdf" target="__blanck">aqui</a></span>
                            </li>
                         </div>
                      </ul>
