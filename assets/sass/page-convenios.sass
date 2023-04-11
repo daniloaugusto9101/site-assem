@@ -1,0 +1,140 @@
+@use 'variables'
+
+
+@mixin subtitulo
+    font-size: clamp(40px, 4vw, 60px)
+    font-weight: 800
+    text-transform: uppercase
+    color: variables.$cor-texto
+
+@mixin corpo-texto
+    font-size: 1.5em
+    color: variables.$cor-texto
+    line-height: 1.3
+
+@mixin container
+    max-width: 1280px
+    margin: 0 auto
+    padding: 10px
+
+@mixin grid-col2
+    @include container
+    margin-bottom: 150px
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))
+    gap: 10px 30px
+    &__col
+        display: flex
+        flex-direction: column
+        gap: 20px 0
+        justify-content: center
+        text-align: right
+    &__subtitulo
+        @include subtitulo
+    p
+        @include corpo-texto
+    &__img
+        object-fit: cover
+        max-height: 300px
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)
+
+.pgConvenios
+    width: 100%
+    max-width: 1990px   
+    margin:  120px auto
+
+    &__banner
+        height: 550px
+        margin: 0 auto
+        position: relative
+        margin-bottom: 150px
+        &-titulo
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            color: variables.$cor-texto
+            font-size: clamp(3em, 6vw, 6em)
+            font-weight: 800
+            padding-left: 20px
+        &-img
+            display: block
+            width: 100%
+            height: 100%
+            object-fit: cover        
+            
+
+    .sobre
+        @include grid-col2
+        &__col:nth-child(1)
+            text-align: left
+            // order: -1
+        &__col:nth-child(2)
+            order: -1
+
+    .operadoras
+        width: 100%
+        margin-bottom: 150px 
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: variables.$sexta-cor
+        padding: 30px 10px
+        gap: 30px
+        &__subtitulo
+            @include subtitulo
+            text-align: center
+        &__imgs
+            width: 100%
+            display: grid
+            gap: 10px
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+            grid-auto-rows: 100px
+            &-item
+                background-color: variables.$terceira-cor
+                padding: 10px
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)
+                img
+                    display: block
+                    width: 100%
+                    height: 100%
+                    object-fit: contain
+        &__btn
+            background-color: variables.$segunda-cor
+            border: none
+            color: variables.$terceira-cor
+
+    .portabilidade
+        @include grid-col2
+
+    .carencia
+        @include grid-col2
+        &__col:nth-child(1)
+            text-align: left
+            // order: -1
+        &__col:nth-child(2)
+            order: -1
+
+
+            
+            
+
+    .documentos
+        @include container
+        &__subtitulo
+            @include subtitulo
+        &__resumo
+            @include corpo-texto
+            margin-bottom: 20px
+        &__lista
+            @include corpo-texto
+            li
+                margin-bottom: 1em
+            i
+                color: variables.$quinta-cor
+
+
+
+
+
+            

@@ -50,7 +50,7 @@
                         <img class="destaque__slide-img"   src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/convenio.webp" alt="">
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Convênio médico</h2>
-                            <p class="destaque__slide-subtitulo">Sáude e longevidade</p>
+                            <p class="destaque__slide-subtitulo">Saúde e longevidade</p>
                             <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>

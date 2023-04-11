@@ -1162,6 +1162,210 @@ img {
   font-size: 1.1em;
 }
 
+.pgConvenios {
+  width: 100%;
+  max-width: 1990px;
+  margin: 120px auto;
+}
+.pgConvenios__banner {
+  height: 550px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 150px;
+}
+.pgConvenios__banner-titulo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4E4E4E;
+  font-size: clamp(3em, 6vw, 6em);
+  font-weight: 800;
+  padding-left: 20px;
+}
+.pgConvenios__banner-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pgConvenios .sobre {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px 30px;
+}
+.pgConvenios .sobre__col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  justify-content: center;
+  text-align: right;
+}
+.pgConvenios .sobre__subtitulo {
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4E4E4E;
+}
+.pgConvenios .sobre p {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgConvenios .sobre__img {
+  object-fit: cover;
+  max-height: 300px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.pgConvenios .sobre__col:nth-child(1) {
+  text-align: left;
+}
+.pgConvenios .sobre__col:nth-child(2) {
+  order: -1;
+}
+.pgConvenios .operadoras {
+  width: 100%;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9D9D9;
+  padding: 30px 10px;
+  gap: 30px;
+}
+.pgConvenios .operadoras__subtitulo {
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4E4E4E;
+  text-align: center;
+}
+.pgConvenios .operadoras__imgs {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 100px;
+}
+.pgConvenios .operadoras__imgs-item {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.pgConvenios .operadoras__imgs-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.pgConvenios .operadoras__btn {
+  background-color: #BE1016;
+  border: none;
+  color: #fff;
+}
+.pgConvenios .portabilidade {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px 30px;
+}
+.pgConvenios .portabilidade__col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  justify-content: center;
+  text-align: right;
+}
+.pgConvenios .portabilidade__subtitulo {
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4E4E4E;
+}
+.pgConvenios .portabilidade p {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgConvenios .portabilidade__img {
+  object-fit: cover;
+  max-height: 300px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.pgConvenios .carencia {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px 30px;
+}
+.pgConvenios .carencia__col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  justify-content: center;
+  text-align: right;
+}
+.pgConvenios .carencia__subtitulo {
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4E4E4E;
+}
+.pgConvenios .carencia p {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgConvenios .carencia__img {
+  object-fit: cover;
+  max-height: 300px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.pgConvenios .carencia__col:nth-child(1) {
+  text-align: left;
+}
+.pgConvenios .carencia__col:nth-child(2) {
+  order: -1;
+}
+.pgConvenios .documentos {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.pgConvenios .documentos__subtitulo {
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4E4E4E;
+}
+.pgConvenios .documentos__resumo {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+.pgConvenios .documentos__lista {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgConvenios .documentos__lista li {
+  margin-bottom: 1em;
+}
+.pgConvenios .documentos__lista i {
+  color: #2b7e28;
+}
+
 .pgAtividades {
   width: 100%;
   margin-top: 120px;
@@ -1312,6 +1516,13 @@ img {
   .pgAtividades {
     margin-top: 90px;
   }
+
+  .pgConvenios {
+    margin: 90px auto;
+  }
+  .pgConvenios__banner {
+    height: 350px;
+  }
 }
 @media (max-width: 768px) {
   .header__container {
@@ -1439,6 +1650,22 @@ img {
   }
   .pgAtividades__descricao-img {
     height: 300px;
+  }
+
+  .pgConvenios {
+    margin: 70px auto;
+  }
+  .pgConvenios .sobre__col:nth-child(1) {
+    text-align: center;
+  }
+  .pgConvenios .portabilidade__col:nth-child(1) {
+    text-align: center;
+  }
+  .pgConvenios .portabilidade__col:nth-child(2) {
+    order: -1;
+  }
+  .pgConvenios .carencia__col:nth-child(1) {
+    text-align: center;
   }
 }
 @media (max-width: 540px) {
