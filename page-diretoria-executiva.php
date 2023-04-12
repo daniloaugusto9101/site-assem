@@ -30,29 +30,7 @@
                 <h2 class="pgExecutiva__subtitulo">Diretoria</h2>
             </div>
             <div class="pgExecutiva__content">
-                <div class="pgExecutiva__content-col">
-                    <div class="pgExecutiva__avatar">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/1-tesoureiro.webp" class="pgExecutiva__avatar-img">
-
-
-                        <div class="pgExecutiva__avatar-texto">
-                            <p>Benedito Sérgio Teixeira</p>
-                            <p>1ª Tesoureiro</p>
-                        </div>
-
-                    </div> 
-                    <div class="pgExecutiva__avatar">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/2-tesoureiro.webp" class="pgExecutiva__avatar-img">
-
-                        <div class="pgExecutiva__avatar-texto">
-                            <p>Flávio Carlos dos Santos</p>
-                            <p>2ª Tesoureiro</p>
-                        </div>
-
-                    </div> 
-                </div>
                 <div class="pgExecutiva__content-col">
      
                     <div class="pgExecutiva__avatar">
@@ -75,7 +53,29 @@
                         </div>
 
                     </div>      
-                </div>                
+                </div>    
+                <div class="pgExecutiva__content-col">
+                    <div class="pgExecutiva__avatar">
+
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/1-tesoureiro.webp" class="pgExecutiva__avatar-img">
+
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Benedito Sérgio Teixeira</p>
+                            <p>1ª Tesoureiro</p>
+                        </div>
+
+                    </div> 
+                    <div class="pgExecutiva__avatar">
+
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/2-tesoureiro.webp" class="pgExecutiva__avatar-img">
+
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Flávio Carlos dos Santos</p>
+                            <p>2ª Tesoureiro</p>
+                        </div>
+
+                    </div> 
+                </div>            
             </div>
 
             <div class="pgExecutiva__content-header">
