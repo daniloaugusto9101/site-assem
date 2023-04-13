@@ -20,7 +20,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/roberto.webp" class="pgExecutiva__avatar-img">
                 </div>
                 <div class="pgExecutiva__presidente-depoimento">
-                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellendus nemo qui ex nisi veritatis voluptatibus dolorum officiis unde suscipit odio labore ad, sunt beatae, asperiores commodi incidunt aliquam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti animi earum ipsam molestias vitae perspiciatis mollitia blanditiis sint. Delectus culpa laudantium perspiciatis ipsum dolores perferendis sint omnis hic quibusdam!"</p>
+                    <p>Roberto Rocha Brandão, mais conhecido como “Montanha”, tomou posse como novo presidente da Assem, em 03 de janeiro de 2022. Como servidor público municipal, ele totalizou 39 anos de trabalho na Prefeitura, sempre no Departamento de Receita/SGAF. Ele se aposentou em janeiro de 2020. Foi Diretor de Esportes da Assem por vários anos. Faz parte também do Conselho da ASSEM e, atualmente, é também  conselheiro vitalício, de acordo com o estatuto. Ele afirmou que suas principais diretrizes, com apoio dos diretores, conselheiros  e funcionários é de executar as iniciativas, em todas as áreas (social, esportiva, administrativa, etc), sempre tendo o sócio como prioridade absoluta, que é a razão da existência da Assem.</p>
                     <p>Roberto Rocha Brandão</p>
                     <p>Presidente</p>
                 </div>
@@ -123,17 +123,7 @@
                             <p>Departamento de Compras</p>
                         </div>
 
-                    </div>      
-                    <div class="pgExecutiva__avatar">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-parcerias.webp" class="pgExecutiva__avatar-img">
-
-                        <div class="pgExecutiva__avatar-texto">
-                            <p>Daniel José de Siqueira</p>
-                            <p>Departamento de Parcerias</p>
-                        </div>
-
-                    </div>      
+                    </div>         
     
                 </div>
                 <div class="pgExecutiva__content-col">
@@ -156,17 +146,19 @@
                             <p>Departamento de Informática</p>
                         </div>
 
-                    </div>      
+                    </div>        
+
                     <div class="pgExecutiva__avatar">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-clube.webp" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-parcerias.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Wanderlei Martins</p>
-                            <p>Departamento do Clube de Campo</p>
+                            <p>Daniel José de Siqueira</p>
+                            <p>Departamento do Clube de Campo/ Parcerias</p>
                         </div>
 
-                    </div>     
+                    </div>   
+
                     <div class="pgExecutiva__avatar">
 
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-pousada.webp" class="pgExecutiva__avatar-img">

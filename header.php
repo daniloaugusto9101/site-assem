@@ -56,7 +56,7 @@
 
             <div class="logo">
                 <a href="/" class="logo__link">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-home/logo-assem.webp" class="logo__img">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-home/logo.ico" class="logo__img">
                 </a>
             </div>
             

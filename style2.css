@@ -114,8 +114,8 @@ img {
   background-color: transparent;
 }
 .header .logo {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   display: flex;
 }
 .header .logo__img {
@@ -1500,13 +1500,179 @@ img {
   gap: 10px;
 }
 
+.pgAssociar {
+  width: 100%;
+  max-width: 1990px;
+  margin: 90px auto;
+}
+.pgAssociar__banner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 100px;
+}
+.pgAssociar__container {
+  position: relative;
+  width: 80%;
+  padding-bottom: 40%;
+  background-color: tomato;
+  margin: 0 auto;
+  background-color: black;
+}
+.pgAssociar__container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.pgAssociar__sobre {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px 30px;
+}
+.pgAssociar__sobre-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  justify-content: center;
+  text-align: right;
+}
+.pgAssociar__sobre-subtitulo {
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4E4E4E;
+}
+.pgAssociar__sobre p {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgAssociar__sobre-img {
+  object-fit: cover;
+  max-height: 300px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.pgAssociar__sobre-col:nth-child(1) {
+  text-align: left;
+}
+.pgAssociar__sobre-col:nth-child(2) {
+  order: -1;
+}
+.pgAssociar__dependentes {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px 30px;
+}
+.pgAssociar__dependentes-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  justify-content: center;
+  text-align: right;
+}
+.pgAssociar__dependentes-subtitulo {
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4E4E4E;
+}
+.pgAssociar__dependentes p {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgAssociar__dependentes-img {
+  object-fit: cover;
+  max-height: 300px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.pgAssociar__vantagens {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.pgAssociar__vantagens-card {
+  background-color: #fff;
+  padding: 30px;
+  color: #363756;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.pgAssociar__vantagens-header {
+  line-height: 1.1;
+  text-align: center;
+}
+.pgAssociar__vantagens-header p:nth-child(1) {
+  font-size: 20px;
+}
+.pgAssociar__vantagens-header p:nth-child(2) {
+  font-size: 60px;
+  font-weight: 800;
+}
+.pgAssociar__vantagens-header p:nth-child(3) {
+  font-size: 15px;
+}
+.pgAssociar__vantagens-body {
+  line-height: 1.5;
+  font-size: 20px;
+}
+.pgAssociar__vantagens-body p {
+  margin-top: 10px;
+}
+.pgAssociar__documentos {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.pgAssociar__documentos-subtitulo {
+  font-size: clamp(40px, 4vw, 60px);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4E4E4E;
+}
+.pgAssociar__documentos-resumo {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+.pgAssociar__documentos-lista {
+  font-size: 1.5em;
+  color: #4E4E4E;
+  line-height: 1.3;
+}
+.pgAssociar__documentos-lista li {
+  margin-bottom: 1em;
+}
+.pgAssociar__documentos-lista i {
+  color: #2b7e28;
+}
+
 @media (max-width: 1280px) {
   .header__container {
     padding: 20px 10px;
   }
   .header .logo {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
   }
 
   .destaque__slide-textos {
@@ -1524,7 +1690,7 @@ img {
     height: 350px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .header__container {
     background-color: #363756;
   }
@@ -1557,7 +1723,8 @@ img {
   .header__mobile:checked ~ .nav {
     display: initial;
   }
-
+}
+@media (max-width: 768px) {
   .destaque__slide {
     grid-template-rows: 550px;
   }
