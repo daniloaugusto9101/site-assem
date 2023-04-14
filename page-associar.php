@@ -21,7 +21,7 @@
             </div>
 
             <div class="pgAssociar__sobre-col">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-convenios/convenios3.webp" class="pgAssociar__sobre-img"/> 
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-associar/associar.webp" class="pgAssociar__sobre-img"/> 
             </div>
          </div>
 
@@ -36,7 +36,7 @@
             </div>
 
             <div class="pgAssociar__dependentes-col">
-               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-convenios/convenios3.webp" class="pgAssociar__sobre-img"/> 
+               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-associar/familia.webp" class="pgAssociar__sobre-img"/> 
             </div>
          </div>
 
@@ -52,8 +52,8 @@
                <div class="pgAssociar__vantagens-body">
                   <ul>
                      <li>Acesso grátis ao Clube de Campo </li>
-                     <li>Ativdades Físicas* </li>
-                     <li>Esolinhas* </li>
+                     <li>Atividades Físicas* </li>
+                     <li>Escolinhas* </li>
                      <li>Eventos esportivos* </li>
                      <li>Excursões* </li>
                      <li>Convênio médico* </li>

@@ -14,8 +14,9 @@
 
                   <div class="swiper-wrapper">
                      <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (1).webp" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (0).webp" />
                      </div>
+
                      <div class="swiper-slide">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (2).webp" />
                      </div>
@@ -114,9 +115,10 @@
                <div thumbsSlider="" class="swiper pgClube__mySwiper">
                   <div class="swiper-wrapper">
                     
-                     <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (1).webp" />
+                        <div class="swiper-slide">
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (0).webp" />
                         </div>
+
                         <div class="swiper-slide">
                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/clube (2).webp" />
                         </div>

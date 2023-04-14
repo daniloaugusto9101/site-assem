@@ -17,16 +17,16 @@
             </h1>
 
             <div class="pgFiscal__content-header">
-                <h2 class="pgFiscal__subtitulo">Conselho Fiscal</h2>
+                <h2 class="pgFiscal__subtitulo">Membros efetivos</h2>
             </div>
+
             <div class="pgFiscal__content">
                 <div class="pgFiscal__content-col">
-
                     <div class="pgFiscal__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-fiscal/jose-aparecido-nunes.webp" class="pgFiscal__avatar-img">
                         <div class="pgFiscal__avatar-texto">
                             <p>José Aparecido Nunes</p>
-                            <p>Presidente</p>
+                            <!-- <p>Presidente</p> -->
                         </div>
                     </div> 
                     <div class="pgFiscal__avatar">
@@ -34,7 +34,7 @@
 
                         <div class="pgFiscal__avatar-texto">
                             <p>Maurílio Calvo Filho</p>
-                            <p>1º Membro Efetivo</p>
+                            <!-- <p>1º Membro Efetivo</p> -->
                         </div>
                     </div>          
 
@@ -42,19 +42,26 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-fiscal/sidnei-moises-ferreira.webp" class="pgFiscal__avatar-img">
                         <div class="pgFiscal__avatar-texto">
                             <p>Sidnei Moisés Ferreira</p>
-                            <p>2º Membro Efetivo</p>
+                            <!-- <p>2º Membro Efetivo</p> -->
                         </div>
-                    </div>  
-
-
+                    </div> 
                 </div>
+            </div> 
+
+
+            <div class="pgFiscal__content-header">
+                <h2 class="pgFiscal__subtitulo">Membros suplentes</h2>
+            </div>
+            
+            <div class="pgFiscal__content">
+
                 <div class="pgFiscal__content-col">
 
                     <div class="pgFiscal__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-fiscal/rita-cassia-santos-correa.webp" class="pgFiscal__avatar-img">
                         <div class="pgFiscal__avatar-texto">
                             <p>Rita de Cássia Santos Correa</p>
-                            <p>1ª Suplente</p>
+                            <!-- <p>1ª Suplente</p> -->
                         </div>
                     </div> 
 
@@ -62,7 +69,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-fiscal/manoel-gomes-satos.webp"  class="pgFiscal__avatar-img">
                         <div class="pgFiscal__avatar-texto">
                             <p>Manoel Gomes dos Santos</p>
-                            <p>2º Suplente</p>
+                            <!-- <p>2º Suplente</p> -->
                         </div>
                     </div> 
 

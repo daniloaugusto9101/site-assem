@@ -114,8 +114,8 @@ img {
   background-color: transparent;
 }
 .header .logo {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   display: flex;
 }
 .header .logo__img {
@@ -1833,6 +1833,19 @@ img {
   }
   .pgConvenios .carencia__col:nth-child(1) {
     text-align: center;
+  }
+
+  .pgAssociar {
+    margin: 70px auto;
+  }
+  .pgAssociar__sobre-col:nth-child(1) {
+    text-align: center;
+  }
+  .pgAssociar__dependentes-col:nth-child(1) {
+    text-align: center;
+  }
+  .pgAssociar__dependentes-col:nth-child(2) {
+    order: -1;
   }
 }
 @media (max-width: 540px) {
