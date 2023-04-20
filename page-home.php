@@ -32,7 +32,7 @@
                         <img class="destaque__slide-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/page-home/sede.webp" alt="">
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Sede</h2>
-                            <p class="destaque__slide-subtitulo">Amplo e acolhedor</p>
+                            <p class="destaque__slide-subtitulo">Ampla e acolhedora</p>
                             <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>  
                     </div>

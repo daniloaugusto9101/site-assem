@@ -6,7 +6,7 @@
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
       <section class="pgAtividades">       
-         
+
          <div class="pgAtividades__banner">
             <h1 class="pgAtividades__banner-titulo">Atividades físicas <br>e escolinhas</h1>    
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/banner.webp" class="pgAtividades__banner-img"/> 
@@ -84,47 +84,11 @@
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (18).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (19).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (20).webp" class="pgAtividades__avatar-img">
-               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (21).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (22).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (23).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (24).webp" class="pgAtividades__avatar-img">
             </div>
          </div>
-
-
-
-         <!-- <div class="pgAtividades__depoimentos">
-
-            <div class="pgAtividades__depoimentos-container">
-               <div class="pgAtividades__depoimentos-header">
-                  <h2 class="pgAtividades__depoimentos-title tituloHr">Depoimentos</h2>
-               </div>
-
-               <div class="pgAtividades__depoimentos-body">
-            
-                  <div class="pgAtividades__depoimentos-card">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.webp" />
-                     <p>Joao Augusto</p>
-                     <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt perferendis repellendus totam distinctio odit, dolore quaerat, dolores molestiae eligendi."</p>
-                  </div>
-                  <div class="pgAtividades__depoimentos-card">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.webp" />
-                     <p>Joao Augusto</p>
-                     <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt perferendis repellendus totam distinctio odit, dolore quaerat, dolores molestiae eligendi."</p>
-                  </div>
-                  <div class="pgAtividades__depoimentos-card">
-                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/rosto.webp" />
-                     <p>Joao Augusto</p>
-                     <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe incidunt perferendis repellendus totam distinctio odit, dolore quaerat, dolores molestiae eligendi."</p>
-                  </div>
-               </div>
-
-            </div>
-         </div> -->
-
-
-
-
       </section>
 
 

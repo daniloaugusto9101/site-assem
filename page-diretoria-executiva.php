@@ -20,7 +20,9 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/roberto.webp" class="pgExecutiva__avatar-img">
                 </div>
                 <div class="pgExecutiva__presidente-depoimento">
-                    <p>Roberto Rocha Brandão, mais conhecido como “Montanha”, tomou posse como novo presidente da Assem, em 03 de janeiro de 2022. Como servidor público municipal, ele totalizou 39 anos de trabalho na Prefeitura, sempre no Departamento de Receita/SGAF. Ele se aposentou em janeiro de 2020. Foi Diretor de Esportes da Assem por vários anos. Faz parte também do Conselho da ASSEM e, atualmente, é também  conselheiro vitalício, de acordo com o estatuto. Ele afirmou que suas principais diretrizes, com apoio dos diretores, conselheiros  e funcionários é de executar as iniciativas, em todas as áreas (social, esportiva, administrativa, etc), sempre tendo o sócio como prioridade absoluta, que é a razão da existência da Assem.</p>
+                    <p>
+                        Roberto Rocha Brandão, carinhosamente chamado “Montanha”, está no exercício da presidência da ASSEM desde janeiro de 2022, antes de ocupar o cargo já houvera sido Diretor de Esportes e também membro do Conselho Deliberativo da Associação. Aposentado do quadro de servidores públicos municipais em 2020, Roberto tem perfeita sintonia com os associados e além de dar continuidade nas ações da diretoria anterior, tem se esmerado em dotar nossos prédios de melhores estruturas para atendimento de nossos associados. Na perda da quadra de esportes de nossa sede, em razão das obras de acessibilidade, com instalação do elevador, fez edificar nova quadra em nosso Clube de Campo, com dimensões apropriadas, cobertura e iluminação, além de pintura especial, para receber nossas competições desportivas! E promete seguir fazendo mais em favor de todos! 
+                    </p>
                     <p>Roberto Rocha Brandão</p>
                     <p>Presidente</p>
                 </div>

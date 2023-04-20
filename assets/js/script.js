@@ -85,3 +85,28 @@ let atividades__swiper = new Swiper(".atividades__swiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+const efeitoClubeDesconto = () => {
+  let btn = document.querySelectorAll(".pgDesconto__menu li");
+  let pgDescontoEmpresas = document.querySelectorAll(".pgDesconto__empresas");
+
+  
+  btn.forEach(element => {
+    element.addEventListener('click', ()=>{
+      addDisplayNone()
+      let divClasse = element.dataset.value;
+      div = document.querySelector("#"+ divClasse);
+      div.style.display = 'block';
+    })
+  });
+
+  let addDisplayNone = () => {
+    pgDescontoEmpresas.forEach(element => {
+      element.style.display = 'none';
+    });
+  }
+
+}
+
+efeitoClubeDesconto();

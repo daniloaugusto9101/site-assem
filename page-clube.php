@@ -260,7 +260,7 @@
                         <div class="pgClube__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Cócio: entrada gratuita</span>
+                              <span>Sócio: entrada gratuita</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>

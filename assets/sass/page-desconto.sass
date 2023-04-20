@@ -1,0 +1,111 @@
+@use 'variables'
+
+
+.pgDesconto
+    max-width: 1990px
+    margin: 0 auto
+    // toda clase deve ser escrita após ".pdDesconto" para não sobrecrever a mesma classe em outra página
+
+    .tituloHr
+        text-align: center
+        margin-top: 150px
+    &__container
+        display: grid
+        grid-template-columns: 300px 1fr
+        gap: 10px
+    &__left
+        background-color: variables.$primeira-cor
+    &__right
+        // background-color: tomato
+        overflow: hidden
+
+    &__menu
+        display: flex
+        flex-direction: column
+        gap: 20px
+        padding: 30px 0px
+        &-item
+            display: flex
+            align-items: center
+            gap: 10px
+            cursor: pointer
+            padding: 10px 10px 10px 30px
+            position: relative
+            transition: all .1s
+            i
+                font-size: 24px
+                color: variables.$sexta-cor
+                transition: all .1s 
+
+            span
+                font-size: 20px
+                color: variables.$sexta-cor
+                transition: all .1s
+
+            &:hover:after
+                content: ''
+                position: absolute
+                bottom: 0
+                top: 0
+                left: 0
+                width: 7px
+                height: 100%
+                background-color: white
+            &:hover i, span
+                color: variables.$terceira-cor
+    
+    &__empresas
+        animation-name: slideFromRight
+        animation-duration: 800ms
+        &:not(:first-child)
+            display: none
+
+    @keyframes slideFromRight 
+        0% 
+            transform: translateX(100%)
+        100% 
+            transform: translateX(0)
+
+    &__card
+        background-color: variables.$terceira-cor
+        display: grid
+        grid-template-columns:  150px 1fr
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)
+        padding: 10px
+        gap: 10px
+        margin-bottom: 10px
+        border-left: 5px solid variables.$primeira-cor
+        &-col:nth-child(2)
+            display: flex
+            flex-direction: column
+            justify-content: center
+            gap: 10px            
+        &-img
+            object-fit: contain
+            max-height: 200px
+        &-empresa
+            // background-color: tomato
+            font-size: 18px
+            color: variables.$cor-texto
+            display: flex
+            flex-direction: column
+            gap: 5px
+            line-height: 1.1
+
+        &-social
+            display: flex
+            gap: 10px
+            font-size: 18px
+            color: variables.$cor-texto
+            a
+                color: variables.$cor-texto
+                &:hover
+                    color: variables.$segunda-cor
+
+
+
+
+
+
+
+

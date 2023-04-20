@@ -76,8 +76,12 @@
                   </span>                  
                </li>
                <li>
-               <i class="fa-sharp fa-regular fa-square-check"></i>
+                  <i class="fa-sharp fa-regular fa-square-check"></i>
                   Filhos e enteados solteiros: RG e CPF (maiores de 21 anos: certidão de nascimento atualizada)
+               </li>
+               <li>
+                  <i class="fa-sharp fa-regular fa-square-check"></i>
+                  Filhos e enteados universitários solteiros  entre 18 a 24 anos devem apresentar declaração escolar
                </li>
                <li>
                   <i class="fa-sharp fa-regular fa-square-check"></i>
