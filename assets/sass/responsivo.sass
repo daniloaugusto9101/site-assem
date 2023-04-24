@@ -154,11 +154,34 @@
             &-col:nth-child(2)
                 order: -1
 
+    .pgDesconto
+        &__menu
+            display: flex
+            flex-direction: column
+            &-item
+                padding: 10px 0px 10px 15px
+                display: flex
+                align-items: center
+                cursor: pointer
+                i
+                    font-size: 20px
+                span
+                    display: none
+        &__container
+            grid-template-columns: 50px 1fr
+        &__card
+            &-empresa
+                font-size: 14px
+
 
 
 
 
 @media (max-width: 540px)
+
+    .pgDesconto
+        &__card
+            grid-template-columns:  1fr
 
     .linha
         display: none

@@ -14,7 +14,7 @@
             <div class="pgDesconto__left">
                <ul class="pgDesconto__menu">
                   <li class="pgDesconto__menu-item" data-value="pgDesconto-list-seguros">
-                     <i class="fa-solid fa-book"></i>
+                     <i class="fa-solid fa-house"></i>
                      <span>Seguros</span>                      
                   </li>
                   <li class="pgDesconto__menu-item" data-value="pgDesconto-list-edubasica">
@@ -45,26 +45,26 @@
                      <i class="fa-solid fa-briefcase-medical"></i>
                      <span>Saúde/ Esporte</span>                     
                   </li>
-                  <li class="pgDesconto__menu-item" data-value="pgDesconto-list-prestador">
+                  <!-- <li class="pgDesconto__menu-item" data-value="pgDesconto-list-prestador">
                      <i class="fa-solid fa-stethoscope"></i>
                      <span>Psicanálise/ Psicologia</span>                     
-                  </li>
+                  </li> -->
                   <li class="pgDesconto__menu-item" data-value="pgDesconto-list-vestuarios">
                      <i class="fa-solid fa-shirt"></i>
                      <span>Vestuário</span>                     
                   </li>
-                  <li class="pgDesconto__menu-item" data-value="pgDesconto-list-odontologia">
+                  <!-- <li class="pgDesconto__menu-item" data-value="pgDesconto-list-odontologia">
                      <i class="fa-solid fa-tooth"></i>
                      <span>Odontologia</span>                     
-                  </li>
-                  <li class="pgDesconto__menu-item" data-value="pgDesconto-list-beleza">
+                  </li> -->
+                  <!-- <li class="pgDesconto__menu-item" data-value="pgDesconto-list-beleza">
                      <i class="fa-regular fa-gem"></i>
                      <span>Beleza</span>                     
-                  </li>
-                  <li class="pgDesconto__menu-item" data-value="pgDesconto-list-automotivo">
+                  </li> -->
+                  <!-- <li class="pgDesconto__menu-item" data-value="pgDesconto-list-automotivo">
                      <i class="fa-solid fa-car"></i>
                      <span>Automotivo</span>                     
-                  </li>
+                  </li> -->
                </ul>
             </div>
 
@@ -106,8 +106,7 @@
                            <i class="fa-brands fa-square-instagram"></i>
                            <a href="https://contratafacil-segurovida.paas.sulamerica.com.br/?corretor_id=3a010ed8-94ce-49ae-8ca7-183a59c11717&utm_source=vida" target="__blank">
                               <i class="fa-solid fa-globe"></i>
-                           </a>
-                           
+                           </a>                           
                         </div>
                      </div>
                   </div>
@@ -118,14 +117,15 @@
                      <div class="pgDesconto__card-col">  
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
                      </div>
-                     <div class="pgDesconto__card-col">                     
+                     <div class="pgDesconto__card-col">      
                         <div class="pgDesconto__card-empresa">
                            <p>OBJETIVA TREINAMENTOS E CURSOS PREPARATÓRIOS</p>
-                           <p>Desc. de 15% na matrícula do curso Pós e segunda Licenciatura</p>
-                           <p>Desc. de 15% nas mensalidades nos demais cursos</p>
+                           <p>Desc. de 15% na matrícula do curso Pós e segunda Licenciatura | Desc. de 15% nas mensalidades nos demais cursos</p>
+                           <!-- <p>Email:<br> objetivasolucoespedagogicas29@gmail.com</p> -->
                            <p>Telefone: 12 3209-1585</p>
                            <p>Av. Andromeda, 864, sala 3, JD. Satélite – SJC</p>
-                        </div>                     
+                        </div>                
+
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
@@ -224,14 +224,17 @@
                         <div class="pgDesconto__card-empresa">
                            <p>KNN IDIOMAS</p>
                            <p>Desc. 25% nas mensalidades por 2 anos | Isenção de matrícula | Transporte Gratuito para alunos até 14 anos |  Aulas de acompanhamento pedagógico (na escola, uma vez por mês) – para fins acadêmicos/profissionais | Aulas de reforço ilimitadas (na escola) | Aulas de reposição (na escola – as quatro primeiras horas de aula semestrais são gratuitas) | Senha de acesso ao portal exclusivo com atividades de áudio</p>
+                           <p>Email: sjc-sp@knnidiomas.com.br</p>
                            <p>Telefone: (12) 3923-2327 | 3942-4600</p>
                            <p>Av. Anchieta, 455 – Jd. Esplanada</p>
                         </div>                     
                         <div class="pgDesconto__card-social">
-                           <i class="fa-brands fa-square-facebook"></i>
+                           <a href="https://www.facebook.com/knnidiomassjc" target="__blank">
+                              <i class="fa-brands fa-square-facebook"></i>
+                           </a>
                            <a href="https://www.instagram.com/knnidiomassjc/
                            " target="__blank">
-                           <i class="fa-brands fa-square-instagram"></i>
+                              <i class="fa-brands fa-square-instagram"></i>
                            </a>
                            <a href="http://www.knnidiomas.com.br" target="__blank">
                               <i class="fa-solid fa-globe"></i>
@@ -256,7 +259,7 @@
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
-                           <a href="http://www.univap.br">
+                           <a href="http://www.univap.br" target="__blank">
                               <i class="fa-solid fa-globe"></i>
                            </a>
                         </div>
@@ -274,7 +277,7 @@
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
-                           <a href="https://anhanguera.com/home" target="__blank">
+                           <a href="https://anhanguera.com/" target="__blank">
                               <i class="fa-solid fa-globe"></i>
                            </a>
                         </div>
@@ -288,13 +291,14 @@
                         <div class="pgDesconto__card-empresa">
                            <p>FACULDADE CATÓLICA DE SJC</p>
                            <p>Desc. de 5% nas mensalidades</p>
+                           <p>email:secretaria.teologia@yahoo.com.br</p>
                            <p>Telefone (12) 4009-8383</p>
                            <p>Av. São João, 2650, Jd. das Colinas</p>
                         </div>                     
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
-                           <a href="www.faculdadecatolicasjc.edu.br
+                           <a href="https://www.faculdadecatolicasjc.edu.br
                            " target="__blank">
                               <i class="fa-solid fa-globe"></i>
                            </a>
@@ -315,7 +319,7 @@
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
-                           <a href="http://www.faap.br">
+                           <a href="https://www.faap.br" target="__blank">
                               <i class="fa-solid fa-globe"></i>
                            </a>
                         </div>
@@ -386,7 +390,7 @@
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
-                           <a href="http://www.escolaits.com.br">
+                           <a href="http://www.escolaits.com.br" target="__blank">
                               <i class="fa-solid fa-globe"></i>
                            </a>
                         </div>
@@ -423,7 +427,7 @@
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
-                           <a href="https://portal.anhembi.br/unidades/sao-jose-dos-campos/">
+                           <a href="https://portal.anhembi.br/unidades/sao-jose-dos-campos/" target="__blank">
                               <i class="fa-solid fa-globe"></i>
                            </a>                           
                         </div>
@@ -449,28 +453,12 @@
                            <a href="https://www.instagram.com/reidastralhasrt/" target="__blank">
                               <i class="fa-brands fa-square-instagram"></i>
                            </a>
-                           <a href="http://www.reidastralhas.com.br">
+                           <a href="https://www.reidastralhas.com.br" target="__blank">
                               <i class="fa-solid fa-globe"></i>
                            </a>                           
                         </div>
                      </div>
                   </div>                  
-                  <div class="pgDesconto__card">
-                     <div class="pgDesconto__card-col">  
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
-                     </div>
-                     <div class="pgDesconto__card-col">                     
-                        <div class="pgDesconto__card-empresa">
-                           <p>SULAMÉRICA</p>
-                           <p>Cobertura de seguro e também assistência funeral.Oconvênio prevê ainda “Medico na Tela” (consulta on-line), clube de vantagens para descontos, sorteios mensais, descontos em farmácias e assistência residencial. O valor da mensalidade é a partir de R$ 10 e as coberturas de seguro podem chegar a R$ 5 milhões</p>
-                        </div>                     
-                        <div class="pgDesconto__card-social">
-                           <i class="fa-brands fa-square-facebook"></i>
-                           <i class="fa-brands fa-square-instagram"></i>
-                           <i class="fa-solid fa-globe"></i>
-                        </div>
-                     </div>
-                  </div>
                </div>   
                
                <div id="pgDesconto-list-lazer" class="pgDesconto__empresas" >
@@ -549,6 +537,7 @@
                            <p>ANA CAROLINA DE PAULA SOUZA – CRP06/104401</p>
                            <p>Desc. de 40% nas consultas</p>
                            <p>Psicoterapia</p>
+                           <p>Email: anacarolinapsico@hotmail.com</p>
                            <p>Whatsapp: (12) 98139-1628</p>
                            <p>Av. B. S Queiroz Jr., 1080 – sala 03 – Jd das Indústrias/SJC</p>
                         </div>                     
@@ -568,6 +557,7 @@
                            <p>DANIELLE CLEIDEANE SANTOS</p>
                            <p>Desc. de 50%</p>
                            <p>Psicólogia Clínica</p>
+                           <p>Email: contato@psicologadaniellesantos.com.br</p>
                            <p>Telefone: (12) 97401-6384</p>
                            <p>Espaço Fenix – R. Euclides Miragaia, 464, Sala 25, Centro – SJC</p>
                         </div>                     
@@ -630,6 +620,7 @@
                         <div class="pgDesconto__card-empresa">
                            <p>REDE OFTALMOCLÍNICA</p>
                            <p>Desc. 35 a 65% (da tabela particular) nos serviços</p>
+                           <p>Email: comercialmkt@oftalmoclinicavale.com.br</p>
                            <p>Telefone: (12) 3932-7760 | (12) 9.9661-0004</p>
                            <p>Av. Andrômeda, 227 – Jd. Satélite</p>
                         </div>                     
@@ -685,6 +676,32 @@
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                     </div>
+                  </div>          
+
+                  <div class="pgDesconto__card">
+                     <div class="pgDesconto__card-col">  
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
+                     </div>
+                     <div class="pgDesconto__card-col">                     
+                        <div class="pgDesconto__card-empresa">
+                           <p>CLÍNICA MÉDICA EVIVA</p>
+                           <p>Desc. 10% em consultas e/ou exames.</p>
+                           <p>Consultas ambulatoriais, exames laboratoriais e ultrassom.</p>
+                           <p>Telefone: (12) 4003-3756</p>
+                           <p>Av. Perseu, 950, Jardim Satélite, SJC/SP</p>
+                        </div>                     
+                        <div class="pgDesconto__card-social">
+                           <a href="https://www.facebook.com/evivasaude/" target="__blank">
+                              <i class="fa-brands fa-square-facebook"></i>
+                           </a>
+                           <a href="https://www.instagram.com/evivasaude/" target="__blank">
+                              <i class="fa-brands fa-square-instagram"></i>
+                           </a>
+                           <a href="http://www.evivasaude.com.br" target="__blank">
+                              <i class="fa-solid fa-globe"></i>
+                           </a>
                         </div>
                      </div>
                   </div>          

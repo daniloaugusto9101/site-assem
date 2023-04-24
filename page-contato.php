@@ -78,6 +78,30 @@
                   </div>
 
                </div>  
+               
+               <div class="pgContato__item">
+                  <div class="pgContato__mapa">
+
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14665.509010667156!2d-45.8864194!3d-23.2293552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a956b7b341b%3A0x9dcf0ba272c36d5c!2sRaia%20de%20Malha%20ASSEM!5e0!3m2!1spt-BR!2sbr!4v1682361711159!5m2!1spt-BR!2sbr"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                     
+                  </div>
+
+                  <div class="pgContato__local">
+                     <h2 class="pgContato__local-title">Raia de Malha</h2>
+                     <address>
+                        <div class="pgContato__local-item">
+                           <i class="fa-solid fa-location-dot pgContato__local-ico"></i>
+                           <p class="pgContato__local-endereco"> Av. Cassiopeia, 1625 - Jardim Satélite, São José dos Campos - SP, 12230-011</p>
+                        </div>                        
+                        <div class="pgContato__local-item">
+                        <i class="fa-brands fa-square-whatsapp pgContato__local-ico"></i>
+                           <p class="pgContato__local-tel">(12) 3922-7424</p>
+                        </div>                        
+                     </address>     
+                  </div>
+
+               </div>  
 
             </div>        
          

@@ -39,7 +39,7 @@
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/ballet.webp" class="pgAtividades__fotos-img"/>
                </div>
                <div class="pgAtividades__fotos-item">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/banner.webp" class="pgAtividades__fotos-img"/>
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/urban.webp" class="pgAtividades__fotos-img"/>
                </div>
                <div class="pgAtividades__fotos-item">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/dcventre.webp" class="pgAtividades__fotos-img"/>

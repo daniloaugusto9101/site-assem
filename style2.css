@@ -1777,9 +1777,21 @@ img {
 }
 .pgDesconto__card-social a {
   color: #4E4E4E;
+  position: relative;
 }
 .pgDesconto__card-social a:hover {
   color: #BE1016;
+}
+.pgDesconto__card-social a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
 }
 
 @media (max-width: 1280px) {
@@ -1963,8 +1975,35 @@ img {
   .pgAssociar__dependentes-col:nth-child(2) {
     order: -1;
   }
+
+  .pgDesconto__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .pgDesconto__menu-item {
+    padding: 10px 0px 10px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .pgDesconto__menu-item i {
+    font-size: 20px;
+  }
+  .pgDesconto__menu-item span {
+    display: none;
+  }
+  .pgDesconto__container {
+    grid-template-columns: 50px 1fr;
+  }
+  .pgDesconto__card-empresa {
+    font-size: 14px;
+  }
 }
 @media (max-width: 540px) {
+  .pgDesconto__card {
+    grid-template-columns: 1fr;
+  }
+
   .linha {
     display: none;
   }

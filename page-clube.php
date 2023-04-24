@@ -369,7 +369,7 @@
                      <ul class="pgClube__servicos-item">
                         <div class="pgClube__servicos-titulo">
                            <i class="fa-solid fa-burger"></i>
-                           <span>Restaurante</span>
+                           <span>Restaurante*</span>
                         </div>
                         <div class="pgClube__servicos-lista"> 
                            <li>
@@ -391,6 +391,9 @@
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>TV a cabo</span>
+                           </li>
+                           <li>
+                              <span>*Verifique horários</span>
                            </li>
                         </div>
                      </ul>
