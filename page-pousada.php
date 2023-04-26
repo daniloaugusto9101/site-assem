@@ -486,10 +486,10 @@
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Bar</span>
                            </li>
-                           <li>
+                           <!-- <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Cardápio completo: <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/cardapio-pousada.pdf" target="__blanck">aqui</a></span>
-                           </li>
+                              <span>Cardápio completo: <a href="<?php //echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/cardapio-pousada.pdf" target="__blanck">aqui</a></span>
+                           </li> -->
                         </div>
                      </ul>
 

@@ -17,7 +17,7 @@
             </h1>
 
             <div class="pgExecutiva__content-header">
-                <h2 class="pgExecutiva__subtitulo">Mesa diretora</h2>
+                <h2 class="pgExecutiva__subtitulo">Mesa Diretora</h2>
             </div>
             <div class="pgExecutiva__content">
                 <div class="pgExecutiva__content-col">

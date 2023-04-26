@@ -192,28 +192,19 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/escolinha.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/raia.webp" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/hidro.webp" />
                 </div>
                 <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/ballet.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/alongamento.webp" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/urban.webp" />
                 </div>
                 <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/dcventre.webp" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/hidro.webp" />
-                </div>
-                <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/musculacao.webp" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/pilates.webp" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/urban.webp" />
                 </div>
                 <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/violao.webp" />

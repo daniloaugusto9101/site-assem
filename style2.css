@@ -1744,12 +1744,15 @@ img {
 .pgDesconto__card {
   background-color: #fff;
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 1fr;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   padding: 10px;
   gap: 10px;
   margin-bottom: 10px;
   border-left: 5px solid #363756;
+}
+.pgDesconto__card-col:nth-child(1) {
+  display: none;
 }
 .pgDesconto__card-col:nth-child(2) {
   display: flex;

@@ -17,7 +17,7 @@
             </h1>
 
             <div class="pgFiscal__content-header">
-                <h2 class="pgFiscal__subtitulo">Membros efetivos</h2>
+                <h2 class="pgFiscal__subtitulo">Membros Efetivos</h2>
             </div>
 
             <div class="pgFiscal__content">
@@ -50,7 +50,7 @@
 
 
             <div class="pgFiscal__content-header">
-                <h2 class="pgFiscal__subtitulo">Membros suplentes</h2>
+                <h2 class="pgFiscal__subtitulo">Membros Suplentes</h2>
             </div>
             
             <div class="pgFiscal__content">

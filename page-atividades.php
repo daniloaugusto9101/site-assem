@@ -15,7 +15,7 @@
          <div class="pgAtividades__descricao">
             <div class="pgAtividades__descricao-col">
                <div>
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/pilates3.webp"  class="pgAtividades__descricao-img"/> 
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/salao.jpg"  class="pgAtividades__descricao-img"/> 
                </div>
                <div>
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/dcventre2.webp"  class="pgAtividades__descricao-img"/> 
@@ -24,13 +24,13 @@
 
             <div class="pgAtividades__descricao-col">
                <h2 class="pgAtividades__subtitulo">Sobre nós</h2>
-               <p class="pgAtividades__descricao-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eum, placeat a laboriosam perspiciatis accusantium veniam? Tempore laboriosam quos quaerat, officia, corrupti suscipit magnam a quas sunt odio vitae debitis.</p>
-               <p class="pgAtividades__descricao-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam deserunt aut quasi ex inventore, eligendi nesciunt. A omnis, ad earum rerum hic dolores sed neque soluta officia veritatis eaque tempore!</p>
-               <a href="/horarios.pdf" class="btn pgAtividades__descricao-btn">Horários</a>
+               <p class="pgAtividades__descricao-texto">
+               Se você quer melhorar sua saúde e ter um estilo de vida mais ativo, A ASSEM é o lugar perfeito para você. Oferecemos uma ampla gama de atividades, raia de malha, ballet, escolinha de futebol, musculação, hidroginástica e muito mais. A nossa atmosfera acolhedora e amigável fará com que você se sinta motivado e inspirado a alcançar seus objetivos. Junte-se a nós agora e comece a transformar sua vida!
+               </p>
+               <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/horarios-atividades.pdf" class="btn pgAtividades__descricao-btn" target="__blank">Horários</a>
             </div>
          </div>
 
-         
 
          <div class="pgAtividades__fotos">
             <h2 class="pgAtividades__subtitulo">Atividades</h2>
@@ -64,6 +64,7 @@
             <h2 class="pgAtividades__subtitulo">Professores</h2>
             
             <div class="pgAtividades__professores-content">
+               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (0).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (1).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (2).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (3).webp" class="pgAtividades__avatar-img">
