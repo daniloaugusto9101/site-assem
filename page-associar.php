@@ -72,9 +72,7 @@
             <ul class="pgAssociar__documentos-lista">
                <li>
                   <i class="fa-sharp fa-regular fa-square-check"></i>
-                  <span>
-                     <strong>Titular:</strong> último holerite ou senha de consignação já cadastradoa e com margem para desconto | RG e CPF | Comprovante de endereço no próprio nome
-                  </span>                  
+                  Titular: último holerite / senha de consignação (obrigatória para PMSJC ou IPSM) já cadastrada e com margem para descontos | RG e CPF | Comprovante de endereço no próprio nome           
                </li>
                <li>
                   <i class="fa-sharp fa-regular fa-square-check"></i>
