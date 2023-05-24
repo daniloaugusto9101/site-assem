@@ -45,9 +45,9 @@
 
                <div class="pgAssociar__vantagens-header">
                   <p>Tudo isso por apenas</p>
-                  <p>R$ 40,09</p>
+                  <p>R$ 40,09*</p>
                   <p>Preço sujeito a alterações</p>
-                  <p>O valor da mensalidade é cobrado <br>somente do sócio titular</p>
+                  <p>*valor por sócio, consulte sobre <br/>dependentes e agregados.</p>
                </div>
 
                <div class="pgAssociar__vantagens-body">
