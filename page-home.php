@@ -15,7 +15,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Clube de Campo</h2>
                             <p class="destaque__slide-subtitulo">Diversão e alegria</p>
-                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/clube-de-campo/" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
     
@@ -24,7 +24,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Pousada Litoral</h2>
                             <p class="destaque__slide-subtitulo">Experiência e conforto</p>
-                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/pousada-litoral/" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Sede</h2>
                             <p class="destaque__slide-subtitulo">Ampla e acolhedora</p>
-                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
+                            <!-- <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a> -->
                         </div>  
                     </div>
 
@@ -43,7 +43,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Atividades</h2>
                             <p class="destaque__slide-subtitulo">Energia e bem estar</p>
-                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/atividades/" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
                     <div class="swiper-slide destaque__slide">
@@ -51,7 +51,7 @@
                         <div class="destaque__slide-textos">
                             <h2 class="destaque__slide-titulo">Convênio médico</h2>
                             <p class="destaque__slide-subtitulo">Saúde e longevidade</p>
-                            <a href="/locais" class="btn destaque__slide-btn">Saiba mais</a>
+                            <a href="/convenio-medico/" class="btn destaque__slide-btn">Saiba mais</a>
                         </div>
                     </div>
 
@@ -179,7 +179,7 @@
                 <p class="chamada__texto">
                 Você está preocupado com a sua saúde da sua família? Quer ter acesso a uma ampla rede de médicos e hospitais? Associado tem acesso a diversos planos com preços que se adapta às suas necessidades
                 </p>
-                <a href="/convenios" class="btn chamada__btn">Saiba mais</a>
+                <a href="/convenio-medico/" class="btn chamada__btn">Saiba mais</a>
             </div>
         </div>
     </div>
@@ -242,7 +242,7 @@
                 <p>Clube de Campo</p>
             </div>
         </div>
-        <a href="/locais" class="btn locais__btn">Saiba mais</a>
+        <!-- <a href="/locais" class="btn locais__btn">Saiba mais</a> -->
     </div>
 
     <div class="chamada chamada__desconto">
@@ -259,7 +259,7 @@
                 <p class="chamada__texto">
                 A ASSEM conta com uma rede de parcerias com empresas de diversas áreas, os nossos associados tem acesso a preços e oportunidades especiais. Isto é uma ótima opção para quem busca economizar dinheiro.
                 </p>
-                <a href="/desconto" class="btn chamada__btn">Saiba mais</a>
+                <a href="/clube-de-desconto/" class="btn chamada__btn">Saiba mais</a>
             </div>
         </div>
     </div>
