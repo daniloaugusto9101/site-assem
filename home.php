@@ -11,7 +11,7 @@
                     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
                     
                     $args = array(
-                        'cat' => 6,
+                        'cat' => 1,
                         'paged' => $paged,
                     );
 
