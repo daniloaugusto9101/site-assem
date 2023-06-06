@@ -884,7 +884,6 @@ img {
 .pgblog__materia-link {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 200px;
   align-items: center;
   gap: 10px;
   text-decoration: none;
@@ -898,7 +897,7 @@ img {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 .pgblog__materia-titulo {
   font-size: 2em;
@@ -2003,6 +2002,14 @@ img {
   .pgDesconto__card-empresa {
     font-size: 14px;
   }
+
+  .pgblog__materia-link {
+    grid-template-columns: 1fr;
+  }
+  .pgblog__materia-titulo {
+    font-size: 1.5em;
+    text-align: center;
+  }
 }
 @media (max-width: 540px) {
   .pgDesconto__card {
@@ -2026,10 +2033,6 @@ img {
   .rodape__row:nth-child(1) {
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
-  }
-
-  .pgblog__materia-link {
-    grid-template-columns: 1fr;
   }
 
   .pgPousada__descricao-texto {
