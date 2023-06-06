@@ -72,50 +72,102 @@
 
             <div class="noticias__slide">
 
-            <?php
-                $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-                $args = array(
-                    'cat' => 6,
-                    'paged' => $paged,
-                    'posts_per_page' => 6, 	
-                );
-                $query = new WP_Query( $args );
 
-                // Verifica se há postagens
-                if ( $query->have_posts() ) :
+                <!-- INICIO NOTICIA DESTAQUE -->
+                <?php
+                    $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+                    $args = array(
+                        'cat' => 8,
+                        'paged' => $paged,
+                        'posts_per_page' => 1, 	
+                    );
+                    $query = new WP_Query( $args );
 
-                    // Loop através das postagens
-                    while ( $query->have_posts() ) : $query->the_post();
+                    // Verifica se há postagens
+                    if ( $query->have_posts() ) :
 
-                        // Obtem o nome da categoria
-                        $category = get_the_category();
-                        $category_name = '';
-                        if ( ! empty( $category ) ) {
-                            $category_name = $category[0]->name;
-                        }
+                        // Loop através das postagens
+                        while ( $query->have_posts() ) : $query->the_post();
 
-                        // Exibe o conteúdo da postagem
-                        echo '<div class="noticias__item">
-                                <div>
-                                    <a href="'.get_permalink().'">
-                                    <img class="noticias__item-img" src="' . esc_url( get_field('thumbnail_materia' ) ) . '">
-                                    </a>
-                                </div>
-                                <div class="noticias__item-texto">
-  
-                                    <a class="noticias__item-link" href="'.get_permalink().'">
-                                        <p class="noticias__item-titulo">'. get_the_title() .'</p>
-                                    </a>
-                                </div>
-                            </div>';
+                            // Obtem o nome da categoria
+                            $category = get_the_category();
+                            $category_name = '';
+                            if ( ! empty( $category ) ) {
+                                $category_name = $category[0]->name;
+                            }
 
-                    endwhile;
-                    wp_reset_postdata();
-                else :
-                    // Se não houver postagens, exibe uma mensagem de erro
-                    echo __( 'Desculpe, nenhum post encontrado.', 'textdomain' );
-                endif;
-            ?>
+                            // Exibe o conteúdo da postagem
+                            echo '<div class="noticias__item">
+                                    <div>
+                                        <a href="'.get_permalink().'">
+                                        <img class="noticias__item-img" src="' . esc_url( get_field('thumbnail_materia' ) ) . '">
+                                        </a>
+                                    </div>
+                                    <div class="noticias__item-texto">
+    
+                                        <a class="noticias__item-link" href="'.get_permalink().'">
+                                            <p class="noticias__item-titulo">'. get_the_title() .'</p>
+                                        </a>
+                                    </div>
+                                </div>';
+
+                        endwhile;
+                        wp_reset_postdata();
+                    else :
+                        // Se não houver postagens, exibe uma mensagem de erro
+                        echo __( 'Desculpe, nenhum post encontrado.', 'textdomain' );
+                    endif;
+                ?>
+                <!-- FIM NOTICIA DESTAQUE -->
+
+            
+                <!-- Inicio miniaturas das noticas 2 ao 6 -->
+                <?php
+                    $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+                    $args = array(
+                        'cat' => 6,
+                        'paged' => $paged,
+                        'posts_per_page' => 5, 	
+                    );
+                    $query = new WP_Query( $args );
+
+                    // Verifica se há postagens
+                    if ( $query->have_posts() ) :
+
+                        // Loop através das postagens
+                        while ( $query->have_posts() ) : $query->the_post();
+
+                            // Obtem o nome da categoria
+                            $category = get_the_category();
+                            $category_name = '';
+                            if ( ! empty( $category ) ) {
+                                $category_name = $category[0]->name;
+                            }
+
+                            // Exibe o conteúdo da postagem
+                            echo '<div class="noticias__item">
+                                    <div>
+                                        <a href="'.get_permalink().'">
+                                        <img class="noticias__item-img" src="' . esc_url( get_field('thumbnail_materia' ) ) . '">
+                                        </a>
+                                    </div>
+                                    <div class="noticias__item-texto">
+    
+                                        <a class="noticias__item-link" href="'.get_permalink().'">
+                                            <p class="noticias__item-titulo">'. get_the_title() .'</p>
+                                        </a>
+                                    </div>
+                                </div>';
+
+                        endwhile;
+                        wp_reset_postdata();
+                    else :
+                        // Se não houver postagens, exibe uma mensagem de erro
+                        echo __( 'Desculpe, nenhum post encontrado.', 'textdomain' );
+                    endif;
+                ?>
+                <!-- FIM miniaturas das noticas 2 ao 6 -->
+
 
 
             </div>
