@@ -269,16 +269,17 @@ img {
   margin-top: 100px;
 }
 .noticias__container {
-  max-width: 1000px;
+  max-width: 1024px;
 }
 .noticias__slide {
   display: grid;
   grid-template-areas: "item1 item1 item2" "item1 item1 item3" "item6 item5 item4";
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
 .noticias__item {
   display: grid;
-  grid-template-rows: 100px;
+  align-content: flex-start;
   gap: 5px;
 }
 .noticias__item-link {
@@ -293,7 +294,7 @@ img {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 .noticias__item-tag {
   font-size: 1em;
@@ -305,7 +306,6 @@ img {
 }
 .noticias__item:nth-child(1) {
   grid-area: item1;
-  grid-template-rows: 300px;
 }
 .noticias__item:nth-child(1) .noticias__item-titulo {
   font-size: 2em;
@@ -1880,11 +1880,13 @@ img {
 
   .noticias__slide {
     grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6";
+    grid-template-columns: 1fr;
     gap: 40px;
   }
   .noticias__item:not(:first-child) {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 220px;
+    gap: 10px;
+    align-items: center;
   }
 
   .pgHistoria__header {
