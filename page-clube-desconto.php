@@ -596,28 +596,6 @@
                      </div>
                      <div class="pgDesconto__card-col">                     
                         <div class="pgDesconto__card-empresa">
-                           <p>ODONTOLOGIA</p>
-                           <p>Dra. Thaynara Alves de Lima</p>
-                           <p>Desc. de 20 a 40% (da tabela particular)</p>
-                           <p>WhatsApp: (12) 9.9709-1165</p>
-                           <p>Av. Dr. Nélson D’ávilla, 1837 – sala 205</p>
-                        </div>                     
-                        <div class="pgDesconto__card-social">
-                           <i class="fa-brands fa-square-facebook"></i>
-                           <a href="https://www.instagram.com/drathaynaralima/" target="__blank">
-                              <i class="fa-brands fa-square-instagram"></i>
-                           </a>
-                           <i class="fa-solid fa-globe"></i>
-                        </div>
-                     </div>
-                  </div>          
-
-                  <div class="pgDesconto__card">
-                     <div class="pgDesconto__card-col">  
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
-                     </div>
-                     <div class="pgDesconto__card-col">                     
-                        <div class="pgDesconto__card-empresa">
                            <p>REDE OFTALMOCLÍNICA</p>
                            <p>Desc. 35 a 65% (da tabela particular) nos serviços</p>
                            <p>Email: comercialmkt@oftalmoclinicavale.com.br</p>
