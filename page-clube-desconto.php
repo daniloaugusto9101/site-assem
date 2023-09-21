@@ -27,7 +27,7 @@
                   </li>
                   <li class="pgDesconto__menu-item" data-value="pgDesconto-list-edusuprior">
                      <i class="fa-solid fa-building-columns"></i>
-                     <span>Ensino superior</span>                     
+                     <span>Ensino superior/ médio</span>                     
                   </li>
                   <li class="pgDesconto__menu-item" data-value="pgDesconto-list-utensilios">
                      <i class="fa-solid fa-fish-fins"></i>
@@ -245,6 +245,29 @@
                </div> 
 
                <div id="pgDesconto-list-edusuprior" class="pgDesconto__empresas" >
+                  <div class="pgDesconto__card">
+                     <div class="pgDesconto__card-col">  
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
+                     </div>
+                     <div class="pgDesconto__card-col">                     
+                        <div class="pgDesconto__card-empresa">
+                           <p>UNIVAP: Colégio e Faculdades</p>
+                           <p>Matrículas abertas para 2024</p>
+                           <p>Em breve divulgação do Concurso de Bolsas</p>
+                           <p>Telefone: (12) 3947–1206</p>
+
+                        </div>                     
+                        <div class="pgDesconto__card-social">
+
+                           <a href="http://www.univap.br" target="__blank">
+                              <i class="fa-solid fa-globe"></i>
+                           </a>
+                           <a href="http://www.colegiosunivap.com.br" target="__blank">
+                              <i class="fa-solid fa-globe"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>                  
                   <div class="pgDesconto__card">
                      <div class="pgDesconto__card-col">  
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
@@ -485,6 +508,30 @@
                </div>   
                
                <div id="pgDesconto-list-saude" class="pgDesconto__empresas" >
+                  <div class="pgDesconto__card">
+                     <div class="pgDesconto__card-col">  
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
+                     </div>
+                     <div class="pgDesconto__card-col">                     
+                        <div class="pgDesconto__card-empresa">
+                           <p>Cláudia Nagau</p>
+                           <p>Psicopedagoga - Neuropsicopedagoga</p>
+                           <p>Desconto de 10%: Avaliação neuro psicopedagógica (pacote 10 seções) </p>
+                           <p>Desconto de 20%: Psicanálise (a partir de 12 anos), presencial ou on line.</p>
+                           <p>Telefone: (12) 99755-9423</p>
+                           <p>Rua Arnaldo Ricardo Monteiro, 71, Jardim Maringá.</p>
+                        </div>                     
+                        <div class="pgDesconto__card-social">
+                           <a href="https://www.facebook.com/breaklimitso{cial/" target="__blank">
+                              <i class="fa-brands fa-square-facebook"></i>
+                           </a>
+                           <i class="fa-brands fa-square-instagram"></i>
+                           <a href="http://breaklimits.com.br/" target="__blank">
+                              <i class="fa-solid fa-globe"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>          
                   <div class="pgDesconto__card">
                      <div class="pgDesconto__card-col">  
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
