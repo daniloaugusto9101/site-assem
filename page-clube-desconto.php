@@ -522,13 +522,10 @@
                            <p>Rua Arnaldo Ricardo Monteiro, 71, Jardim Maringá.</p>
                         </div>                     
                         <div class="pgDesconto__card-social">
-                           <a href="https://www.facebook.com/breaklimitso{cial/" target="__blank">
-                              <i class="fa-brands fa-square-facebook"></i>
-                           </a>
+
+                           <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
-                           <a href="http://breaklimits.com.br/" target="__blank">
-                              <i class="fa-solid fa-globe"></i>
-                           </a>
+                           <i class="fa-solid fa-globe"></i>
                         </div>
                      </div>
                   </div>          
