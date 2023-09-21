@@ -514,7 +514,7 @@
                      </div>
                      <div class="pgDesconto__card-col">                     
                         <div class="pgDesconto__card-empresa">
-                           <p>Cláudia Nagau</p>
+                           <p>CLÁUDIA NAGAU</p>
                            <p>Psicopedagoga - Neuropsicopedagoga</p>
                            <p>Desconto de 10%: Avaliação neuro psicopedagógica (pacote 10 seções) </p>
                            <p>Desconto de 20%: Psicanálise (a partir de 12 anos), presencial ou on line.</p>
@@ -522,7 +522,6 @@
                            <p>Rua Arnaldo Ricardo Monteiro, 71, Jardim Maringá.</p>
                         </div>                     
                         <div class="pgDesconto__card-social">
-
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
                            <i class="fa-solid fa-globe"></i>
