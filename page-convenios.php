@@ -29,9 +29,9 @@
          <div class="operadoras">
             <h2 class="operadoras__subtitulo">Operadoras de planos <br>de Saúde</h2>
             <div class="operadoras__imgs">
-               <div class="operadoras__imgs-item">
+               <!-- <div class="operadoras__imgs-item">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-convenios/logo-aussel.webp" /> 
-               </div>
+               </div> -->
                <div class="operadoras__imgs-item">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-convenios/logo-emercor.webp" /> 
                </div>

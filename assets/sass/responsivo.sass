@@ -5,21 +5,14 @@
         &__container
             padding: 20px 10px
         .logo
-            height: 50px
-            width: 50px
+            height: 30px
+            width: 30px
     .destaque
         &__slide
             &-textos
                 margin: 0 0 60px 10px
-    .pgAtividades
-        margin-top: 90px
 
-    .pgConvenios
-        margin: 90px auto
-        &__banner
-            height: 350px
-
-@media (max-width: 1000px)
+@media (max-width: 768px)
     .header
         &__container
             background-color: variables.$primeira-cor
@@ -35,7 +28,7 @@
             display: none
             .menu
                 li
-                    width: 100%
+                    width: 100%                            
                     ul
                         position: relative
                         width: 100%
@@ -45,9 +38,7 @@
                                 width: 100%
                                 left: 0
         &__mobile:checked ~ .nav
-            display: initial
-
-@media (max-width: 768px)
+            display: initial         
 
     .destaque
         &__slide
@@ -70,14 +61,12 @@
     .noticias
         &__slide
             grid-template-areas: "item1" "item2" "item3""item4""item5""item6"
-            grid-template-columns: 1fr
             gap: 40px
         &__item
-            &:not(:first-child)
+            &:not(:first-child) 
                 grid-template-columns: repeat(2, 1fr)
-                gap: 10px
-                align-items: center
-
+                grid-template-rows: 220px
+    
     .pgHistoria
         &__header
             margin-bottom: 50px
@@ -86,9 +75,9 @@
             grid-template-columns: 1fr
             margin-bottom: 100px
             // border: 1px solid black
-
-            &:nth-child(even)
-                & > div:nth-child(1)
+            
+            &:nth-child(even) 
+                & > div:nth-child(1)    
                     // order: -1
                     & > div:nth-child(1)
                         order: -1
@@ -103,7 +92,7 @@
             grid-template-columns: 1fr
             // background-color: tomato
             justify-items: center
-
+    
     .pgblog
         margin-top: 100px
 
@@ -118,75 +107,7 @@
     .associar
         margin-top: 50px
 
-    .pgAtividades
-        margin-top: 70px
-        &__banner
-            height: 300px
-            &-titulo
-                font-size: 2em
-        &__descricao
-            margin: 150px auto
-            &-col:nth-child(1)
-                grid-template-columns: repeat(2, 150px)
-            &-img
-                height: 300px
-
-    .pgConvenios
-        margin: 70px auto
-        .sobre
-            &__col:nth-child(1)
-                text-align: center
-        .portabilidade
-            &__col:nth-child(1)
-                text-align: center
-            &__col:nth-child(2)
-                order: -1
-        .carencia
-            &__col:nth-child(1)
-                text-align: center
-
-    .pgAssociar
-        margin: 70px auto
-        &__sobre
-            &-col:nth-child(1)
-                text-align: center
-        &__dependentes
-            &-col:nth-child(1)
-                text-align: center
-            &-col:nth-child(2)
-                order: -1
-
-    .pgDesconto
-        &__menu
-            display: flex
-            flex-direction: column
-            &-item
-                padding: 10px 0px 10px 15px
-                display: flex
-                align-items: center
-                cursor: pointer
-                i
-                    font-size: 20px
-                span
-                    display: none
-        &__container
-            grid-template-columns: 50px 1fr
-        &__card
-            &-empresa
-                font-size: 14px
-    .pgblog
-        &__materia
-            &-link
-                grid-template-columns: 1fr
-            &-titulo
-                font-size: 1.5em
-                text-align: center
-
 @media (max-width: 540px)
-
-    .pgDesconto
-        &__card
-            grid-template-columns: 1fr
 
     .linha
         display: none
@@ -203,12 +124,17 @@
             grid-template-columns: repeat(2, 1fr)
             text-align: center
 
+    .pgblog
+        &__materia
+            &-link
+                grid-template-columns: 1fr
+    
     .pgPousada
         &__descricao
             &-texto
                 font-size: 1.1em
                 text-align: center
                 line-height: 1.2
-    .pgNoticias
-        &__tituloHr
-            font-size: 2em
+
+
+

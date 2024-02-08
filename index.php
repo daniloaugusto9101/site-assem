@@ -6,9 +6,9 @@
 
             <div class="pgNoticias__header">
 
-                <?php
-                    echo '<img class="pgNoticias__header-thumbnail" src="' . esc_url( get_field( 'thumbnail_materia' ) ) . '">';
-                ?>
+            <?php
+                echo '<img class="noticias__item-thumbnail" src="' . esc_url( get_field( 'thumbnail_materia' ) ) . '">';
+            ?>
             </div>
 
             <article class="pgNoticias__article">
