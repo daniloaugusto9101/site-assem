@@ -71,7 +71,7 @@
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/antonio-batista-gomes.webp" class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Antonio Batista Gomes</p>
+                            <p>Antoninho Batista Saraiva Gomes</p>
                         </div>
                     </div>   
                     
@@ -234,9 +234,9 @@
                     </div>  
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/ivanaldo-moreira.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/Nilton-pires.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Ivanaldo Moreira</p>
+                            <p>Nilton Pires</p>
                         </div>
                     </div> 
 
