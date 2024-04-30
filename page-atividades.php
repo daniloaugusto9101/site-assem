@@ -25,7 +25,7 @@
             <div class="pgAtividades__descricao-col">
                <h2 class="pgAtividades__subtitulo">Sobre nós</h2>
                <p class="pgAtividades__descricao-texto">
-               Se você quer melhorar sua saúde e ter um estilo de vida mais ativo, a ASSEM é o lugar perfeito para você e sua família. Oferecemos uma ampla gama de atividades, raia de malha, ballet, escolinha de futebol, musculação, hidroginástica e muito mais. A nossa atmosfera acolhedora e amigável fará com que você se sinta motivado e inspirado a alcançar seus objetivos. Junte-se a nós agora e comece a ter uma melhor qualidade de vida!
+               Se você quer melhorar sua saúde e ter um estilo de vida mais ativo, a ASSEM é o lugar perfeito para você e sua família. Oferecemos uma ampla gama de atividades, raia de malha, ballet, escolinha de futebol, musculação, hidroginástica e muito mais. A nossa atmosfera acolhedora e amigável fará com que você se sinta motivado e inspirado a alcançar seus objetivos. Junte-se a nós agora e comece a ter uma melhor qualidade de vida!!!
                </p>
                <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-atividades/horarios-atividades.pdf" class="btn pgAtividades__descricao-btn" target="__blank">Horários</a>
             </div>
