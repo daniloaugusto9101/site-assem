@@ -726,6 +726,7 @@
                         </div>
                      </div>
                   </div>          
+
                   <div class="pgDesconto__card">
                      <div class="pgDesconto__card-col">  
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
@@ -744,7 +745,47 @@
                            <i class="fa-solid fa-globe"></i>
                         </div>
                      </div>
-                  </div>          
+                  </div>
+                  <div class="pgDesconto__card">
+                     <div class="pgDesconto__card-col">  
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
+                     </div>
+                     <div class="pgDesconto__card-col">                     
+                        <div class="pgDesconto__card-empresa">
+                           <p>Isabella Cristina Alcalde Morciani - Psicóloga</p>
+                           <p>20% de desconto no valor das sessões</p>
+                           <p>Telefone: (12) 98297-1500</p>
+                           <p>Av: João Paulo 1, 421 Jardim Satélite</p>
+                        </div>                     
+                        <div class="pgDesconto__card-social">
+                           <i class="fa-brands fa-square-facebook"></i>
+                           <a href="https://www.instagram.com/isabellamorciani.psi/" target="__blank">
+                              <i class="fa-brands fa-square-instagram"></i>
+                           </a>
+                           <i class="fa-solid fa-globe"></i>
+                        </div>
+                     </div>
+                  </div>        
+
+                  <div class="pgDesconto__card">
+                     <div class="pgDesconto__card-col">  
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
+                     </div>
+                     <div class="pgDesconto__card-col">                     
+                        <div class="pgDesconto__card-empresa">
+                           <p>Paulo Henrique de Avila  - Prof. Tênis de Campo e Beach Tennis</p>
+                           <p>Telefone: (12) 3923-1304 / (12) 98167-7664</p>
+                           <p>Descontos para Associados</p>
+                        </div>                     
+                        <div class="pgDesconto__card-social">
+                           <i class="fa-brands fa-square-facebook"></i>
+                           <a href="https://www.instagram.com/isabellamorciani.psi/" target="__blank">
+                              <i class="fa-brands fa-square-instagram"></i>
+                           </a>
+                           <i class="fa-solid fa-globe"></i>
+                        </div>
+                     </div>
+                  </div>           
 
                </div>   
 
