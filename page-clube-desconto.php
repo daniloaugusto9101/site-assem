@@ -779,10 +779,30 @@
                         </div>                     
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
-                           <a href="https://www.instagram.com/isabellamorciani.psi/" target="__blank">
+                           <i class="fa-brands fa-square-instagram"></i>
+                           <i class="fa-solid fa-globe"></i>
+                        </div>
+                     </div>
+                  </div>           
+                  <div class="pgDesconto__card">
+                     <div class="pgDesconto__card-col">  
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
+                     </div>
+                     <div class="pgDesconto__card-col">                     
+                        <div class="pgDesconto__card-empresa">
+                           <p>JSL Depilação a Laser – Cuidados com o Corpo</p>
+                           <p>30% de desconto nos procedimentos</p>
+                           <p>Telefone: (12) 3942-1222 – (12) 99764-9001</p>
+                           <p>Rua Francisco Bérling de Macedo, 131 – Centro</p>
+                        </div>                     
+                        <div class="pgDesconto__card-social">
+                           <i class="fa-brands fa-square-facebook"></i>
+                           <a href="https://www.instagram.com/GIOLASER.SJCCENTRO/" target="_blank">
                               <i class="fa-brands fa-square-instagram"></i>
                            </a>
-                           <i class="fa-solid fa-globe"></i>
+                           <a href="https://WWW.GIOLASER.COM.BR" target="_blank">
+                              <i class="fa-solid fa-globe"></i>
+                           </a>
                         </div>
                      </div>
                   </div>           
@@ -799,11 +819,31 @@
                            <p>ROTA JEANS</p>
                            <p>Desconto de 10%</p>
                            <p>Vestuários e acessórios</p>
-                           <p>Whatsapp: 9120 98301-4355</p>
+                           <p>Whatsapp: (12) 98301-4355</p>
                         </div>                     
                         <div class="pgDesconto__card-social">
                            <i class="fa-brands fa-square-facebook"></i>
                            <i class="fa-brands fa-square-instagram"></i>
+                           <i class="fa-solid fa-globe"></i>
+                        </div>
+                     </div>
+                  </div>                  
+                  <div class="pgDesconto__card">
+                     <div class="pgDesconto__card-col">  
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
+                     </div>
+                     <div class="pgDesconto__card-col">                     
+                        <div class="pgDesconto__card-empresa">
+                           <p>WE Fashion Moda Ltda – Escola de Moda</p>
+                           <p>Desconto de 17% nas mensalidades</p>
+                           <p>Telefone: (12) 98888-0301</p>
+                           <p>Rua Leão, 170 – Jardim Satélite</p>
+                        </div>                     
+                        <div class="pgDesconto__card-social">
+                           <i class="fa-brands fa-square-facebook"></i>
+                           <a href="https://www.instagram.com/wefachion.sjc/" target="_blank" >
+                              <i class="fa-brands fa-square-instagram"></i>
+                           </a>
                            <i class="fa-solid fa-globe"></i>
                         </div>
                      </div>
