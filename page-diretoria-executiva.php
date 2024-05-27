@@ -17,16 +17,37 @@
 
             <div class="pgExecutiva__presidente">
                 <div class="pgExecutiva__presidente-avatar">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/roberto.webp" class="pgExecutiva__avatar-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/presidente.webp" class="pgExecutiva__avatar-img">
                 </div>
                 <div class="pgExecutiva__presidente-depoimento">
                     <p>
-                        Roberto Rocha Brandão, carinhosamente chamado “Montanha”, está no exercício da presidência da ASSEM desde janeiro de 2022, antes de ocupar o cargo já houvera sido Diretor de Esportes e também membro do Conselho Deliberativo da Associação. Aposentado do quadro de servidores públicos municipais em 2020, Roberto tem perfeita sintonia com os associados e além de dar continuidade nas ações da diretoria anterior, tem se esmerado em dotar nossos prédios de melhores estruturas para atendimento de nossos associados. Na perda da quadra de esportes de nossa sede, em razão das obras de acessibilidade, com instalação do elevador, fez edificar nova quadra em nosso Clube de Campo, com dimensões apropriadas, cobertura e iluminação, além de pintura especial, para receber nossas competições desportivas! E promete seguir fazendo mais em favor de todos! 
+                        Estou vivendo um momento especial. Há dois anos recebi a missão de administrar a ASSEM ... um desafio, mas que está sendo gratificante pelos resultados alcançados. <br/><br/>
+                        As melhorias realizadas foram bem aceitas pelos associados, principalmente a reforma do gramado, o redário e a reabertura da lanchonete/ restaurante. Outra conquista foi a regularização de nossa Sede Social, que estávamos aguardando com muita ansiedade. <br/><br/>
+                        Mas ainda temos muito trabalho e desafios para  que nossa entidade cresça e assim proporcionar o melhor para o nosso associado. Para isso contamos com o apoio, talento de toda nossa equipe, Diretores e Conselheiros.
                     </p>
+                    <!-- <p>
+                        Roberto Rocha Brandão, carinhosamente chamado “Montanha”, está no exercício da presidência da ASSEM desde janeiro de 2022, antes de ocupar o cargo já houvera sido Diretor de Esportes e também membro do Conselho Deliberativo da Associação. Aposentado do quadro de servidores públicos municipais em 2020, Roberto tem perfeita sintonia com os associados e além de dar continuidade nas ações da diretoria anterior, tem se esmerado em dotar nossos prédios de melhores estruturas para atendimento de nossos associados. Na perda da quadra de esportes de nossa sede, em razão das obras de acessibilidade, com instalação do elevador, fez edificar nova quadra em nosso Clube de Campo, com dimensões apropriadas, cobertura e iluminação, além de pintura especial, para receber nossas competições desportivas! E promete seguir fazendo mais em favor de todos! 
+                    </p> -->
                     <p>Roberto Rocha Brandão</p>
                     <p>Presidente</p>
                 </div>
             </div>
+
+            <div class="pgExecutiva__content-header">
+                <h2 class="pgExecutiva__subtitulo">Vice-Presidente</h2>
+            </div>            
+            <div class="pgExecutiva__content">
+                <div class="pgExecutiva__content-col">     
+                    <div class="pgExecutiva__avatar">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/silvia-maria-tegão-alcalde-leite.webp" class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Silvia Maria Tegão Alcalde Leite</p>
+                            <!-- <p>1ª Secretária</p> -->
+                        </div>
+                    </div>     
+                </div>     
+            </div>                      
+
 
             <div class="pgExecutiva__content-header">
                 <h2 class="pgExecutiva__subtitulo">Diretoria</h2>
@@ -36,15 +57,14 @@
                 <div class="pgExecutiva__content-col">
      
                     <div class="pgExecutiva__avatar">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/1-secretaria.webp" class="pgExecutiva__avatar-img">
-
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/eliane-milanez-cunha.webp" class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
                             <p>Eliane Milanez da Cunha</p>
                             <p>1ª Secretária</p>
                         </div>
-
                     </div>      
+ 
+
                     <div class="pgExecutiva__avatar">
 
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/2-secretaria.webp" class="pgExecutiva__avatar-img">
@@ -69,7 +89,7 @@
                     </div> 
                     <div class="pgExecutiva__avatar">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/2-tesoureiro.webp" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/flavio-carlos-santos.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Flávio Carlos dos Santos</p>
@@ -87,8 +107,7 @@
                 <div class="pgExecutiva__content-col">
                     <div class="pgExecutiva__avatar">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-social.webp" class="pgExecutiva__avatar-img">
-
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/silvia-maria-tegão-alcalde-leite.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>Silvia Maria Tegão Alcalde Leite</p>
@@ -96,49 +115,42 @@
                         </div>
 
                     </div>      
+
                     <div class="pgExecutiva__avatar">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-fisicas.webp" class="pgExecutiva__avatar-img">
-
-                        <div class="pgExecutiva__avatar-texto">
-                            <p>José Valter de Andrade</p>
-                            <p>Departamento de Atividades Físicas</p>
-                        </div>
-
-                    </div>      
-                    <!-- <div class="pgExecutiva__avatar">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-esportes.webp" class="pgExecutiva__avatar-img">
-
-                        <div class="pgExecutiva__avatar-texto">
-                            <p>Ivanaldo Moreira</p>
-                            <p>Departamento de Esportes e Competições</p>
-                        </div>
-
-                    </div>       -->
-                    <div class="pgExecutiva__avatar">
-
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-compras.webp" class="pgExecutiva__avatar-img">
 
                         <div class="pgExecutiva__avatar-texto">
                             <p>José Rubens Cardoso de Morais</p>
+                            <p>Departamento de Esportes e Competições</p>
+                        </div>
+                    </div>         
+
+                    <div class="pgExecutiva__avatar">                    
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/eliane-milanez-cunha.webp" class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Eliane Milanez da Cunha</p>
+                            <p>Departamento de Comunicação</p>
+                        </div>
+                    </div>         
+                    <div class="pgExecutiva__avatar">                    
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/flavio-carlos-santos.webp" class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Flávio Carlos dos Santos</p>
                             <p>Departamento de Compras</p>
                         </div>
-
                     </div>         
     
                 </div>
                 <div class="pgExecutiva__content-col">
-                    <div class="pgExecutiva__avatar">
 
+                    <!-- <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-social2.webp" class="pgExecutiva__avatar-img">
-
                         <div class="pgExecutiva__avatar-texto">
                             <p>Maria Aparecida de Souza Teixeira</p>
                             <p>Departamento Social/Cultural (Adjunto)</p>
                         </div>
+                    </div>  -->
 
-                    </div> 
                     <div class="pgExecutiva__avatar">
 
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-informatica.webp" class="pgExecutiva__avatar-img">

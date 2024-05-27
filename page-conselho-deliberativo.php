@@ -90,7 +90,7 @@
                     </div>    
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/carlo-marcelo-oliveira.webp" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/carlos-marcelo-oliveira.webp" class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
                             <p>Carlos Marcelo de Oliveira</p>
                         </div>
@@ -180,18 +180,18 @@
                             <p>Adriana de Castilho Jorge</p>
                         </div>
                     </div> 
-
+                    
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/Celso-Antônio-de-Souza.webp" class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/carlos-marcelo-oliveira.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Celso Antônio de Souza</p>
+                            <p>Carlos Marcelo Oliveira </p>
                         </div>
                     </div> 
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/Claudemir-Assis-Cabral.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/cid-sampaio-almeida.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Claudemir de Assis Cabral</p>
+                            <p> Cid Sampaio de Almeida </p>
                         </div>
                     </div> 
 
@@ -201,13 +201,6 @@
                             <p>Dorival Custódio dos Santos</p>
                         </div>
                     </div>
- 
-                    <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/Dulcinea-Borges-Ribeiro.webp"  class="pgExecutiva__avatar-img">
-                        <div class="pgExecutiva__avatar-texto">
-                            <p>Dulcinea Borges Ribeiro</p>
-                        </div>
-                    </div>  
 
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/edmundo-paula.webp"  class="pgExecutiva__avatar-img">
@@ -216,29 +209,30 @@
                         </div>
                     </div> 
 
-        
-                
-       
-       
-    
-    
+                    <div class="pgExecutiva__avatar">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/jose-valter-andrade.webp"  class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>José Valter de Andrade </p>
+                        </div>
+                    </div>      
+
                 </div>
 
                 <div class="pgExecutiva__content-col">
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/franciscor-sergio-rizo.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/keinam-mendes-leite.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Francisco Sérgio Rizo</p>
+                            <p>Keina Mendes Leite</p>
                         </div>
                     </div>  
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/Nilton-pires.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/madoka-hashimoto.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Nilton Pires</p>
+                            <p>Madoka Hashimoto </p>
                         </div>
-                    </div> 
+                    </div>  
 
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/marco-antonio-camargo.webp"  class="pgExecutiva__avatar-img">
@@ -246,20 +240,20 @@
                             <p>Marco Antônio Camargo</p>
                         </div>
                     </div>  
-                    <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/maria-claudia-moura.webp"  class="pgExecutiva__avatar-img">
-
-                        <div class="pgExecutiva__avatar-texto">
-                            <p>Maria Claudia de Moura Santucci</p>
-                        </div>
-                    </div>   
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/paulo-jose-augusto.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/rita-cassia.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Paulo José Augusto dos Santos</p>
+                            <p>Rita de Cassia Giovaneli</p>
                         </div>
-                    </div>
+                    </div>  
+
+                    <div class="pgExecutiva__avatar">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/Valdecir-vilhena-costa.webp"  class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Valdecir Vilhena da Costa </p>
+                        </div>
+                    </div>  
 
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/paulo-vita-neres.webp"  class="pgExecutiva__avatar-img">

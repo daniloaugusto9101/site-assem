@@ -39,10 +39,10 @@
                     </div>          
 
                     <div class="pgFiscal__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-fiscal/sidnei-moises-ferreira.webp" class="pgFiscal__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-fiscal/rita-cassia-santos-correa.webp" class="pgFiscal__avatar-img">
                         <div class="pgFiscal__avatar-texto">
-                            <p>Sidnei Moisés Ferreira</p>
-                            <!-- <p>2º Membro Efetivo</p> -->
+                            <p>Rita de Cássia Santos Correa</p>
+                            <!-- <p>1ª Suplente</p> -->
                         </div>
                     </div> 
                 </div>
@@ -57,11 +57,13 @@
 
                 <div class="pgFiscal__content-col">
 
+
+
                     <div class="pgFiscal__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-fiscal/rita-cassia-santos-correa.webp" class="pgFiscal__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-fiscal/sidnei-moises-ferreira.webp" class="pgFiscal__avatar-img">
                         <div class="pgFiscal__avatar-texto">
-                            <p>Rita de Cássia Santos Correa</p>
-                            <!-- <p>1ª Suplente</p> -->
+                            <p>Sidnei Moisés Ferreira</p>
+                            <!-- <p>2º Membro Efetivo</p> -->
                         </div>
                     </div> 
 
