@@ -174,14 +174,19 @@
                     </div>   
 
                     <div class="pgExecutiva__avatar">
-
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/dp-pousada.webp" class="pgExecutiva__avatar-img">
-
                         <div class="pgExecutiva__avatar-texto">
                             <p>Waldery Teixeira</p>
                             <p>Departamento da Pousada ASSEM Litoral</p>
                         </div>
+                    </div>       
 
+                    <div class="pgExecutiva__avatar">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/eder-vanderson-felicio.webp" class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Eder Vanderson Felicio</p>
+                            <p>Departamento de RH</p>
+                        </div>
                     </div>       
                 </div>                
             </div>

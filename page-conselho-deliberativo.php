@@ -78,14 +78,14 @@
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/antonio-ribeiro-guedes.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Antonio Ribeiro Guedes</p>
+                            <p>Antônio Ribeiro Guedes</p>
                         </div>
                     </div>
 
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/arao-carvalho.webp" class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Arão Antonio de Andrade Carvalho</p>
+                            <p>Arão Antônio de Andrade Carvalho</p>
                         </div>
                     </div>    
 
@@ -143,11 +143,11 @@
                     </div> 
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/rita-cassia.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/dorival-custodio.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Rita de Cássia Giovaneli</p>
+                            <p>Dorival Custódio dos Santos</p>
                         </div>
-                    </div> 
+                    </div>
 
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/romualdo-pereira-castro.webp"  class="pgExecutiva__avatar-img">
@@ -189,18 +189,26 @@
                     </div> 
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/cid-sampaio-almeida.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/celso-antonio-souza.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p> Cid Sampaio de Almeida </p>
+                            <p>Celso Antônio de Souza</p>
                         </div>
                     </div> 
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/dorival-custodio.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/cid-sampaio-almeida.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Dorival Custódio dos Santos</p>
+                            <p>Cid Sampaio de Almeida</p>
                         </div>
-                    </div>
+                    </div> 
+
+                    <div class="pgExecutiva__avatar">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/claudemir-assis-cabral.webp"  class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Claudemir de Assis Cabral</p>
+                        </div>
+                    </div> 
+
 
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/edmundo-paula.webp"  class="pgExecutiva__avatar-img">
@@ -244,7 +252,7 @@
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/rita-cassia.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
-                            <p>Rita de Cassia Giovaneli</p>
+                            <p>Rita de Cássia Giovaneli</p>
                         </div>
                     </div>  
 
