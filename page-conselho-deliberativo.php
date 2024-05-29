@@ -203,7 +203,7 @@
                     </div> 
 
                     <div class="pgExecutiva__avatar">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/claudemir-assis-cabral.webp"  class="pgExecutiva__avatar-img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/claudemir-assis-cabral2.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
                             <p>Claudemir de Assis Cabral</p>
                         </div>
