@@ -181,12 +181,12 @@
                         </div>
                     </div> 
                     
-                    <div class="pgExecutiva__avatar">
+                    <!-- <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/carlos-marcelo-oliveira.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
                             <p>Carlos Marcelo Oliveira </p>
                         </div>
-                    </div> 
+                    </div>  -->
 
                     <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/celso-antonio-souza.webp"  class="pgExecutiva__avatar-img">
