@@ -228,7 +228,7 @@
                <div class="pgClube__servicos">                              
                
                   <div class="pgClube__servicos-col">
-                     <!-- <ul class="pgClube__servicos-item">
+                     <ul class="pgClube__servicos-item">
                         <div class="pgClube__servicos-titulo">
                            <i class="fa-solid fa-file"></i>
                            <spa>Regulamento</span>
@@ -236,10 +236,10 @@
                         <div class="pgClube__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                                 <span class="teste">Regulamento do clube <a href="<?php //echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/regulamento-clube.pdf" target="__blanck">aqui</a></span>
+                                 <span class="teste">Regulamento do clube <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/regulamento-clube.pdf" target="__blanck">aqui</a></span>
                            </li>
                         </div>
-                     </ul> -->
+                     </ul>
                      <ul class="pgClube__servicos-item">
                         <div class="pgClube__servicos-titulo">
                            <i class="fa-solid fa-ruler-horizontal"></i>
@@ -298,10 +298,10 @@
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Guarda volume</span>
                            </li> 
-                           <li>
+                           <!-- <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                                 <span class="teste">Regras da piscina <a href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/regras-piscina.pdf" target="__blanck">aqui</a></span>
-                           </li>                          
+                                 <span class="teste">Regras da piscina <a href="<?php //echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube/regras-piscina.pdf" target="__blanck">aqui</a></span>
+                           </li>                           -->
                         </div>
                      </ul>
 
@@ -410,6 +410,9 @@
                            </li>
                            <li>
                               <span>*Verifique horários</span>
+                           </li>
+                           <li>
+                              <span>*Restaurante tercerizado</span>
                            </li>
                         </div>
                      </ul>

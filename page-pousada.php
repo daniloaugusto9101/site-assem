@@ -120,7 +120,7 @@
                <div class="pgPousada__servicos">                              
                
                   <div class="pgPousada__servicos-col">
-                  <ul class="pgPousada__servicos-item">
+                     <ul class="pgPousada__servicos-item">
                         <div class="pgPousada__servicos-titulo">
                            <i class="fa-solid fa-file"></i>
                            <spa>Regulamento</span>
@@ -137,7 +137,7 @@
                      <ul class="pgPousada__servicos-item">
                         <div class="pgPousada__servicos-titulo">
                            <i class="fa-solid fa-sack-dollar"></i>
-                           <spa>Valores da diária por pessoa</span>
+                           <spa>Valores da estadia por pessoa</span>
                         </div>
                         <div class="pgPousada__servicos-lista">
                            <li>
@@ -270,7 +270,7 @@
                         <div class="pgPousada__servicos-lista"> 
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Café da manhã incluso na diária</span>
+                              <span>Café da manhã incluso na estadia</span>
                            </li>
                         </div>
                      </ul>
