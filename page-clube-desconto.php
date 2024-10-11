@@ -436,7 +436,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="pgDesconto__card">
+                  <!-- <div class="pgDesconto__card">
                      <div class="pgDesconto__card-col">  
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-clube-desconto/not_found.webp" class="pgDesconto__card-img">
                      </div>
@@ -455,7 +455,7 @@
                            </a>                           
                         </div>
                      </div>
-                  </div>
+                  </div> -->
 
                </div> 
 
