@@ -218,11 +218,17 @@
                     </div> 
 
                     <div class="pgExecutiva__avatar">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/Dulcinea-Borges-Ribeiro.webp"  class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>Dulcinea Borges Ribeiro </p>
+                        </div>
+                    </div>      
+                    <!-- <div class="pgExecutiva__avatar">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-deliberativo/jose-valter-andrade.webp"  class="pgExecutiva__avatar-img">
                         <div class="pgExecutiva__avatar-texto">
                             <p>José Valter de Andrade </p>
                         </div>
-                    </div>      
+                    </div>       -->
 
                 </div>
 

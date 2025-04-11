@@ -139,6 +139,13 @@
                             <p>Departamento de Compras</p>
                         </div>
                     </div>         
+                    <div class="pgExecutiva__avatar">                    
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-executiva/jose-valter-andrade.webp" class="pgExecutiva__avatar-img">
+                        <div class="pgExecutiva__avatar-texto">
+                            <p>José Valter de Andrade</p>
+                            <p>Departamento da Academia</p>
+                        </div>
+                    </div>         
     
                 </div>
                 <div class="pgExecutiva__content-col">
