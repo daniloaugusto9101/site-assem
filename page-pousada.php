@@ -160,6 +160,14 @@
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Criança 0 a 6: cortesia</span>
                            </li>
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Quarto single sócio: R$ 126,00</span>
+                           </li>
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Quarto single não sócio: R$ 252,00</span>
+                           </li>
                         </div>
 
                      </ul>
