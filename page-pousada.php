@@ -13,45 +13,11 @@
                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper pgPousada__mySwiper2">
 
                   <div class="swiper-wrapper">
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (0).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (1).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (2).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (3).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (4).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (5).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (6).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (7).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (8).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (9).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (10).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (11).webp" />
-                     </div>
-                     <div class="swiper-slide">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (12).webp" />
-                     </div>
+                     <?php for ($i = 0; $i <= 37; $i++): ?>
+                        <div class="swiper-slide">
+                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (<?php echo $i; ?>).webp" />
+                        </div>
+                    <?php endfor; ?>
                   </div>
 
                   <div class="swiper-button-next"></div>
@@ -61,45 +27,11 @@
 
                <div thumbsSlider="" class="swiper pgPousada__mySwiper">
                   <div class="swiper-wrapper">
+                     <?php for ($i = 0; $i <= 37; $i++): ?>
                         <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (0).webp" />
+                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (<?php echo $i; ?>).webp" />
                         </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (1).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (2).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (3).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (4).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (5).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (6).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (7).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (8).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (9).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (10).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (11).webp" />
-                        </div>
-                        <div class="swiper-slide">
-                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (12).webp" />
-                        </div>
+                    <?php endfor; ?>
                   </div>
                </div>
                
