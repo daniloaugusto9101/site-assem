@@ -238,10 +238,10 @@
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Serviço diário de limpeza</span>
                            </li>
-                           <li>
+                           <!-- <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Lavanderia</span>
-                           </li>
+                           </li> -->
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Guarda sol</span>
