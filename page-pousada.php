@@ -13,7 +13,7 @@
                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper pgPousada__mySwiper2">
 
                   <div class="swiper-wrapper">
-                     <?php for ($i = 0; $i <= 37; $i++): ?>
+                     <?php for ($i = 1; $i <= 59; $i++): ?>
                         <div class="swiper-slide">
                               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (<?php echo $i; ?>).webp" />
                         </div>
@@ -27,7 +27,7 @@
 
                <div thumbsSlider="" class="swiper pgPousada__mySwiper">
                   <div class="swiper-wrapper">
-                     <?php for ($i = 0; $i <= 37; $i++): ?>
+                     <?php for ($i = 1; $i <= 59; $i++): ?>
                         <div class="swiper-slide">
                               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/page-pousada/pousada (<?php echo $i; ?>).webp" />
                         </div>
