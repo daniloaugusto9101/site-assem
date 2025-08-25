@@ -79,7 +79,7 @@
 
          <div class="documentos">
             <h2 class="documentos__subtitulo">Documentos</h2>
-            <p class="documentos__resumo">Para a contração de plano de saúde pela ASSEM é necessáio a cópias dos documentis abaixo:</p>
+            <p class="documentos__resumo">Para a contração de plano de saúde pela ASSEM é necessário a cópia dos documentos abaixo:</p>
             <ul class="documentos__lista">
                <li>
                   <i class="fa-sharp fa-regular fa-square-check"></i>
