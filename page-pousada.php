@@ -69,36 +69,50 @@
                      <ul class="pgPousada__servicos-item">
                         <div class="pgPousada__servicos-titulo">
                            <i class="fa-solid fa-sack-dollar"></i>
-                           <spa>Valores da estadia por pessoa</span>
+                           <span>Valores associados</span>
                         </div>
                         <div class="pgPousada__servicos-lista">
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span class="teste">Sócio adulto: R$ 84</span>
+                              <span class="teste">R$ 89,00 por estadia (a partir de 13 anos)</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Convidado adulto: R$ 168</span>                  
+                              <span>R$ 44,50 por estadia (crianças de 7 a 12 anos)</span>                  
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Sócio Criança 7 a 12: R$ 42</span>                  
+                              <span>Gratuito para crianças de 0 a 6 anos</span>                  
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Convidado Criança 7 a 12: R$ 84</span>
+                              <span>Single: R$ 133,50</span>
+                           </li>
+                        </div>
+
+                     </ul>
+
+                     <ul class="pgPousada__servicos-item">
+                        <div class="pgPousada__servicos-titulo">
+                           <i class="fa-solid fa-sack-dollar"></i>
+                           <span>Valores não associados</span>
+                        </div>
+                        <div class="pgPousada__servicos-lista">
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span class="teste">R$ 178,00 por estadia (a partir de 13 anos)</span>
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Criança 0 a 6: cortesia</span>
+                              <span>R$ 89,00 por estadia (crianças de 7 a 12 anos)</span>                  
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Quarto single sócio: R$ 126,00</span>
+                              <span>Gratuito para crianças de 0 a 6 anos</span>                  
                            </li>
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Quarto single não sócio: R$ 252,00</span>
+                              <span>Single: R$ 267,00</span>
                            </li>
                         </div>
 
@@ -172,32 +186,6 @@
                            </li>
                         </div>
                      </ul> 
-
-                     <ul class="pgPousada__servicos-item">
-                        <div class="pgPousada__servicos-titulo">
-                           <i class="fa-solid fa-umbrella-beach"></i>
-                           <span>Solário</span>
-                        </div>
-                        <div class="pgPousada__servicos-lista">                        
-                           <li>
-                              <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Vista para o mar</span>
-                           </li>
-                        </div>
-                     </ul>
-
-                     <ul class="pgPousada__servicos-item">
-                        <div class="pgPousada__servicos-titulo">
-                           <i class="fa-solid fa-building"></i>
-                           <span>Elevador</span>
-                        </div>
-                        <div class="pgPousada__servicos-lista">    
-                           <li>
-                              <i class="fa-sharp fa-regular fa-square-check"></i>
-                              <span>Local possui elevador</span>
-                           </li>
-                        </div>
-                     </ul>
 
                   </div>
 
@@ -303,6 +291,32 @@
                            <li>
                               <i class="fa-sharp fa-regular fa-square-check"></i>
                               <span>Obs: a pousada não possui conta de app de streaming, a conta deve ser usada com a própria conta do hóspede </span>
+                           </li>
+                        </div>
+                     </ul>
+
+                     <ul class="pgPousada__servicos-item">
+                        <div class="pgPousada__servicos-titulo">
+                           <i class="fa-solid fa-umbrella-beach"></i>
+                           <span>Solário</span>
+                        </div>
+                        <div class="pgPousada__servicos-lista">                        
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Vista para o mar</span>
+                           </li>
+                        </div>
+                     </ul>
+
+                     <ul class="pgPousada__servicos-item">
+                        <div class="pgPousada__servicos-titulo">
+                           <i class="fa-solid fa-building"></i>
+                           <span>Elevador</span>
+                        </div>
+                        <div class="pgPousada__servicos-lista">    
+                           <li>
+                              <i class="fa-sharp fa-regular fa-square-check"></i>
+                              <span>Local possui elevador</span>
                            </li>
                         </div>
                      </ul>
