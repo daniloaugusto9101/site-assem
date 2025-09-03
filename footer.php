@@ -44,7 +44,7 @@
             <i class="fa-brands fa-youtube rodape__ico"></i>
         </a>
     </div>
-    <p class="rodape__copyright">2023 Copyright - Desenvolvido por <span class="rodape__destaque">DAP</span>
+    <p class="rodape__copyright"><?php echo date('Y'); ?> Copyright - Desenvolvido por <span class="rodape__destaque">DAP</span>
     </p>
 </div>
 
