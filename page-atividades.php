@@ -87,6 +87,7 @@
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (20).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (22).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (23).webp" class="pgAtividades__avatar-img">
+               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (25).webp" class="pgAtividades__avatar-img">
             </div>
          </div>
       </section>
