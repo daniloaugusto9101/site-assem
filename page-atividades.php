@@ -68,7 +68,7 @@
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (1).webp" class="pgAtividades__avatar-img">
                <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (2).webp" class="pgAtividades__avatar-img"> -->
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (3).webp" class="pgAtividades__avatar-img">
-               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (4).webp" class="pgAtividades__avatar-img">
+               <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (4).webp" class="pgAtividades__avatar-img"> -->
                <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (5).webp" class="pgAtividades__avatar-img"> -->
                <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (6).webp" class="pgAtividades__avatar-img"> -->
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (7).webp" class="pgAtividades__avatar-img">
