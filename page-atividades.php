@@ -64,7 +64,6 @@
             <h2 class="pgAtividades__subtitulo">Professores</h2>
             
             <div class="pgAtividades__professores-content">
-               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (0).webp" class="pgAtividades__avatar-img">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (1).webp" class="pgAtividades__avatar-img">
                <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (2).webp" class="pgAtividades__avatar-img"> -->
                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/page-atividades/prof/prof (3).webp" class="pgAtividades__avatar-img">
