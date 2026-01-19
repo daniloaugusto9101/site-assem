@@ -592,6 +592,18 @@ img {
   color: #fff;
   text-decoration: none;
 }
+.rodape__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+  max-width: 900px;
+  padding: 0 10px;
+}
+.rodape__info-item {
+  font-size: 0.85em;
+  line-height: 1.4;
+}
 .rodape__copyright {
   font-size: 0.9em;
 }
