@@ -45,10 +45,10 @@
         </a>
     </div>
     <div class="rodape__info">
-        <p class="rodape__info-item"> Associação dos Servidores Municipais de SJC - ASSEM</p>
+        <p class="rodape__info-item"> ASSOCIACAO DOS SERVIDORES MUNICIPAIS DE SAO JOSE DOS CAMPOS - ASSEM</p>
         <p class="rodape__info-item"><strong>CNPJ:</strong> 50.448.786/0001-82</p>
         <p class="rodape__info-item"> assem@assem.com.br | (12) 3922-7424</p>
-        <p class="rodape__info-item">R Cons. Rodrigues Alves, 190, Vl. Santa Luzia, São José dos Campos - SP, CEP: 12.215-380</p>
+        <p class="rodape__info-item">R Cons. Rodrigues Alves, 190, Vila Santa Luzia, São José dos Campos - SP, CEP: 12.209-540</p>
     </div>
     <p class="rodape__copyright"><?php echo date('Y'); ?> Copyright - Desenvolvido por <span class="rodape__destaque">DAP</span>
     </p>
